@@ -5,7 +5,7 @@ const navLinks = [
   { label: "Home", href: "/" },
   { label: "Projects", href: "/projects" },
   { label: "Technical Toolkit", href: "/technical-toolkit" },
-  { label: "Leadership", href: "#leadership" },
+  { label: "Leadership", href: "/leadership" },
 ];
 
 const Navbar = () => {
