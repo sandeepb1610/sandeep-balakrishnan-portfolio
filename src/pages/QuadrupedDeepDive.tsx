@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowLeft, Award, Clock, DollarSign, ExternalLink, BookOpen } from "lucide-react";
+import TechDocGrid from "@/components/TechDocGrid";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
