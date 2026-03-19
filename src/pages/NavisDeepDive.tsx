@@ -251,14 +251,14 @@ const NavisDeepDive = () => {
                   style={{ boxShadow: "var(--shadow-card)" }}
                 >
                   <img
-                    src={explodedImg}
-                    alt="CAD exploded view of NAVIS drive-train and hull assembly"
+                    src={propulsionImg}
+                    alt="NAVIS propulsion system — motor, gearbox, steering mechanism and propeller"
                     className="w-full h-auto object-cover aspect-video"
                     loading="lazy"
                   />
                 </div>
                 <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                  Placeholder — CAD Exploded View
+                  Propulsion System
                 </p>
               </motion.div>
 
