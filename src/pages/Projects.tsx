@@ -7,7 +7,7 @@ import quadrupedImage from "@/assets/project-quadruped.jpg";
 
 const projects: ProjectData[] = [
   {
-    title: "NBN FTTP Mandurah",
+    title: "NBN FTTP - TimeZone Mandurah",
     result: "15% Profit Increase",
     heroImage: nbnImage,
     techSpecs: ["MS Project", "AS/NZS Standards", "FTTP Design", "Stakeholder Mgmt"],
