@@ -76,12 +76,9 @@ const HeroSection = () => {
                 <>
                   <img
                     src={heroActionImg}
-                    alt="Sandeep Balakrishnan in high-vis PPE working on mechanical assembly"
+                    alt="Sandeep Balakrishnan — Professional Portrait"
                     className="w-full h-auto object-cover aspect-[4/5]"
                   />
-                  <div className="absolute bottom-3 left-3 font-mono text-[10px] tracking-widest uppercase bg-card/90 backdrop-blur-sm text-muted-foreground px-2.5 py-1 rounded-md">
-                    Video Loop Coming Soon
-                  </div>
                 </>
               )}
             </motion.div>
