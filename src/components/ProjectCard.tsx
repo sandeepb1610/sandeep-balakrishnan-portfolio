@@ -93,6 +93,14 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
           </div>
         )}
 
+        {/* Technical Video badge */}
+        {(project.videoUrl || project.videoPlaceholder) && (
+          <div className="absolute bottom-3 left-3 flex items-center gap-1.5 font-mono text-[10px] tracking-widest uppercase bg-primary text-primary-foreground px-2.5 py-1 rounded-md">
+            <Video className="w-3 h-3" />
+            Technical Video
+          </div>
+        )}
+
         <span className="absolute top-3 right-3 font-mono text-[10px] tracking-widest uppercase bg-card/90 backdrop-blur-sm text-muted-foreground px-2.5 py-1 rounded-md">
           {project.videoUrl ? "Video Preview" : "Video Coming Soon"}
         </span>

@@ -20,7 +20,6 @@ const projects: ProjectData[] = [
     heroImage: navisImage,
     techSpecs: ["SolidWorks", "MATLAB", "ROS", "CFD Analysis"],
     videoPlaceholder: true,
-    // Replace with actual 5-second technical clip URL when available
     // videoUrl: "/videos/navis-technical-clip.mp4",
     deepDiveUrl: "/projects/navis-autonomous",
   },
@@ -30,6 +29,7 @@ const projects: ProjectData[] = [
     heroImage: quadrupedImage,
     techSpecs: ["SolidWorks", "Arduino", "Gait Analysis", "3D Printing"],
     videoPlaceholder: true,
+    // videoUrl: "/videos/quadruped-gait-clip.mp4",
     deepDiveUrl: "/projects/quadruped-robot",
   },
 ];
