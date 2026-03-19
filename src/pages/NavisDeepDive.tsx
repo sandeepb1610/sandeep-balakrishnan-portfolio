@@ -367,22 +367,15 @@ const NavisDeepDive = () => {
                 className="bg-card rounded-[12px] overflow-hidden"
                 style={{ boxShadow: "var(--shadow-card)" }}
               >
-                <div className="aspect-[16/10] bg-secondary flex items-center justify-center">
-                  <div className="text-center px-4">
-                    <svg className="w-10 h-10 text-muted-foreground/30 mx-auto mb-2" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                    <p className="font-mono text-[11px] text-muted-foreground/50 uppercase tracking-wider">
-                      Test Report Graph / Load-Test Video
-                    </p>
-                  </div>
+                <div className="aspect-[16/10] bg-secondary flex items-center justify-center overflow-hidden">
+                  <img src={wireHarnessImg} alt="Wire harness design — IP67/IP68 rated connector technical drawing" className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <div className="p-5">
                   <p className="font-mono text-xs font-semibold text-foreground uppercase tracking-wider mb-2">
-                    Validation Testing
+                    Wire Harness Design
                   </p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Achieved 14m dispensing range, validated through 50+ field trial cycles.
+                    Custom IP67/IP68-rated wire harness with marine-grade connectors for reliable subsystem integration.
                   </p>
                 </div>
               </motion.div>
