@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TechSpecsSidebar from "@/components/TechSpecsSidebar";
 import TechDocGrid from "@/components/TechDocGrid";
-import explodedImg from "@/assets/navis-exploded-view.jpg";
+import propulsionImg from "@/assets/navis-propulsion.jpg";
 import cfdImg from "@/assets/navis-cfd-simulation.jpg";
 
 const navisSpecs = [
@@ -157,10 +157,10 @@ const NavisDeepDive = () => {
                     transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
                   >
                     <div className="rounded-[12px] overflow-hidden" style={{ boxShadow: "var(--shadow-card)" }}>
-                      <img src={explodedImg} alt="Exploded view CAD render of NAVIS drive-train assembly" className="w-full h-auto object-cover aspect-video" loading="lazy" />
+                      <img src={propulsionImg} alt="NAVIS propulsion system — motor, gearbox, steering mechanism and propeller" className="w-full h-auto object-cover aspect-video" loading="lazy" />
                     </div>
                     <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                      Placeholder — Exploded View: Internal Drive-Train
+                      Propulsion System
                     </p>
                   </motion.div>
                   <motion.div
@@ -251,14 +251,14 @@ const NavisDeepDive = () => {
                   style={{ boxShadow: "var(--shadow-card)" }}
                 >
                   <img
-                    src={explodedImg}
-                    alt="CAD exploded view of NAVIS drive-train and hull assembly"
+                    src={propulsionImg}
+                    alt="NAVIS propulsion system — motor, gearbox, steering mechanism and propeller"
                     className="w-full h-auto object-cover aspect-video"
                     loading="lazy"
                   />
                 </div>
                 <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                  Placeholder — CAD Exploded View
+                  Propulsion System
                 </p>
               </motion.div>
 
