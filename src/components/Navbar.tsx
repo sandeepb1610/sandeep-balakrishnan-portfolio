@@ -1,25 +1,45 @@
 import { Download } from "lucide-react";
+import { Link, useLocation } from "react-router-dom";
 
-const navLinks = ["Home", "Projects", "Technical Toolkit", "Leadership"];
+const navLinks = [
+  { label: "Home", href: "/" },
+  { label: "Projects", href: "/projects" },
+  { label: "Technical Toolkit", href: "#technical-toolkit" },
+  { label: "Leadership", href: "#leadership" },
+];
 
 const Navbar = () => {
+  const location = useLocation();
+
   return (
     <header className="fixed top-0 w-full z-50 bg-card/80 backdrop-blur-md border-b border-border/50">
       <div className="container mx-auto flex items-center justify-between h-16 px-6">
-        <span className="font-mono text-sm font-bold tracking-tight text-foreground">
+        <Link to="/" className="font-mono text-sm font-bold tracking-tight text-foreground">
           SB<span className="text-muted-foreground">.</span>
-        </span>
+        </Link>
 
         <nav className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
-            <a
-              key={link}
-              href={`#${link.toLowerCase().replace(/\s+/g, "-")}`}
-              className="heading-l2 transition-colors duration-200 hover:text-foreground"
-            >
-              {link}
-            </a>
-          ))}
+          {navLinks.map((link) =>
+            link.href.startsWith("/") ? (
+              <Link
+                key={link.label}
+                to={link.href}
+                className={`heading-l2 transition-colors duration-200 hover:text-foreground ${
+                  location.pathname === link.href ? "text-foreground" : ""
+                }`}
+              >
+                {link.label}
+              </Link>
+            ) : (
+              <a
+                key={link.label}
+                href={link.href}
+                className="heading-l2 transition-colors duration-200 hover:text-foreground"
+              >
+                {link.label}
+              </a>
+            )
+          )}
         </nav>
 
         <a
