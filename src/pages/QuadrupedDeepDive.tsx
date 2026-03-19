@@ -1,41 +1,18 @@
 import { motion } from "framer-motion";
-import { ArrowLeft, Award, Clock, DollarSign, ExternalLink, BookOpen } from "lucide-react";
-import TechDocGrid from "@/components/TechDocGrid";
+import { ArrowLeft, ShieldAlert, ExternalLink, Lock, Clock, DollarSign, BookOpen } from "lucide-react";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import gaitImg from "@/assets/quadruped-gait-sim.jpg";
 import nasaImg from "@/assets/quadruped-nasa-ads.jpg";
 
-const starSections = [
-  {
-    letter: "S",
-    title: "Situation",
-    content:
-      "India's Defence Research and Development Organisation (DRDO) required a military-grade quadruped robot capable of traversing unstructured terrain for reconnaissance and payload transport. The project demanded rigorous multibody dynamics simulation and structural validation to meet defense-grade reliability standards within aggressive timeline and budget constraints.",
-  },
-  {
-    letter: "T",
-    title: "Task",
-    content:
-      "Design and simulate a 12-DOF (Degrees of Freedom) quadruped robot from first principles — encompassing kinematic modeling, gait optimization, structural FEM analysis, and full system integration. Deliver the project ahead of schedule and within budget for DRDO.",
-  },
-  {
-    letter: "A",
-    title: "Action",
-    content:
-      "Developed the complete 12-DOF kinematic chain using ADAMS multibody dynamics simulation to optimize joint trajectories and walking stability across multiple gait patterns — including trot, crawl, and bound gaits. Performed comprehensive FEM (Finite Element Method) structural analysis on critical load-bearing components to validate factor-of-safety requirements under dynamic loading conditions. Implemented an iterative design loop between SolidWorks parametric models and simulation environments to converge on an optimized leg geometry that minimized actuator torque requirements while maximizing ground clearance.",
-  },
-  {
-    letter: "R",
-    title: "Result",
-    content:
-      "Completed the project 15% ahead of schedule and under 90% of the allocated budget — exceeding DRDO's delivery expectations. The resulting research was published and indexed by the Harvard-Smithsonian Center for Astrophysics through the NASA Astrophysics Data System (ADS), establishing global academic recognition for the work's technical rigor and contribution to the field of legged robotics.",
-  },
+const scopeItems = [
+  "Conducted Kinematic and Dynamic analysis to optimize performance in GPS-denied environments.",
+  "Executed Multi-body simulations using ADAMS and FEM analysis in SolidWorks.",
+  "Managed the design-build-test cycle within 90% of the allocated budget and 15% ahead of schedule.",
 ];
 
 const results = [
-  { icon: Award, value: "12-DOF", label: "Degrees of Freedom" },
+  { icon: Lock, value: "12-DOF", label: "Degrees of Freedom" },
   { icon: Clock, value: "15%", label: "Ahead of Schedule" },
   { icon: DollarSign, value: "<90%", label: "Under Budget" },
   { icon: BookOpen, value: "NASA ADS", label: "Indexed Publication" },
@@ -62,7 +39,7 @@ const QuadrupedDeepDive = () => {
               animate={{ opacity: 1 }}
               className="heading-l2 mb-4"
             >
-              Case Study — Deep Dive
+              Case Study — Restricted Access
             </motion.p>
             <motion.h1
               initial={{ opacity: 0, y: 12 }}
@@ -70,7 +47,7 @@ const QuadrupedDeepDive = () => {
               transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
               className="text-3xl md:text-4xl font-bold text-foreground tracking-tight mb-4"
             >
-              12-DOF Military Quadruped Robot
+              Confidential: High-Mobility 12-DOF Autonomous Quadruped
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 12 }}
@@ -78,14 +55,32 @@ const QuadrupedDeepDive = () => {
               transition={{ duration: 0.5, delay: 0.08, ease: [0.2, 0, 0, 1] }}
               className="font-mono text-sm font-semibold text-accent mb-12"
             >
-              DRDO &nbsp;·&nbsp; Defence Research & Development Organisation, India
+              Government of India &nbsp;·&nbsp; Defence Research & Development Organisation (DRDO-CAIR)
             </motion.p>
+
+            {/* NDA Advisory Banner */}
+            <motion.div
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.1, ease: [0.2, 0, 0, 1] }}
+              className="bg-primary text-primary-foreground rounded-[12px] p-6 md:p-8 mb-12 flex gap-4 items-start"
+            >
+              <ShieldAlert className="w-6 h-6 shrink-0 mt-0.5" />
+              <div>
+                <p className="font-mono text-xs uppercase tracking-widest font-semibold mb-3">
+                  Project Advisory
+                </p>
+                <p className="text-sm leading-relaxed opacity-90">
+                  This project was conducted under a strict non-disclosure agreement with the Government of India. In accordance with security protocols, specific calculations, proprietary algorithms, and internal sensor architectures cannot be shared publicly.
+                </p>
+              </div>
+            </motion.div>
 
             {/* Result KPIs */}
             <motion.div
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.1, ease: [0.2, 0, 0, 1] }}
+              transition={{ duration: 0.5, delay: 0.12, ease: [0.2, 0, 0, 1] }}
               className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-16"
             >
               {results.map((r) => (
@@ -105,109 +100,100 @@ const QuadrupedDeepDive = () => {
               ))}
             </motion.div>
 
-            {/* S.T.A.R. Sections */}
-            <div className="space-y-12 mb-20">
-              {starSections.map((section, i) => (
-                <motion.div
-                  key={section.letter}
-                  initial={{ opacity: 0, y: 12 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: i * 0.05, ease: [0.2, 0, 0, 1] }}
-                  className="grid grid-cols-1 md:grid-cols-12 gap-6 items-start"
-                >
-                  <div className="md:col-span-2">
-                    <div className="flex items-center gap-3">
-                      <span className="font-mono text-3xl font-bold text-foreground">{section.letter}</span>
-                      <span className="heading-l2">{section.title}</span>
-                    </div>
-                  </div>
-                  <div className="md:col-span-10">
-                    <p className="text-muted-foreground leading-relaxed text-base">
-                      {section.content}
-                    </p>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-
-            {/* Publication Link */}
+            {/* Technical Scope — What CAN Be Shared */}
             <motion.div
               initial={{ opacity: 0, y: 12 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="bg-card p-8 rounded-[12px] mb-12 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4"
-              style={{ boxShadow: "var(--shadow-card)" }}
+              transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
+              className="mb-16"
             >
-              <div>
-                <p className="heading-l2 mb-2">Publication</p>
-                <p className="text-foreground font-semibold">
-                  Indexed by Harvard-Smithsonian Center for Astrophysics / NASA ADS
-                </p>
-                <p className="text-sm text-muted-foreground mt-1">
-                  Research contribution to legged robotics for defense applications
-                </p>
+              <p className="heading-l2 mb-4">Technical Scope</p>
+              <h2 className="text-2xl md:text-3xl font-bold text-foreground tracking-tight mb-8">
+                What I Can Share
+              </h2>
+              <p className="text-muted-foreground leading-relaxed text-base mb-8 max-w-3xl">
+                Developed a military-grade autonomous mule robot for rugged terrain navigation. Focused on kinematic modeling and multi-body dynamic stability.
+              </p>
+
+              <div className="space-y-4">
+                {scopeItems.map((item, i) => (
+                  <motion.div
+                    key={i}
+                    initial={{ opacity: 0, x: -8 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.4, delay: i * 0.06, ease: [0.2, 0, 0, 1] }}
+                    className="flex items-start gap-4 bg-card p-5 rounded-[12px]"
+                    style={{ boxShadow: "var(--shadow-card)" }}
+                  >
+                    <div className="w-8 h-8 rounded-md bg-secondary flex items-center justify-center shrink-0 mt-0.5">
+                      <span className="font-mono text-xs font-bold text-foreground">{String(i + 1).padStart(2, '0')}</span>
+                    </div>
+                    <p className="text-muted-foreground leading-relaxed text-sm">
+                      {item}
+                    </p>
+                  </motion.div>
+                ))}
               </div>
-              <a
-                href="#"
-                className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-medium text-sm px-5 py-2.5 rounded-md transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98] shrink-0"
-                style={{ boxShadow: "var(--shadow-btn)" }}
-              >
-                View Publication
-                <ExternalLink className="w-4 h-4" />
-              </a>
             </motion.div>
 
-            {/* Media Grid */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              <motion.div
-                initial={{ opacity: 0, y: 12 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
-              >
+            {/* Research Authority / Publication */}
+            <motion.div
+              initial={{ opacity: 0, y: 12 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
+              className="mb-16"
+            >
+              <p className="heading-l2 mb-4">Research Authority</p>
+              <h2 className="text-2xl md:text-3xl font-bold text-foreground tracking-tight mb-8">
+                Publicly Verifiable Proof
+              </h2>
+
+              <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <div
-                  className="rounded-[12px] overflow-hidden"
+                  className="bg-card p-8 rounded-[12px] flex flex-col justify-between"
                   style={{ boxShadow: "var(--shadow-card)" }}
                 >
-                  <img
-                    src={gaitImg}
-                    alt="Quadruped robot gait simulation showing walking stability phases"
-                    className="w-full h-auto object-cover aspect-video"
-                    loading="lazy"
-                  />
+                  <div>
+                    <p className="font-mono text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-3">
+                      IOP Conference Series / NASA ADS
+                    </p>
+                    <p className="text-foreground font-semibold text-lg leading-snug mb-2">
+                      "Design and development of an autonomous quadruped robot"
+                    </p>
+                    <p className="text-sm text-muted-foreground">
+                      B. Sandeep, 2020 — Indexed by the Harvard-Smithsonian Center for Astrophysics through the NASA Astrophysics Data System.
+                    </p>
+                  </div>
+                  <a
+                    href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Sandeep%2C%20B%22%20year%3A2020&sort=date%20desc"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-medium text-sm px-5 py-2.5 rounded-md mt-6 transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98] w-fit"
+                    style={{ boxShadow: "var(--shadow-btn)" }}
+                  >
+                    View on NASA ADS
+                    <ExternalLink className="w-4 h-4" />
+                  </a>
                 </div>
-                <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                  Placeholder — Gait Simulation: Walking Stability Analysis
-                </p>
-              </motion.div>
 
-              <motion.div
-                initial={{ opacity: 0, y: 12 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
-              >
                 <div
                   className="rounded-[12px] overflow-hidden"
                   style={{ boxShadow: "var(--shadow-card)" }}
                 >
                   <img
                     src={nasaImg}
-                    alt="NASA ADS publication indexing page"
-                    className="w-full h-auto object-cover aspect-video"
+                    alt="NASA ADS publication indexing page for quadruped robot research"
+                    className="w-full h-full object-cover"
                     loading="lazy"
                   />
                 </div>
-                <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                  Placeholder — NASA ADS Official Indexing
-                </p>
-              </motion.div>
-            </div>
+              </div>
+            </motion.div>
           </div>
         </section>
-
-        <TechDocGrid />
       </main>
 
       <Footer />

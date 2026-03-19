@@ -24,13 +24,14 @@ const projects: ProjectData[] = [
     deepDiveUrl: "/projects/navis-autonomous",
   },
   {
-    title: "12-DOF Quadruped Robot",
-    result: "Published Research Output",
+    title: "Confidential: High-Mobility 12-DOF Autonomous Quadruped",
+    result: "DRDO-CAIR · Government of India",
     heroImage: quadrupedImage,
-    techSpecs: ["SolidWorks", "Arduino", "Gait Analysis", "3D Printing"],
+    techSpecs: ["ADAMS", "SolidWorks FEM", "Kinematics", "NDA Restricted"],
     videoPlaceholder: true,
     // videoUrl: "/videos/quadruped-gait-clip.mp4",
     deepDiveUrl: "/projects/quadruped-robot",
+    restricted: true,
   },
 ];
 
