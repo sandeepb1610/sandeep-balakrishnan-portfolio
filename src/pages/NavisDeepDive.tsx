@@ -29,7 +29,7 @@ const starSections = [
     letter: "R",
     title: "Result",
     content:
-      "Achieved a 367% increase in dispensing range (3m → 14m), transforming the product's viability for large commercial operations. The redesigned feeder system is now successfully deployed in 12+ countries, contributing to USD 45M in annual revenue for Eruvaka Technologies. The steel-reinforced PU disk reduced field replacement frequency by more than half, significantly lowering total cost of ownership for end customers.",
+      "Achieved a 367% increase in dispensing range (3m → 14m), transforming the product's viability for large commercial operations. The variable-pitch auger innovation removed the need for a dedicated dosing system, reducing BOM cost and field maintenance complexity. NAVIS was critically acclaimed at Aqua Expo 2022 in Ecuador as an industry-leading innovation in aquaculture. The system is now successfully deployed in 12+ countries, contributing to USD 45M in annual revenue for Eruvaka Technologies. The steel-reinforced PU disk reduced field replacement frequency by more than half, significantly lowering total cost of ownership for end customers.",
   },
 ];
 
