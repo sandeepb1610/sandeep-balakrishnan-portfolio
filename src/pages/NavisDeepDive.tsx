@@ -17,7 +17,7 @@ const starSections = [
     letter: "T",
     title: "Task",
     content:
-      "Redesign the mechanical propulsion and dispensing subsystem to increase the effective feed-dispensing range from 3m to 14m while improving component longevity. The solution had to be backward-compatible with existing deployed units and manufacturable at scale.",
+      "Lead the full mechanical design of the NAVIS autonomous feeder — including the ship hull, hopper, auger feed-delivery system, propulsion system, and dispensing mechanism. Additionally, upgrade the dispensing system from the existing static feeder platform to achieve a dramatically increased range while reducing manufacturing and maintenance costs.",
   },
   {
     letter: "A",
