@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TechSpecsSidebar from "@/components/TechSpecsSidebar";
+import TechDocGrid from "@/components/TechDocGrid";
 import explodedImg from "@/assets/navis-exploded-view.jpg";
 import cfdImg from "@/assets/navis-cfd-simulation.jpg";
 
@@ -283,6 +284,8 @@ const NavisDeepDive = () => {
             </div>
           </div>
         </section>
+
+        <TechDocGrid />
       </main>
 
       <Footer />

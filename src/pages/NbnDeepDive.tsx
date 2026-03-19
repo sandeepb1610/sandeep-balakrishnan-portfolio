@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TechSpecsSidebar from "@/components/TechSpecsSidebar";
+import TechDocGrid from "@/components/TechDocGrid";
 import siteMapImg from "@/assets/nbn-site-map.jpg";
 import fieldTeamImg from "@/assets/nbn-field-team.jpg";
 
@@ -184,6 +185,8 @@ const NbnDeepDive = () => {
             </div>
           </div>
         </section>
+
+        <TechDocGrid />
       </main>
 
       <Footer />
