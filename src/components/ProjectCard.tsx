@@ -8,6 +8,7 @@ export interface ProjectData {
   heroImage: string;
   techSpecs: string[];
   videoPlaceholder?: boolean;
+  deepDiveUrl?: string;
 }
 
 interface ProjectCardProps {
