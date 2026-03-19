@@ -121,77 +121,66 @@ const NbnDeepDive = () => {
               ))}
             </motion.div>
 
-            {/* S.T.A.R. Sections */}
-            <div className="space-y-12 mb-20">
-              {starSections.map((section, i) => (
-                <motion.div
-                  key={section.letter}
-                  initial={{ opacity: 0, y: 12 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.5, delay: i * 0.05, ease: [0.2, 0, 0, 1] }}
-                  className="grid grid-cols-1 md:grid-cols-12 gap-6 items-start"
-                >
-                  <div className="md:col-span-2">
-                    <div className="flex items-center gap-3">
-                      <span className="font-mono text-3xl font-bold text-foreground">{section.letter}</span>
-                      <span className="heading-l2">{section.title}</span>
+            {/* Content + Sidebar Grid */}
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
+              {/* Main Content */}
+              <div className="lg:col-span-8">
+                {/* S.T.A.R. Sections */}
+                <div className="space-y-12 mb-20">
+                  {starSections.map((section, i) => (
+                    <motion.div
+                      key={section.letter}
+                      initial={{ opacity: 0, y: 12 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ duration: 0.5, delay: i * 0.05, ease: [0.2, 0, 0, 1] }}
+                    >
+                      <div className="flex items-center gap-3 mb-3">
+                        <span className="font-mono text-3xl font-bold text-foreground">{section.letter}</span>
+                        <span className="heading-l2">{section.title}</span>
+                      </div>
+                      <p className="text-muted-foreground leading-relaxed text-base">
+                        {section.content}
+                      </p>
+                    </motion.div>
+                  ))}
+                </div>
+
+                {/* Media Grid */}
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <motion.div
+                    initial={{ opacity: 0, y: 12 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
+                  >
+                    <div className="rounded-[12px] overflow-hidden" style={{ boxShadow: "var(--shadow-card)" }}>
+                      <img src={siteMapImg} alt="Optimized FTTP routing layout map" className="w-full h-auto object-cover aspect-video" loading="lazy" />
                     </div>
-                  </div>
-                  <div className="md:col-span-10">
-                    <p className="text-muted-foreground leading-relaxed text-base">
-                      {section.content}
+                    <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
+                      Placeholder — Optimized FTTP Site Layout
                     </p>
-                  </div>
-                </motion.div>
-              ))}
-            </div>
-
-            {/* Media Grid */}
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-              <motion.div
-                initial={{ opacity: 0, y: 12 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
-              >
-                <div
-                  className="rounded-[12px] overflow-hidden"
-                  style={{ boxShadow: "var(--shadow-card)" }}
-                >
-                  <img
-                    src={siteMapImg}
-                    alt="Optimized FTTP routing layout map"
-                    className="w-full h-auto object-cover aspect-video"
-                    loading="lazy"
-                  />
+                  </motion.div>
+                  <motion.div
+                    initial={{ opacity: 0, y: 12 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
+                  >
+                    <div className="rounded-[12px] overflow-hidden" style={{ boxShadow: "var(--shadow-card)" }}>
+                      <img src={fieldTeamImg} alt="Field team coordinating on site" className="w-full h-auto object-cover aspect-video" loading="lazy" />
+                    </div>
+                    <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
+                      Placeholder — Field Team Coordination
+                    </p>
+                  </motion.div>
                 </div>
-                <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                  Placeholder — Optimized FTTP Site Layout
-                </p>
-              </motion.div>
+              </div>
 
-              <motion.div
-                initial={{ opacity: 0, y: 12 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
-              >
-                <div
-                  className="rounded-[12px] overflow-hidden"
-                  style={{ boxShadow: "var(--shadow-card)" }}
-                >
-                  <img
-                    src={fieldTeamImg}
-                    alt="Field team coordinating on site"
-                    className="w-full h-auto object-cover aspect-video"
-                    loading="lazy"
-                  />
-                </div>
-                <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                  Placeholder — Field Team Coordination
-                </p>
-              </motion.div>
+              {/* Technical Specs Sidebar */}
+              <div className="lg:col-span-4">
+                <TechSpecsSidebar specs={nbnSpecs} cadCaption="Placeholder — Site Layout Drawing" />
+              </div>
             </div>
           </div>
         </section>
