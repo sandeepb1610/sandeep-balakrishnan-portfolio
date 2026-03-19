@@ -22,7 +22,7 @@ const Footer = () => {
           {/* Contact Buttons */}
           <div className="flex flex-col gap-3">
             <a
-              href="https://linkedin.com/in/sandeepbalakrishnan"
+              href="https://www.linkedin.com/in/sandeep-b16/"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground font-medium text-sm px-5 py-2.5 rounded-md transition-all duration-200 hover:bg-primary-foreground/20 w-fit"
