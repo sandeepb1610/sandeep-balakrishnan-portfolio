@@ -20,6 +20,7 @@ const projects: ProjectData[] = [
     heroImage: navisImage,
     techSpecs: ["SolidWorks", "MATLAB", "ROS", "CFD Analysis"],
     videoPlaceholder: true,
+    deepDiveUrl: "/projects/navis-autonomous",
   },
   {
     title: "12-DOF Quadruped Robot",

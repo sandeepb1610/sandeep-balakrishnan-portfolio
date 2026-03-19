@@ -25,6 +25,7 @@ const App = () => (
           <Route path="/technical-toolkit" element={<TechnicalToolkit />} />
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/projects/nbn-fttp-mandurah" element={<NbnDeepDive />} />
+          <Route path="/projects/navis-autonomous" element={<NavisDeepDive />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
