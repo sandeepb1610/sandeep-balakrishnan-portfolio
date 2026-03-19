@@ -186,7 +186,148 @@ const NbnDeepDive = () => {
           </div>
         </section>
 
-        <TechDocGrid />
+        {/* Field Engineering & Site Governance */}
+        <section className="pb-20">
+          <div className="container mx-auto px-6">
+            <div className="flex items-start justify-between mb-10">
+              <div>
+                <motion.p
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{ once: true }}
+                  className="heading-l2 mb-4"
+                >
+                  Field Evidence
+                </motion.p>
+                <motion.h2
+                  initial={{ opacity: 0, y: 12 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
+                  className="text-2xl md:text-3xl font-bold text-foreground tracking-tight"
+                >
+                  Field Engineering & Site Governance
+                </motion.h2>
+              </div>
+
+              {/* WA White Card Badge */}
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.4, delay: 0.1, ease: [0.2, 0, 0, 1] }}
+                className="bg-primary text-primary-foreground rounded-[10px] px-4 py-3 flex items-center gap-2.5 shrink-0"
+                style={{ boxShadow: "var(--shadow-btn)" }}
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+                </svg>
+                <div>
+                  <p className="font-mono text-[10px] font-bold uppercase tracking-widest leading-none">WA White Card</p>
+                  <p className="font-mono text-[9px] uppercase tracking-wider opacity-80 mt-0.5">Certified</p>
+                </div>
+              </motion.div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {/* Tile 1 — Traffic Management & Permitting */}
+              <motion.div
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
+                className="bg-card rounded-[12px] overflow-hidden flex flex-col"
+                style={{ boxShadow: "var(--shadow-card)" }}
+              >
+                <div className="aspect-[16/10] bg-secondary flex items-center justify-center">
+                  <div className="text-center px-4">
+                    <svg className="w-10 h-10 text-muted-foreground/30 mx-auto mb-2" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z" />
+                    </svg>
+                    <p className="font-mono text-[10px] text-muted-foreground/50 uppercase tracking-wider">
+                      CAD Traffic Layout
+                    </p>
+                  </div>
+                </div>
+                <div className="p-5 flex-1 flex flex-col">
+                  <p className="font-mono text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
+                    Traffic Management & Permitting (TGS)
+                  </p>
+                  <p className="text-foreground font-semibold text-sm mb-3">
+                    Urban Infrastructure Access
+                  </p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Authored and coordinated Traffic Guidance Schemes (TGS) in compliance with WA Main Roads standards. Managed local council permits for high-traffic urban work zones.
+                  </p>
+                </div>
+              </motion.div>
+
+              {/* Tile 2 — Safety Systems & SWMS */}
+              <motion.div
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
+                className="bg-card rounded-[12px] overflow-hidden flex flex-col"
+                style={{ boxShadow: "var(--shadow-card)" }}
+              >
+                <div className="aspect-[16/10] bg-secondary flex items-center justify-center">
+                  <div className="text-center px-4">
+                    <svg className="w-10 h-10 text-muted-foreground/30 mx-auto mb-2" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m0-10.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.75c0 5.592 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.57-.598-3.75h-.152c-3.196 0-6.1-1.249-8.25-3.286zm0 13.036h.008v.008H12v-.008z" />
+                    </svg>
+                    <p className="font-mono text-[10px] text-muted-foreground/50 uppercase tracking-wider">
+                      SWMS Risk Matrix Snippet
+                    </p>
+                  </div>
+                </div>
+                <div className="p-5 flex-1 flex flex-col">
+                  <p className="font-mono text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
+                    Safety Systems & SWMS Authoring
+                  </p>
+                  <p className="text-foreground font-semibold text-sm mb-3">
+                    High-Risk Safety Governance
+                  </p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Authored and audited Safe Work Method Statements (SWMS) for fiber deployment and civil excavation. Maintained a zero-incident record across all project phases.
+                  </p>
+                </div>
+              </motion.div>
+
+              {/* Tile 3 — Quality & Network Compliance */}
+              <motion.div
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.1, ease: [0.2, 0, 0, 1] }}
+                className="bg-card rounded-[12px] overflow-hidden flex flex-col"
+                style={{ boxShadow: "var(--shadow-card)" }}
+              >
+                <div className="aspect-[16/10] bg-secondary flex items-center justify-center">
+                  <div className="text-center px-4">
+                    <svg className="w-10 h-10 text-muted-foreground/30 mx-auto mb-2" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M10.125 2.25h-4.5c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125v-9M10.125 2.25h.375a9 9 0 019 9v.375M10.125 2.25A3.375 3.375 0 0113.5 5.625v1.5c0 .621.504 1.125 1.125 1.125h1.5a3.375 3.375 0 013.375 3.375M9 15l2.25 2.25L15 12" />
+                    </svg>
+                    <p className="font-mono text-[10px] text-muted-foreground/50 uppercase tracking-wider">
+                      Site Pre-Start Checklist
+                    </p>
+                  </div>
+                </div>
+                <div className="p-5 flex-1 flex flex-col">
+                  <p className="font-mono text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
+                    Quality & Network Compliance
+                  </p>
+                  <p className="text-foreground font-semibold text-sm mb-3">
+                    AS/CA Technical Standards
+                  </p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Ensured 100% adherence to AS/CA S008-S009 and NBN technical guidelines. Conducted site audits and managed daily Pre-Start/Toolbox Talks for multi-disciplinary field crews.
+                  </p>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <Footer />
