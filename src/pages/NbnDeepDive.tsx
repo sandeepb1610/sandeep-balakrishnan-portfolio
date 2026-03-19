@@ -325,6 +325,50 @@ const NbnDeepDive = () => {
                   </p>
                 </div>
               </motion.div>
+
+              {/* Tile 4 — Splicing, Testing & NBN Integration */}
+              <motion.div
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.15, ease: [0.2, 0, 0, 1] }}
+                className="bg-card rounded-[12px] overflow-hidden flex flex-col md:col-span-3"
+                style={{ boxShadow: "var(--shadow-card)" }}
+              >
+                <div className="p-6 md:p-8 flex flex-col md:flex-row gap-6">
+                  <div className="flex-1">
+                    <p className="font-mono text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
+                      Splicing, Testing & NBN Integration
+                    </p>
+                    <p className="text-foreground font-semibold text-sm mb-3">
+                      Fiber Network Commissioning
+                    </p>
+                    <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                      Performed fiber optic splicing, end-to-end network testing, and NBN integration across multi-dwelling and greenfield FTTP deployments. Demonstrated high proficiency in OTDR (Optical Time-Domain Reflectometer) trace analysis for fault detection and splice loss verification, and PON (Passive Optical Network) power-level testing to ensure signal integrity from OLT to ONT across the distribution network.
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      {["OTDR Testing", "PON Analysis", "Fiber Splicing", "NBN Integration", "Splice Loss Verification", "Signal Integrity"].map((tag) => (
+                        <span
+                          key={tag}
+                          className="bg-secondary text-secondary-foreground font-mono text-[11px] uppercase tracking-wider px-2.5 py-1 rounded-md"
+                        >
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                  <div className="w-full md:w-64 aspect-[4/3] bg-secondary rounded-[8px] flex items-center justify-center shrink-0">
+                    <div className="text-center px-4">
+                      <svg className="w-10 h-10 text-muted-foreground/30 mx-auto mb-2" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5" />
+                      </svg>
+                      <p className="font-mono text-[10px] text-muted-foreground/50 uppercase tracking-wider">
+                        OTDR Trace / PON Test
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </motion.div>
             </div>
           </div>
         </section>
