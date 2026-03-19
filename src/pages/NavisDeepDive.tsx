@@ -157,7 +157,7 @@ const NavisDeepDive = () => {
                     transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
                   >
                     <div className="rounded-[12px] overflow-hidden" style={{ boxShadow: "var(--shadow-card)" }}>
-                      <img src={propulsionImg} alt="NAVIS propulsion system — motor, gearbox, steering mechanism and propeller" className="w-full h-auto object-cover aspect-video" loading="lazy" />
+                      <img src={propulsionImg} alt="NAVIS propulsion system — motor, gearbox, steering mechanism and propeller" className="w-full h-auto object-contain" loading="lazy" />
                     </div>
                     <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
                       Propulsion System
@@ -253,7 +253,7 @@ const NavisDeepDive = () => {
                   <img
                     src={propulsionImg}
                     alt="NAVIS propulsion system — motor, gearbox, steering mechanism and propeller"
-                    className="w-full h-auto object-cover aspect-video"
+                    className="w-full h-auto object-contain"
                     loading="lazy"
                   />
                 </div>
