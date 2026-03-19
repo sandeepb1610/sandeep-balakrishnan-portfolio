@@ -169,7 +169,7 @@ const NbnDeepDive = () => {
                     transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
                   >
                     <div className="rounded-[12px] overflow-hidden" style={{ boxShadow: "var(--shadow-card)" }}>
-                      <img src={fieldTeamImg} alt="Field team coordinating on site" className="w-full h-auto object-cover aspect-video" loading="lazy" />
+                      <img src={fieldTeamImg} alt="Field team coordinating on site" className="w-full h-auto" loading="lazy" />
                     </div>
                     <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
                       Field Team Coordination — Mandurah
