@@ -28,6 +28,7 @@ const projects: ProjectData[] = [
     heroImage: quadrupedImage,
     techSpecs: ["SolidWorks", "Arduino", "Gait Analysis", "3D Printing"],
     videoPlaceholder: true,
+    deepDiveUrl: "/projects/quadruped-robot",
   },
 ];
 
