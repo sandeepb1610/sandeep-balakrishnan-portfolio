@@ -3,8 +3,24 @@ import { ArrowLeft, TrendingUp, Clock, DollarSign } from "lucide-react";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import TechSpecsSidebar from "@/components/TechSpecsSidebar";
 import siteMapImg from "@/assets/nbn-site-map.jpg";
 import fieldTeamImg from "@/assets/nbn-field-team.jpg";
+
+const nbnSpecs = [
+  {
+    label: "Site Safety & Compliance",
+    items: ["DBYD (Dial Before You Dig)", "Stay Safe", "Sight Safe", "Traffic Management Plans"],
+  },
+  {
+    label: "Standards",
+    items: ["AS/NZS 4576 (Conduit Standards)", "NBN Co Design Rules", "WA White Card"],
+  },
+  {
+    label: "Project Tools",
+    items: ["MS Project (Scheduling)", "GIS Mapping", "SWMS Authoring", "Stakeholder Reporting"],
+  },
+];
 
 const starSections = [
   {

@@ -3,8 +3,24 @@ import { ArrowLeft, Globe, TrendingUp, Wrench, DollarSign } from "lucide-react";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import TechSpecsSidebar from "@/components/TechSpecsSidebar";
 import explodedImg from "@/assets/navis-exploded-view.jpg";
 import cfdImg from "@/assets/navis-cfd-simulation.jpg";
+
+const navisSpecs = [
+  {
+    label: "Material Selection",
+    items: ["316 Stainless Steel (marine-grade)", "HDPE (hull & hopper)", "Steel-reinforced Polyurethane (feeder disk)"],
+  },
+  {
+    label: "Compliance",
+    items: ["AS 4024 (Machine Safety)", "IP67 Enclosure Rating", "Marine Equipment Directive"],
+  },
+  {
+    label: "Simulation Tools",
+    items: ["ANSYS (FEA / CFD)", "SolidWorks (Parametric CAD)", "ADAMS (Multibody Dynamics)"],
+  },
+];
 
 const starSections = [
   {
