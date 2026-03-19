@@ -253,7 +253,7 @@ const NavisDeepDive = () => {
                   <img
                     src={propulsionImg}
                     alt="NAVIS propulsion system — motor, gearbox, steering mechanism and propeller"
-                    className="w-full h-auto object-cover aspect-video"
+                    className="w-full h-auto object-contain"
                     loading="lazy"
                   />
                 </div>
