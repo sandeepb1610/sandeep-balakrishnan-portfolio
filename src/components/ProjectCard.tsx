@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Play } from "lucide-react";
+import { ArrowRight, Play, Video } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useRef, useState } from "react";
 
