@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Play } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export interface ProjectData {
   title: string;
@@ -7,6 +8,7 @@ export interface ProjectData {
   heroImage: string;
   techSpecs: string[];
   videoPlaceholder?: boolean;
+  deepDiveUrl?: string;
 }
 
 interface ProjectCardProps {
@@ -68,12 +70,21 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
             ))}
           </div>
 
-          <button className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-medium text-sm px-5 py-2.5 rounded-md w-full justify-center transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98]"
-            style={{ boxShadow: "var(--shadow-btn)" }}
-          >
-            View Deep Dive
-            <ArrowRight className="w-4 h-4" />
-          </button>
+          {project.deepDiveUrl ? (
+            <Link to={project.deepDiveUrl} className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-medium text-sm px-5 py-2.5 rounded-md w-full justify-center transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98]"
+              style={{ boxShadow: "var(--shadow-btn)" }}
+            >
+              View Deep Dive
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          ) : (
+            <button className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-medium text-sm px-5 py-2.5 rounded-md w-full justify-center transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98]"
+              style={{ boxShadow: "var(--shadow-btn)" }}
+            >
+              View Deep Dive
+              <ArrowRight className="w-4 h-4" />
+            </button>
+          )}
         </div>
       </div>
     </motion.article>

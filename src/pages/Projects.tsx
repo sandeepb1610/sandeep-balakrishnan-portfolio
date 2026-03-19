@@ -12,6 +12,7 @@ const projects: ProjectData[] = [
     heroImage: nbnImage,
     techSpecs: ["MS Project", "AS/NZS Standards", "FTTP Design", "Stakeholder Mgmt"],
     videoPlaceholder: true,
+    deepDiveUrl: "/projects/nbn-fttp-mandurah",
   },
   {
     title: "NAVIS Autonomous System",
