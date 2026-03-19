@@ -3,7 +3,7 @@ import { Award, BookOpen, ExternalLink, Users, Download, Calendar } from "lucide
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import leadershipImg from "@/assets/leadership-presenting.jpg";
-import researchImg from "@/assets/research-citation.jpg";
+import nasaAdsImg from "@/assets/nasa-ads-citation.png";
 import eventImg from "@/assets/leadership-event.jpg";
 
 const Leadership = () => {
