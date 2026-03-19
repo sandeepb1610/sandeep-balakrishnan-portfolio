@@ -168,7 +168,7 @@ const QuadrupedDeepDive = () => {
                     </p>
                   </div>
                   <a
-                    href="https://ui.adsabs.harvard.edu/search/q=author%3A%22Sandeep%2C%20B%22%20year%3A2020&sort=date%20desc"
+                    href="https://ui.adsabs.harvard.edu/abs/2021MS%26E.1012a2016S/abstract"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-medium text-sm px-5 py-2.5 rounded-md mt-6 transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98] w-fit"
