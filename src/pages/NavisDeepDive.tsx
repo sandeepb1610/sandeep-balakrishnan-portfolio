@@ -285,6 +285,147 @@ const NavisDeepDive = () => {
           </div>
         </section>
 
+        {/* Engineering Evidence 2×2 Grid */}
+        <section className="pb-20">
+          <div className="container mx-auto px-6">
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              className="heading-l2 mb-4"
+            >
+              Deep Dive
+            </motion.p>
+            <motion.h2
+              initial={{ opacity: 0, y: 12 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
+              className="text-2xl md:text-3xl font-bold text-foreground tracking-tight mb-10"
+            >
+              Engineering Evidence
+            </motion.h2>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              {/* Tile 1 — Root Cause Analysis */}
+              <motion.div
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
+                className="bg-card rounded-[12px] overflow-hidden"
+                style={{ boxShadow: "var(--shadow-card)" }}
+              >
+                <div className="aspect-[16/10] bg-secondary flex items-center justify-center">
+                  <div className="text-center px-4">
+                    <svg className="w-10 h-10 text-muted-foreground/30 mx-auto mb-2" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6zM3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25zM13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6zM13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" />
+                    </svg>
+                    <p className="font-mono text-[11px] text-muted-foreground/50 uppercase tracking-wider">
+                      Fishbone Diagram / Failure Logic
+                    </p>
+                  </div>
+                </div>
+                <div className="p-5">
+                  <p className="font-mono text-xs font-semibold text-foreground uppercase tracking-wider mb-2">
+                    Root Cause Analysis (RCA)
+                  </p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Systematic RCA led to a 120% increase in component lifespan.
+                  </p>
+                </div>
+              </motion.div>
+
+              {/* Tile 2 — Strategic Sourcing & BOM */}
+              <motion.div
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
+                className="bg-card rounded-[12px] overflow-hidden"
+                style={{ boxShadow: "var(--shadow-card)" }}
+              >
+                <div className="aspect-[16/10] bg-secondary flex items-center justify-center">
+                  <div className="text-center px-4">
+                    <svg className="w-10 h-10 text-muted-foreground/30 mx-auto mb-2" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 010 3.75H5.625a1.875 1.875 0 010-3.75z" />
+                    </svg>
+                    <p className="font-mono text-[11px] text-muted-foreground/50 uppercase tracking-wider">
+                      Bill of Materials Snippet
+                    </p>
+                  </div>
+                </div>
+                <div className="p-5">
+                  <p className="font-mono text-xs font-semibold text-foreground uppercase tracking-wider mb-2">
+                    Strategic Sourcing & BOM
+                  </p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Material selection (316 SS / Reinforced PU) optimized for high-salinity environments.
+                  </p>
+                </div>
+              </motion.div>
+
+              {/* Tile 3 — Validation Testing */}
+              <motion.div
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
+                className="bg-card rounded-[12px] overflow-hidden"
+                style={{ boxShadow: "var(--shadow-card)" }}
+              >
+                <div className="aspect-[16/10] bg-secondary flex items-center justify-center">
+                  <div className="text-center px-4">
+                    <svg className="w-10 h-10 text-muted-foreground/30 mx-auto mb-2" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M8 5v14l11-7z" />
+                    </svg>
+                    <p className="font-mono text-[11px] text-muted-foreground/50 uppercase tracking-wider">
+                      Test Report Graph / Load-Test Video
+                    </p>
+                  </div>
+                </div>
+                <div className="p-5">
+                  <p className="font-mono text-xs font-semibold text-foreground uppercase tracking-wider mb-2">
+                    Validation Testing
+                  </p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Achieved 14m dispensing range, validated through 50+ field trial cycles.
+                  </p>
+                </div>
+              </motion.div>
+
+              {/* Tile 4 — Compliance & Standards */}
+              <motion.div
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
+                className="bg-card rounded-[12px] overflow-hidden"
+                style={{ boxShadow: "var(--shadow-card)" }}
+              >
+                <div className="aspect-[16/10] bg-secondary flex items-center justify-center">
+                  <div className="text-center px-4">
+                    <svg className="w-10 h-10 text-muted-foreground/30 mx-auto mb-2" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+                    </svg>
+                    <p className="font-mono text-[11px] text-muted-foreground/50 uppercase tracking-wider">
+                      Certified Badge
+                    </p>
+                  </div>
+                </div>
+                <div className="p-5">
+                  <p className="font-mono text-xs font-semibold text-foreground uppercase tracking-wider mb-2">
+                    Compliance & Standards
+                  </p>
+                  <p className="text-sm text-muted-foreground leading-relaxed">
+                    Adherence to AS 4024 (Machine Safety) and ISO 9001 Standards.
+                  </p>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+        </section>
+
         <TechDocGrid />
       </main>
 
