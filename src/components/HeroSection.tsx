@@ -30,27 +30,17 @@ const HeroSection = () => {
               transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
               className="heading-l1 max-w-2xl"
             >
-              Sandeep Balakrishnan
+              Sandeep Balakrishnan | Mechanical Project Engineer (B.Tech, MPM, MBA)
             </motion.h1>
 
             <motion.p
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.08, ease: [0.2, 0, 0, 1] }}
-              className="font-mono text-sm text-muted-foreground mt-2 tracking-wider"
-            >
-              Mechanical Project Engineer &nbsp;·&nbsp; B.Tech &nbsp;·&nbsp; MPM &nbsp;·&nbsp; MBA
-            </motion.p>
-
-            <motion.p
-              initial={{ opacity: 0, y: 12 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5, delay: 0.1, ease: [0.2, 0, 0, 1] }}
               className="text-lg text-muted-foreground mt-6 max-w-xl leading-relaxed"
             >
-              Specializing in the Design-Build-Test cycle for high-reliability
-              industrial hardware. Bridging the gap between R&D Innovation and
-              Tier-1 Field Execution in Western Australia.
+              Specializing in the Design-Build-Test cycle for high-stakes
+              industrial hardware in Western Australia.
             </motion.p>
 
             {/* Action Shot */}
