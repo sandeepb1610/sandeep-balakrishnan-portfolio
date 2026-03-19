@@ -23,13 +23,13 @@ const starSections = [
     letter: "A",
     title: "Action",
     content:
-      "Designed the complete NAVIS vessel from first principles: engineered the ship hull for stability and hydrodynamic efficiency in pond environments; designed the hopper with optimized feed-flow geometry; developed the auger system for consistent feed metering from hopper to dispensing disk; and engineered the dual-motor propulsion system for autonomous navigation. For the dispensing subsystem, upgraded the existing static feeder's mechanism by conducting first-principles calculations for gearbox ratios and drive belt tensioning to optimize torque delivery at higher rotational velocities. Replaced the original polymer feeder disk with a steel-reinforced polyurethane (PU) composite — increasing operational life by 120% while reducing unit cost. Validated the full system through iterative CFD analysis of feed-dispensing fluid dynamics and field trials across multiple pond geometries.",
+      "Designed the complete NAVIS vessel from first principles: engineered the ship hull for stability and hydrodynamic efficiency in pond environments; designed the hopper with optimized feed-flow geometry; developed a variable-pitch auger system that meters feed from the hopper with precision — eliminating the need for a separate dosing system entirely, thereby reducing mechanical complexity and overall cost. Engineered a single-motor outboard propulsion system for autonomous navigation. For the dispensing subsystem, upgraded the existing static feeder's mechanism by conducting first-principles calculations for gearbox ratios and drive belt tensioning to optimize torque delivery at higher rotational velocities. Replaced the original polymer feeder disk with a steel-reinforced polyurethane (PU) composite — increasing operational life by 120% while reducing unit cost. Validated the full system through iterative CFD analysis of feed-dispensing fluid dynamics and field trials across multiple pond geometries.",
   },
   {
     letter: "R",
     title: "Result",
     content:
-      "Achieved a 367% increase in dispensing range (3m → 14m), transforming the product's viability for large commercial operations. The redesigned feeder system is now successfully deployed in 12+ countries, contributing to USD 45M in annual revenue for Eruvaka Technologies. The steel-reinforced PU disk reduced field replacement frequency by more than half, significantly lowering total cost of ownership for end customers.",
+      "Achieved a 367% increase in dispensing range (3m → 14m), transforming the product's viability for large commercial operations. The variable-pitch auger innovation removed the need for a dedicated dosing system, reducing BOM cost and field maintenance complexity. NAVIS was critically acclaimed at Aqua Expo 2022 in Ecuador as an industry-leading innovation in aquaculture. The system is now successfully deployed in 12+ countries, contributing to USD 45M in annual revenue for Eruvaka Technologies. The steel-reinforced PU disk reduced field replacement frequency by more than half, significantly lowering total cost of ownership for end customers.",
   },
 ];
 
