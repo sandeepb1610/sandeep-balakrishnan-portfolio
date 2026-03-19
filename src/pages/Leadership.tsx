@@ -3,7 +3,7 @@ import { Award, BookOpen, ExternalLink, Users, Download, Calendar } from "lucide
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import leadershipImg from "@/assets/leadership-presenting.jpg";
-import researchImg from "@/assets/research-citation.jpg";
+import nasaAdsImg from "@/assets/nasa-ads-citation.png";
 import eventImg from "@/assets/leadership-event.jpg";
 
 const Leadership = () => {
@@ -174,14 +174,14 @@ const Leadership = () => {
                   style={{ boxShadow: "var(--shadow-card)" }}
                 >
                   <img
-                    src={researchImg}
-                    alt="NASA ADS research paper citation and abstract"
-                    className="w-full h-auto object-cover aspect-video"
+                    src={nasaAdsImg}
+                    alt="NASA ADS citation footer showing SAO Astrophysics Data System, Smithsonian Institution, Center for Astrophysics, and NASA Partner logos"
+                    className="w-full h-auto object-contain"
                     loading="lazy"
                   />
                 </div>
                 <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                  Placeholder — Replace with actual citation screenshot
+                  NASA ADS — Smithsonian Astrophysical Observatory Citation Index
                 </p>
               </motion.div>
 
