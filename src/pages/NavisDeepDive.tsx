@@ -10,6 +10,7 @@ import TechSpecsSidebar from "@/components/TechSpecsSidebar";
 import TechDocGrid from "@/components/TechDocGrid";
 import propulsionImg from "@/assets/navis-propulsion.jpg";
 import cfdImg from "@/assets/navis-cfd-simulation.jpg";
+import explodedViewImg from "@/assets/navis-exploded-view.png";
 
 const navisSpecs = [
   {
@@ -182,7 +183,7 @@ const NavisDeepDive = () => {
 
               {/* Technical Specs Sidebar */}
               <div className="lg:col-span-4">
-                <TechSpecsSidebar specs={navisSpecs} cadCaption="Placeholder — CAD Exploded View" />
+                <TechSpecsSidebar specs={navisSpecs} cadImage={explodedViewImg} cadImageAlt="NAVIS product exploded view showing all major assemblies" cadCaption="NAVIS Product Exploded View" />
               </div>
             </div>
           </div>
