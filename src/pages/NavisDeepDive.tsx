@@ -183,6 +183,106 @@ const NavisDeepDive = () => {
             </div>
           </div>
         </section>
+
+        {/* Technical Gallery */}
+        <section className="pb-20">
+          <div className="container mx-auto px-6">
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              className="heading-l2 mb-4"
+            >
+              Technical Gallery
+            </motion.p>
+            <motion.h2
+              initial={{ opacity: 0, y: 12 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
+              className="text-2xl md:text-3xl font-bold text-foreground tracking-tight mb-10"
+            >
+              System Validation & Media
+            </motion.h2>
+
+            {/* Full-Width Video Slot */}
+            <motion.div
+              initial={{ opacity: 0, y: 12 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
+              className="mb-10"
+            >
+              <div
+                className="relative aspect-video bg-secondary rounded-[12px] overflow-hidden flex items-center justify-center"
+                style={{ boxShadow: "var(--shadow-card)" }}
+              >
+                {/* Replace with <video> when asset is available */}
+                <div className="text-center px-6">
+                  <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
+                    <svg className="w-7 h-7 text-primary ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+                  </div>
+                  <p className="font-mono text-sm text-muted-foreground uppercase tracking-wider">
+                    Full-System Demo Video
+                  </p>
+                  <p className="font-mono text-[11px] text-muted-foreground/60 mt-1">
+                    Placeholder
+                  </p>
+                </div>
+              </div>
+              <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center">
+                Validation Testing: Achieving 14m dispensing range in high-salinity environments.
+              </p>
+            </motion.div>
+
+            {/* Side-by-Side: CAD Exploded View + Real-World Testing Photo */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <motion.div
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
+              >
+                <div
+                  className="rounded-[12px] overflow-hidden"
+                  style={{ boxShadow: "var(--shadow-card)" }}
+                >
+                  <img
+                    src={explodedImg}
+                    alt="CAD exploded view of NAVIS drive-train and hull assembly"
+                    className="w-full h-auto object-cover aspect-video"
+                    loading="lazy"
+                  />
+                </div>
+                <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
+                  Placeholder — CAD Exploded View
+                </p>
+              </motion.div>
+
+              <motion.div
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
+              >
+                <div
+                  className="rounded-[12px] overflow-hidden"
+                  style={{ boxShadow: "var(--shadow-card)" }}
+                >
+                  <img
+                    src={cfdImg}
+                    alt="Real-world testing of NAVIS in aquaculture pond environment"
+                    className="w-full h-auto object-cover aspect-video"
+                    loading="lazy"
+                  />
+                </div>
+                <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
+                  Placeholder — Real-World Testing Photo
+                </p>
+              </motion.div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <Footer />
