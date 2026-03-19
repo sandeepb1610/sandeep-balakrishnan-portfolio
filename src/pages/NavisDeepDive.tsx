@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowLeft, Globe, TrendingUp, Wrench, DollarSign } from "lucide-react";
+import bomImg from "@/assets/navis-bom.png";
 import kaizenImg from "@/assets/navis-kaizen.png";
 import rcaImg from "@/assets/navis-rca.png";
 import { Link } from "react-router-dom";
@@ -393,22 +394,15 @@ const NavisDeepDive = () => {
                 className="bg-card rounded-[12px] overflow-hidden"
                 style={{ boxShadow: "var(--shadow-card)" }}
               >
-                <div className="aspect-[16/10] bg-secondary flex items-center justify-center">
-                  <div className="text-center px-4">
-                    <svg className="w-10 h-10 text-muted-foreground/30 mx-auto mb-2" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
-                    </svg>
-                    <p className="font-mono text-[11px] text-muted-foreground/50 uppercase tracking-wider">
-                      Certified Badge
-                    </p>
-                  </div>
+                <div className="aspect-[16/10] bg-secondary flex items-center justify-center overflow-hidden">
+                  <img src={bomImg} alt="BOM and Material Selection — NAVIS part list with material types and dimensions" className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <div className="p-5">
                   <p className="font-mono text-xs font-semibold text-foreground uppercase tracking-wider mb-2">
-                    Compliance & Standards
+                    BOM & Material Selection
                   </p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Adherence to AS 4024 (Machine Safety) and ISO 9001 Standards.
+                    Comprehensive bill of materials with marine-grade material specifications and vendor tracking across 50+ components.
                   </p>
                 </div>
               </motion.div>
