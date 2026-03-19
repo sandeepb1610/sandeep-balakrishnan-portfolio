@@ -7,6 +7,7 @@ import Index from "./pages/Index.tsx";
 import Projects from "./pages/Projects.tsx";
 import TechnicalToolkit from "./pages/TechnicalToolkit.tsx";
 import Leadership from "./pages/Leadership.tsx";
+import NbnDeepDive from "./pages/NbnDeepDive.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
