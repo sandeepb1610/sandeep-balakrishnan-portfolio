@@ -30,7 +30,7 @@ const HeroSection = () => {
               transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
               className="heading-l1 max-w-2xl"
             >
-              Sandeep Balakrishnan | Mechanical Project Engineer (B.Tech, MPM, MBA)
+              Sandeep Balakrishnan <span className="text-[0.75em]">| Mechanical Project Engineer (B.Tech, MPM, MBA)</span>
             </motion.h1>
 
             <motion.p
