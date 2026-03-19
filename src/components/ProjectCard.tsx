@@ -60,7 +60,17 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
           loading="lazy"
         />
 
-        {/* Video overlay on hover */}
+        {/* Restricted watermark overlay */}
+        {project.restricted && (
+          <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+            <div className="flex items-center gap-2 bg-primary/80 text-primary-foreground px-4 py-2 rounded-md rotate-[-12deg]">
+              <ShieldAlert className="w-4 h-4" />
+              <span className="font-mono text-xs font-bold uppercase tracking-widest">Restricted</span>
+            </div>
+          </div>
+        )}
+
+
         {project.videoUrl && (
           <video
             ref={videoRef}
