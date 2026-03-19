@@ -68,7 +68,7 @@ const ExecutiveSummary = () => {
               <img
                 src={heroImage}
                 alt="Sandeep Balakrishnan on-site in high-visibility PPE"
-                className="w-full h-auto object-cover aspect-[4/5]"
+                className="w-full h-auto"
                 loading="lazy"
               />
             </div>
