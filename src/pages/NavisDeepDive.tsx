@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TechSpecsSidebar from "@/components/TechSpecsSidebar";
 import TechDocGrid from "@/components/TechDocGrid";
-import explodedImg from "@/assets/navis-exploded-view.jpg";
+import propulsionImg from "@/assets/navis-propulsion.jpg";
 import cfdImg from "@/assets/navis-cfd-simulation.jpg";
 
 const navisSpecs = [
