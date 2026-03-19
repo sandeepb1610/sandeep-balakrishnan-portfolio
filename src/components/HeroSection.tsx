@@ -8,6 +8,9 @@ const kpis = [
   { label: "Professional Leadership", value: "Board Member", description: "IPMA Young Crew Australia" },
 ];
 
+// Replace with your actual video URL/path when available
+const HERO_VIDEO_URL = "";
+
 const HeroSection = () => {
   return (
     <section id="home" className="pt-32 pb-20 md:pb-28">
@@ -43,19 +46,35 @@ const HeroSection = () => {
               industrial hardware in Western Australia.
             </motion.p>
 
-            {/* Action Shot */}
+            {/* Action Shot / Background Video */}
             <motion.div
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.15, ease: [0.2, 0, 0, 1] }}
-              className="mt-8 rounded-[12px] overflow-hidden max-w-md"
+              className="mt-8 rounded-[12px] overflow-hidden max-w-md relative"
               style={{ boxShadow: "var(--shadow-card)" }}
             >
-              <img
-                src={heroActionImg}
-                alt="Sandeep Balakrishnan in high-vis PPE working on mechanical assembly"
-                className="w-full h-auto object-cover aspect-[16/10]"
-              />
+              {HERO_VIDEO_URL ? (
+                <video
+                  src={HERO_VIDEO_URL}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-auto object-cover aspect-[16/10]"
+                />
+              ) : (
+                <>
+                  <img
+                    src={heroActionImg}
+                    alt="Sandeep Balakrishnan in high-vis PPE working on mechanical assembly"
+                    className="w-full h-auto object-cover aspect-[16/10]"
+                  />
+                  <div className="absolute bottom-3 left-3 font-mono text-[10px] tracking-widest uppercase bg-card/90 backdrop-blur-sm text-muted-foreground px-2.5 py-1 rounded-md">
+                    Video Loop Coming Soon
+                  </div>
+                </>
+              )}
             </motion.div>
           </div>
 
