@@ -157,10 +157,10 @@ const NavisDeepDive = () => {
                     transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
                   >
                     <div className="rounded-[12px] overflow-hidden" style={{ boxShadow: "var(--shadow-card)" }}>
-                      <img src={explodedImg} alt="Exploded view CAD render of NAVIS drive-train assembly" className="w-full h-auto object-cover aspect-video" loading="lazy" />
+                      <img src={propulsionImg} alt="NAVIS propulsion system — motor, gearbox, steering mechanism and propeller" className="w-full h-auto object-cover aspect-video" loading="lazy" />
                     </div>
                     <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                      Placeholder — Exploded View: Internal Drive-Train
+                      Propulsion System
                     </p>
                   </motion.div>
                   <motion.div
