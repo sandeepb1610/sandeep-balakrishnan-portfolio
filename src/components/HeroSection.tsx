@@ -16,7 +16,7 @@ const HeroSection = () => {
     <section id="home" className="pt-32 pb-20 md:pb-28">
       <div className="container mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-          {/* Left — Narrative */}
+          {/* Left — Narrative + KPIs */}
           <div className="lg:col-span-7">
             <motion.p
               initial={{ opacity: 0 }}
@@ -46,12 +46,21 @@ const HeroSection = () => {
               industrial hardware in Western Australia.
             </motion.p>
 
-            {/* Action Shot / Background Video */}
+            {/* KPI Stack */}
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10">
+              {kpis.map((kpi, i) => (
+                <KpiCard key={kpi.label} {...kpi} index={i} />
+              ))}
+            </div>
+          </div>
+
+          {/* Right — Background Video Loop Slot */}
+          <div className="lg:col-span-5">
             <motion.div
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.15, ease: [0.2, 0, 0, 1] }}
-              className="mt-8 rounded-[12px] overflow-hidden max-w-md relative"
+              className="rounded-[12px] overflow-hidden relative"
               style={{ boxShadow: "var(--shadow-card)" }}
             >
               {HERO_VIDEO_URL ? (
@@ -61,14 +70,14 @@ const HeroSection = () => {
                   loop
                   muted
                   playsInline
-                  className="w-full h-auto object-cover aspect-[16/10]"
+                  className="w-full h-auto object-cover aspect-[4/5]"
                 />
               ) : (
                 <>
                   <img
                     src={heroActionImg}
                     alt="Sandeep Balakrishnan in high-vis PPE working on mechanical assembly"
-                    className="w-full h-auto object-cover aspect-[16/10]"
+                    className="w-full h-auto object-cover aspect-[4/5]"
                   />
                   <div className="absolute bottom-3 left-3 font-mono text-[10px] tracking-widest uppercase bg-card/90 backdrop-blur-sm text-muted-foreground px-2.5 py-1 rounded-md">
                     Video Loop Coming Soon
@@ -76,13 +85,6 @@ const HeroSection = () => {
                 </>
               )}
             </motion.div>
-          </div>
-
-          {/* Right — KPI Stack */}
-          <div className="lg:col-span-5 grid grid-cols-1 gap-6">
-            {kpis.map((kpi, i) => (
-              <KpiCard key={kpi.label} {...kpi} index={i} />
-            ))}
           </div>
         </div>
       </div>

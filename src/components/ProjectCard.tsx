@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowRight, Play } from "lucide-react";
+import { ArrowRight, Play, Video } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useRef, useState } from "react";
 
@@ -90,6 +90,14 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
           >
             <Play className="w-3 h-3" />
             Hover to Preview
+          </div>
+        )}
+
+        {/* Technical Video badge */}
+        {(project.videoUrl || project.videoPlaceholder) && (
+          <div className="absolute bottom-3 left-3 flex items-center gap-1.5 font-mono text-[10px] tracking-widest uppercase bg-primary text-primary-foreground px-2.5 py-1 rounded-md">
+            <Video className="w-3 h-3" />
+            Technical Video
           </div>
         )}
 
