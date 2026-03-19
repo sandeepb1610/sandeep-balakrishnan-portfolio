@@ -23,7 +23,7 @@ const starSections = [
     letter: "A",
     title: "Action",
     content:
-      "Conducted first-principles calculations for gearbox ratios and drive belt tensioning to optimize torque delivery to the feeder disk at higher rotational velocities. Replaced the original polymer feeder disk with a steel-reinforced polyurethane (PU) composite — increasing operational life by 120% while maintaining the required surface friction characteristics for consistent feed dispersal. Validated the redesign through iterative CFD analysis of feed-dispensing fluid dynamics and field trials across multiple pond geometries.",
+      "Designed the complete NAVIS vessel from first principles: engineered the ship hull for stability and hydrodynamic efficiency in pond environments; designed the hopper with optimized feed-flow geometry; developed the auger system for consistent feed metering from hopper to dispensing disk; and engineered the dual-motor propulsion system for autonomous navigation. For the dispensing subsystem, upgraded the existing static feeder's mechanism by conducting first-principles calculations for gearbox ratios and drive belt tensioning to optimize torque delivery at higher rotational velocities. Replaced the original polymer feeder disk with a steel-reinforced polyurethane (PU) composite — increasing operational life by 120% while reducing unit cost. Validated the full system through iterative CFD analysis of feed-dispensing fluid dynamics and field trials across multiple pond geometries.",
   },
   {
     letter: "R",
