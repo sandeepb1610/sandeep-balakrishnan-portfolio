@@ -185,6 +185,8 @@ const NbnDeepDive = () => {
             </div>
           </div>
         </section>
+
+        <TechDocGrid />
       </main>
 
       <Footer />

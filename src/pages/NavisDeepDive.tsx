@@ -284,6 +284,8 @@ const NavisDeepDive = () => {
             </div>
           </div>
         </section>
+
+        <TechDocGrid />
       </main>
 
       <Footer />

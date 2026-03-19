@@ -206,6 +206,8 @@ const QuadrupedDeepDive = () => {
             </div>
           </div>
         </section>
+
+        <TechDocGrid />
       </main>
 
       <Footer />
