@@ -183,7 +183,7 @@ const NavisDeepDive = () => {
 
               {/* Technical Specs Sidebar */}
               <div className="lg:col-span-4">
-                <TechSpecsSidebar specs={navisSpecs} cadCaption="Placeholder — CAD Exploded View" />
+                <TechSpecsSidebar specs={navisSpecs} cadImage={explodedViewImg} cadImageAlt="NAVIS product exploded view showing all major assemblies" cadCaption="NAVIS Product Exploded View" />
               </div>
             </div>
           </div>

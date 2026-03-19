@@ -54,7 +54,7 @@ const TechSpecsSidebar = ({ specs, cadImage, cadImageAlt, cadCaption }: TechSpec
             <img
               src={cadImage}
               alt={cadImageAlt || "CAD Exploded View"}
-              className="w-full h-auto object-cover"
+              className="w-full h-auto object-contain"
               loading="lazy"
             />
           </div>
