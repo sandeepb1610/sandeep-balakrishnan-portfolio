@@ -11,6 +11,7 @@ export interface ProjectData {
   videoPlaceholder?: boolean;
   videoUrl?: string;
   deepDiveUrl?: string;
+  restricted?: boolean;
 }
 
 interface ProjectCardProps {
