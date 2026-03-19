@@ -88,7 +88,7 @@ const NavisDeepDive = () => {
               transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
               className="text-3xl md:text-4xl font-bold text-foreground tracking-tight mb-4"
             >
-              NAVIS Autonomous Feeder
+              NAVIS (Novel Autonomous Vessel for Intelligent Shrimp Feeding)
             </motion.h1>
             <motion.p
               initial={{ opacity: 0, y: 12 }}
