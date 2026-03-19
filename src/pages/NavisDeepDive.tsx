@@ -11,19 +11,19 @@ const starSections = [
     letter: "S",
     title: "Situation",
     content:
-      "Eruvaka Technologies' autonomous aquaculture feeder had a dispensing range limited to 3 meters — insufficient for large-scale commercial ponds. The existing drive-train suffered from rapid wear in harsh subsea environments, leading to frequent field replacements and high maintenance costs across 12+ countries of deployment.",
+      "Eruvaka Technologies required a fully autonomous aquaculture feeding vessel — the NAVIS — to be designed from the ground up for large-scale commercial pond operations. The existing product line included only a static feeder with a dispensing range limited to 3 meters, insufficient for commercial viability. The company needed a complete vessel design encompassing hull, feed storage, delivery mechanisms, and propulsion, along with an upgraded dispensing system that could dramatically extend range while reducing per-unit cost.",
   },
   {
     letter: "T",
     title: "Task",
     content:
-      "Redesign the mechanical propulsion and dispensing subsystem to increase the effective feed-dispensing range from 3m to 14m while improving component longevity. The solution had to be backward-compatible with existing deployed units and manufacturable at scale.",
+      "Lead the full mechanical design of the NAVIS autonomous feeder — including the ship hull, hopper, auger feed-delivery system, propulsion system, and dispensing mechanism. Additionally, upgrade the dispensing system from the existing static feeder platform to achieve a dramatically increased range while reducing manufacturing and maintenance costs.",
   },
   {
     letter: "A",
     title: "Action",
     content:
-      "Conducted first-principles calculations for gearbox ratios and drive belt tensioning to optimize torque delivery to the feeder disk at higher rotational velocities. Replaced the original polymer feeder disk with a steel-reinforced polyurethane (PU) composite — increasing operational life by 120% while maintaining the required surface friction characteristics for consistent feed dispersal. Validated the redesign through iterative CFD analysis of feed-dispensing fluid dynamics and field trials across multiple pond geometries.",
+      "Designed the complete NAVIS vessel from first principles: engineered the ship hull for stability and hydrodynamic efficiency in pond environments; designed the hopper with optimized feed-flow geometry; developed the auger system for consistent feed metering from hopper to dispensing disk; and engineered the dual-motor propulsion system for autonomous navigation. For the dispensing subsystem, upgraded the existing static feeder's mechanism by conducting first-principles calculations for gearbox ratios and drive belt tensioning to optimize torque delivery at higher rotational velocities. Replaced the original polymer feeder disk with a steel-reinforced polyurethane (PU) composite — increasing operational life by 120% while reducing unit cost. Validated the full system through iterative CFD analysis of feed-dispensing fluid dynamics and field trials across multiple pond geometries.",
   },
   {
     letter: "R",
