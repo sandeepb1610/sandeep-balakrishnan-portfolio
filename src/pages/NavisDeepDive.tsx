@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowLeft, Globe, TrendingUp, Wrench, DollarSign } from "lucide-react";
 import kaizenImg from "@/assets/navis-kaizen.png";
+import rcaImg from "@/assets/navis-rca.png";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
