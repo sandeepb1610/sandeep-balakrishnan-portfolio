@@ -6,6 +6,10 @@ import waterproofExploded from "@/assets/waterproof-exploded-view.png";
 import lteGatewayExploded from "@/assets/lte-gateway-exploded.png";
 import lteGatewayPcb from "@/assets/lte-gateway-pcb.png";
 import lteGatewayShell from "@/assets/lte-gateway-shell.png";
+import feaBaseFrame from "@/assets/fea-base-frame.png";
+import feaFloatBase from "@/assets/fea-float-base.png";
+import feaSupportStructure from "@/assets/fea-support-structure.png";
+import feaTopFrame from "@/assets/fea-top-frame.png";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -56,6 +60,24 @@ const projects: StarProject[] = [
       { type: "image", src: waterproofAssembly1, caption: "Waterproofing Assembly — Overview" },
       { type: "image", src: waterproofAssembly2, caption: "Waterproofing Assembly — Cross-Sectional View" },
       { type: "image", src: waterproofExploded, caption: "Waterproofing Assembly — Exploded View" },
+    ],
+  },
+  {
+    title: "Structural Integrity Analysis — Shrimp Health Monitoring System",
+    category: "FEA & Structural Validation",
+    situation:
+      "An automated shrimp health monitoring system required a stainless steel support structure to submerge and retract a check tray for biological sample collection. The frame is subject to constant dynamic loading from water resistance and sample weight, making structural durability critical to prevent mechanical failure during underwater deployment.",
+    task:
+      "Validate the structural integrity of the base frame, connecting frame, support rod, and top metalstrip assemblies under simulated operational loads. Confirm that peak von Mises stress remained well below the AISI 304 yield strength (2.068 × 10⁸ N/m²) and that total displacement stayed within tolerances to prevent sensor misalignment or mechanical interference.",
+    action:
+      "Modelled all frame assemblies in SolidWorks, assigning AISI 304 Stainless Steel properties for corrosion resistance and structural stiffness. Applied distributed mass loads and gravity (9.81 m/s²) to simulate tray weight and internal components, with fixed geometry constraints at mounting points. Conducted Static Linear Analysis across four sub-assemblies — base frame, connecting frame, support rod, and top metalstrip — evaluating von Mises stress distribution, equivalent strain (ESTRN), and resultant displacement (URES). Used exaggerated deformation scales (up to 520×) as a visualisation tool to identify potential failure modes and buckling-prone regions.",
+    result:
+      "Peak von Mises stress (1.472 × 10⁷ N/m² on the base frame) confirmed a safety factor exceeding 14× against yield. Maximum displacement remained under 1 mm across all assemblies (0.16 mm base frame, 0.87 mm connecting frame), verifying zero impact on sensor accuracy. Analysis validated the design for prototyping, significantly reducing the risk of structural failure in the field. Note: deformation visuals are exaggerated for diagnostic purposes — actual physical displacement is sub-millimetre.",
+    techStack: ["SolidWorks Simulation", "Static FEA", "AISI 304 Stainless Steel", "Von Mises Analysis", "URES Displacement", "Strain Mapping"],
+    media: [
+      { type: "image", src: feaBaseFrame, caption: "FEA — Base Frame Static Deformation" },
+      { type: "image", src: feaFloatBase, caption: "FEA — Connecting Frame Analysis" },
+      { type: "image", src: feaTopFrame, caption: "FEA — Top Metalstrip Displacement" },
     ],
   },
 ];
