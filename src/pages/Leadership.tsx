@@ -243,8 +243,9 @@ const Leadership = () => {
                 Schedule a Briefing
               </a>
               <a
-                href="/Sandeep_resume.docx"
-                download
+                href="https://docs.google.com/document/d/1uBB0LrGoDXWpIn3YFUs4kOCQHCIy6s8q/edit?usp=sharing&ouid=102771873244239280120&rtpof=true&sd=true"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground font-medium text-sm px-6 py-3 rounded-md transition-all duration-200 hover:bg-primary-foreground/20"
               >
                 <Download className="w-4 h-4" />
