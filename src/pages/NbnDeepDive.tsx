@@ -253,7 +253,7 @@ const NbnDeepDive = () => {
                     Coordinated Traffic
                   </p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Coordinated Traffic Guidance Schemes (TGS) in compliance with WA Main Roads standards. Managed permits for high-traffic urban work zones.
+                    Coordinated Traffic Guidance Schemes (TGS) in compliance with WA Main Roads standards. Managed permits for urban work zones.
                   </p>
                 </div>
               </motion.div>
