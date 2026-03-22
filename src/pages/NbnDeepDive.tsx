@@ -3,6 +3,7 @@ import { ArrowLeft, TrendingUp, Clock, DollarSign } from "lucide-react";
 import otdrTestImg from "@/assets/nbn-otdr-test.jpg";
 import trafficPermitImg from "@/assets/nbn-traffic-permit.jpg";
 import safetySiteImg from "@/assets/nbn-safety-site.jpg";
+import siteComplianceImg from "@/assets/nbn-site-compliance.jpg";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
