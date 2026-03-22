@@ -50,7 +50,8 @@ const Navbar = () => {
         <div className="flex items-center gap-3">
           <a
             href="https://docs.google.com/document/d/1uBB0LrGoDXWpIn3YFUs4kOCQHCIy6s8q/edit?usp=sharing&ouid=102771873244239280120&rtpof=true&sd=true"
-            download
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-medium text-sm px-5 py-2.5 rounded-md transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98]"
             style={{ boxShadow: "var(--shadow-btn)" }}
           >
