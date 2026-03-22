@@ -75,7 +75,7 @@ const projects: StarProject[] = [
     note:
       "Interpreting FEA Visualisation: The Deformation Scale in these analyses is set to approximately 520×. This is a standard visualisation technique used to exaggerate the shape and direction of displacement to identify potential failure modes. While the visuals suggest significant bending, the actual physical displacement is less than 1 mm — confirming the assembly remains rigid and structurally sound for its intended application.",
     result:
-      "Peak von Mises stress (1.472 × 10⁷ N/m² on the base frame) confirmed a safety factor exceeding 14× against yield. Maximum displacement remained under 1 mm across all assemblies (0.16 mm base frame, 0.87 mm connecting frame), verifying zero impact on sensor accuracy. Analysis validated the design for prototyping, significantly reducing the risk of structural failure in the field. Note: deformation visuals are exaggerated for diagnostic purposes — actual physical displacement is sub-millimetre.",
+      "Peak von Mises stress (1.472 × 10⁷ N/m² on the base frame) confirmed a safety factor exceeding 14× against yield. Maximum displacement remained under 1 mm across all assemblies (0.16 mm base frame, 0.87 mm connecting frame), verifying zero impact on sensor accuracy. Analysis validated the design for prototyping, significantly reducing the risk of structural failure in the field.",
     techStack: ["SolidWorks Simulation", "Static FEA", "AISI 304 Stainless Steel", "Von Mises Analysis", "URES Displacement", "Strain Mapping"],
     media: [
       { type: "image", src: feaBaseFrame, caption: "FEA — Base Frame Static Deformation" },
