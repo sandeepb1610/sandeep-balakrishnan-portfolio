@@ -5,7 +5,7 @@ const specializations = [
   {
     icon: Cog,
     title: "Mechanical Innovation",
-    description: "Advanced design, prototyping, and manufacturing process optimization.",
+    description: "Advanced design, prototyping, and manufacturing process optimisation.",
   },
   {
     icon: ShieldCheck,
@@ -15,7 +15,7 @@ const specializations = [
   {
     icon: MapPin,
     title: "WA Site Readiness",
-    description: "Mobilization planning, FIFO logistics, and commissioning in remote WA sites.",
+    description: "Mobilisation planning, FIFO logistics, and commissioning in remote WA sites.",
   },
 ];
 
@@ -29,7 +29,7 @@ const CoreSpecializations = () => {
           viewport={{ once: true }}
           className="heading-l2 mb-10 text-center"
         >
-          Core Specializations
+          Core Specialisations
         </motion.p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

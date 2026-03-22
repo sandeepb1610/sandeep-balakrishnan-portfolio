@@ -15,7 +15,7 @@ const Footer = () => {
               SB<span className="opacity-40">.</span>
             </p>
             <p className="text-sm opacity-60 leading-relaxed max-w-xs">
-              Mechanical Project Engineer specializing in lifecycle management and operational efficiency.
+              Mechanical Project Engineer specialising in lifecycle management and operational efficiency.
             </p>
           </div>
 

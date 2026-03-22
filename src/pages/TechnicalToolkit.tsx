@@ -27,7 +27,7 @@ const pillars: Pillar[] = [
     number: "01",
     title: "Engineering Design & Simulation",
     description:
-      "Full-spectrum mechanical design from concept through validated simulation. Expert-level parametric modeling paired with advanced structural and fluid analysis.",
+      "Full-spectrum mechanical design from concept through validated simulation. Expert-level parametric modelling paired with advanced structural and fluid analysis.",
     image: feaImg,
     imageAlt: "FEA stress-test simulation with heatmap distribution",
     skills: [

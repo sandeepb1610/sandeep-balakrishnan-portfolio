@@ -3,7 +3,7 @@ import KpiCard from "./KpiCard";
 import heroActionImg from "@/assets/hero-action-ppe.jpg";
 
 const kpis = [
-  { label: "Layout Optimization", value: "23%", description: "Efficiency Gain — NBN FTTP Layout Optimization" },
+  { label: "Layout Optimisation", value: "23%", description: "Efficiency Gain — NBN FTTP Layout Optimisation" },
   { label: "Propulsion Redesign", value: "367%", description: "Range Increase — NAVIS Autonomous Propulsion Redesign" },
   { label: "Professional Leadership", value: "Board Member", description: "IPMA Young Crew Australia" },
 ];
@@ -42,7 +42,7 @@ const HeroSection = () => {
               transition={{ duration: 0.5, delay: 0.08, ease: [0.2, 0, 0, 1] }}
               className="text-lg text-muted-foreground mt-6 max-w-xl leading-relaxed"
             >
-              Specializing in the Design-Build-Test cycle for high-stakes
+              Specialising in the Design-Build-Test cycle for high-stakes
               industrial hardware in Western Australia.
             </motion.p>
 

@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import nasaImg from "@/assets/quadruped-nasa-ads.jpg";
 
 const scopeItems = [
-  "Conducted Kinematic and Dynamic analysis to optimize performance in GPS-denied environments.",
+  "Conducted Kinematic and Dynamic analysis to optimise performance in GPS-denied environments.",
   "Executed Multi-body simulations using ADAMS and FEM analysis in SolidWorks.",
   "Managed the design-build-test cycle within 90% of the allocated budget and 15% ahead of schedule.",
 ];

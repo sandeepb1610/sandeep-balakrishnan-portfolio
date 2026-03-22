@@ -35,7 +35,7 @@ const ExecutiveSummary = () => {
             <p className="text-muted-foreground leading-relaxed text-base mb-4">
               My approach integrates rigorous risk assessment with lean project delivery,
               ensuring capital projects consistently meet technical specifications,
-              safety mandates, and commercial KPIs. I specialize in translating complex
+              safety mandates, and commercial KPIs. I specialise in translating complex
               stakeholder requirements into executable engineering scopes that drive
               measurable outcomes.
             </p>

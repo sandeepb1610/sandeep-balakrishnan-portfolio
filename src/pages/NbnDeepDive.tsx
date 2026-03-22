@@ -39,7 +39,7 @@ const starSections = [
     letter: "T",
     title: "Task",
     content:
-      "Coordinate multi-crew field deployment across concurrent work fronts while optimizing spatial layouts to minimize civil disruption. Responsible for end-to-end delivery including site surveys, layout design, Pre Start authoring, and quality assurance sign-off.",
+      "Coordinate multi-crew field deployment across concurrent work fronts while optimising spatial layouts to minimise civil disruption. Responsible for end-to-end delivery including site surveys, layout design, Pre Start authoring, and quality assurance sign-off.",
   },
   {
     letter: "A",
@@ -51,14 +51,14 @@ const starSections = [
     letter: "R",
     title: "Result",
     content:
-      "Delivered a 23% reduction in average job duration through optimized routing and crew sequencing. The layout efficiencies translated directly into a 15% increase in project profit margin — validating the on-site redesign approach as a replicable methodology for future NBN rollouts.",
+      "Delivered a 23% reduction in average job duration through optimised routing and crew sequencing. The layout efficiencies translated directly into a 15% increase in project profit margin — validating the on-site redesign approach as a replicable methodology for future NBN rollouts.",
   },
 ];
 
 const results = [
   { icon: Clock, value: "23%", label: "Job Duration Reduction" },
   { icon: DollarSign, value: "15%", label: "Profit Increase" },
-  { icon: TrendingUp, value: "FTTP", label: "Layout Optimization" },
+  { icon: TrendingUp, value: "FTTP", label: "Layout Optimisation" },
 ];
 
 const NbnDeepDive = () => {
@@ -161,7 +161,7 @@ const NbnDeepDive = () => {
                     transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
                   >
                     <div className="rounded-[12px] overflow-hidden aspect-[4/3]" style={{ boxShadow: "var(--shadow-card)" }}>
-                      <img src={siteMapImg} alt="Optimized FTTP routing layout map" className="w-full h-full object-cover" loading="lazy" />
+                      <img src={siteMapImg} alt="Optimised FTTP routing layout map" className="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
                       BNTD Installation and Integration in Fibre Rack
