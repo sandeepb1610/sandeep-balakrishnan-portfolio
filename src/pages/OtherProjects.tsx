@@ -120,7 +120,7 @@ const OtherProjects = () => {
               transition={{ duration: 0.5, delay: 0.08, ease: [0.2, 0, 0, 1] }}
               className="text-muted-foreground text-base leading-relaxed max-w-2xl mb-16"
             >
-              Additional engineering projects presented using the S.T.A.R. methodology — Situation, Task, Action, Result.
+              A selection of independent and personal engineering projects undertaken outside of primary professional engagements — each driven by technical curiosity and a commitment to continuous development.
             </motion.p>
 
             <div className="space-y-12">
