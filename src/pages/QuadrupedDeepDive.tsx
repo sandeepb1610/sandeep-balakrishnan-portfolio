@@ -16,6 +16,8 @@ const results = [
   { icon: Clock, value: "15%", label: "Ahead of Schedule" },
   { icon: DollarSign, value: "<90%", label: "Under Budget" },
   { icon: BookOpen, value: "NASA ADS", label: "Indexed Publication" },
+  { icon: DollarSign, value: "100 kg", label: "Payload Capacity" },
+  { icon: Clock, value: "3", label: "Gaits: Walk · Trot · Crawl" },
 ];
 
 const QuadrupedDeepDive = () => {
