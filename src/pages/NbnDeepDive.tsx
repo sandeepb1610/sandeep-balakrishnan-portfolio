@@ -42,7 +42,7 @@ const starSections = [
     letter: "A",
     title: "Action",
     content:
-      "Redesigned the FTTP conduit layout on-site to bypass previously uncharted subterranean obstacles — including legacy stormwater infrastructure and unregistered gas mains. Authored high-risk Safe Work Method Statements (SWMS) for traffic-heavy zones, enabling crews to maintain productivity in areas that would otherwise require full road closures. Implemented a revised sequencing strategy that parallelized pit-and-pipe installation with hauling operations.",
+      "Redesigned the FTTP conduit layout on-site to mitigate constructability constraints identified during field validation — engineering an alternative ceiling-space routing where the original pathway was obstructed. Reconfigured the external SDS network by developing a revised fibre alignment due to capacity limitations at the existing breakout joint (zero available ports). Optimised network continuity and serviceability while maintaining compliance with NBN Co standards and adhering to strict delivery timelines.",
   },
   {
     letter: "R",
