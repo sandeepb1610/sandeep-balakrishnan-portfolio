@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Award, BookOpen, ExternalLink, Users, Download, Calendar, Globe, Wrench, Atom } from "lucide-react";
+import { Award, BookOpen, ExternalLink, Users, Download, Globe, Wrench, Atom } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -232,21 +232,14 @@ const Leadership = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1, ease: [0.2, 0, 0, 1] }}
-              className="flex flex-col sm:flex-row items-center justify-center gap-4"
+              className="flex items-center justify-center"
             >
-              <a
-                href="#"
-                className="inline-flex items-center gap-2 bg-primary-foreground text-primary font-medium text-sm px-6 py-3 rounded-md transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98]"
-                style={{ boxShadow: "var(--shadow-btn)" }}
-              >
-                <Calendar className="w-4 h-4" />
-                Schedule a Briefing
-              </a>
               <a
                 href="https://docs.google.com/document/d/1uBB0LrGoDXWpIn3YFUs4kOCQHCIy6s8q/edit?usp=sharing&ouid=102771873244239280120&rtpof=true&sd=true"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground font-medium text-sm px-6 py-3 rounded-md transition-all duration-200 hover:bg-primary-foreground/20"
+                className="inline-flex items-center gap-2 bg-primary-foreground text-primary font-medium text-sm px-6 py-3 rounded-md transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98]"
+                style={{ boxShadow: "var(--shadow-btn)" }}
               >
                 <Download className="w-4 h-4" />
                 Download Resume
