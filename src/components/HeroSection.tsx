@@ -3,7 +3,7 @@ import KpiCard from "./KpiCard";
 import heroActionImg from "@/assets/hero-action-ppe.jpg";
 
 const kpis = [
-  { label: "Layout Optimization", value: "23%", description: "Efficiency Gain — NBN FTTP Layout Optimization" },
+  { label: "Layout Optimisation", value: "23%", description: "Efficiency Gain — NBN FTTP Layout Optimisation" },
   { label: "Propulsion Redesign", value: "367%", description: "Range Increase — NAVIS Autonomous Propulsion Redesign" },
   { label: "Professional Leadership", value: "Board Member", description: "IPMA Young Crew Australia" },
 ];
