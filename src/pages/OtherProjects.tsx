@@ -15,6 +15,7 @@ interface StarProject {
   action: string;
   result: string;
   techStack: string[];
+  media?: { type: "image" | "video"; src: string; caption: string }[];
 }
 
 const projects: StarProject[] = [
