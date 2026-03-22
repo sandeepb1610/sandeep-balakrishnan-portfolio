@@ -164,7 +164,7 @@ const NbnDeepDive = () => {
                       <img src={siteMapImg} alt="Optimized FTTP routing layout map" className="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                      Placeholder — Optimized FTTP Site Layout
+                      BNTD Installation and Integration in Fibre Rack
                     </p>
                   </motion.div>
                   <motion.div
