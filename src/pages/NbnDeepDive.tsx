@@ -21,7 +21,7 @@ const nbnSpecs = [
   },
   {
     label: "Project Tools",
-    items: ["MS Project (Scheduling)", "GIS Mapping", "SWMS Authoring", "Stakeholder Reporting"],
+    items: ["MS Project (Scheduling)", "GIS Mapping", "Pre Start Authoring", "Stakeholder Reporting"],
   },
 ];
 
