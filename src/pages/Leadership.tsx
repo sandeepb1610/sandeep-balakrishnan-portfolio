@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Award, BookOpen, ExternalLink, Users, Download, Calendar } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import leadershipImg from "@/assets/leadership-presenting.jpg";
-import nasaAdsImg from "@/assets/nasa-ads-citation.png";
-import eventImg from "@/assets/leadership-event.jpg";
+import ipmaEmblem from "@/assets/emblem-ipma.png";
+import waEngEmblem from "@/assets/emblem-wa-engineering.png";
+import nasaAdsEmblem from "@/assets/emblem-nasa-ads.png";
 
 const Leadership = () => {
   return (
@@ -39,13 +39,13 @@ const Leadership = () => {
                 transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
               >
                 <div
-                  className="rounded-[12px] overflow-hidden"
+                  className="rounded-[12px] bg-card flex items-center justify-center p-12 aspect-square"
                   style={{ boxShadow: "var(--shadow-card)" }}
                 >
                   <img
-                    src={leadershipImg}
-                    alt="Sandeep Balakrishnan presenting at a professional event"
-                    className="w-full h-auto object-cover aspect-video"
+                    src={ipmaEmblem}
+                    alt="IPMA International Project Management Association emblem"
+                    className="w-3/4 h-auto object-contain"
                     loading="lazy"
                   />
                 </div>
@@ -141,19 +141,16 @@ const Leadership = () => {
                 transition={{ duration: 0.5, delay: 0.1, ease: [0.2, 0, 0, 1] }}
               >
                 <div
-                  className="rounded-[12px] overflow-hidden"
+                  className="rounded-[12px] bg-background flex items-center justify-center p-12 aspect-square"
                   style={{ boxShadow: "var(--shadow-card)" }}
                 >
                   <img
-                    src={eventImg}
-                    alt="Professional engineering networking event"
-                    className="w-full h-auto object-cover aspect-video"
+                    src={waEngEmblem}
+                    alt="Western Australia Engineering Community emblem"
+                    className="w-3/4 h-auto object-contain"
                     loading="lazy"
                   />
                 </div>
-                <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                  Placeholder — Leadership Event Photo
-                </p>
               </motion.div>
             </div>
           </div>
@@ -170,19 +167,16 @@ const Leadership = () => {
                 transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
               >
                 <div
-                  className="rounded-[12px] overflow-hidden"
+                  className="rounded-[12px] bg-card flex items-center justify-center p-12 aspect-square"
                   style={{ boxShadow: "var(--shadow-card)" }}
                 >
                   <img
-                    src={nasaAdsImg}
-                    alt="NASA ADS citation footer showing SAO Astrophysics Data System, Smithsonian Institution, Center for Astrophysics, and NASA Partner logos"
-                    className="w-full h-auto object-contain"
+                    src={nasaAdsEmblem}
+                    alt="NASA Astrophysics Data System emblem"
+                    className="w-3/4 h-auto object-contain"
                     loading="lazy"
                   />
                 </div>
-                <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                  NASA ADS — Smithsonian Astrophysical Observatory Citation Index
-                </p>
               </motion.div>
 
               <motion.div
