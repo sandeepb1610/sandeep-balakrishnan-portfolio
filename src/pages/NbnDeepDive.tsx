@@ -285,7 +285,7 @@ const NbnDeepDive = () => {
                     High-Risk Safety Governance
                   </p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Authored and audited Safe Work Method Statements (SWMS) for fiber deployment and civil excavation. Maintained a zero-incident record across all project phases.
+                    Authored Pre Starts and audited Safe Work Method Statements (SWMS) for fiber deployment and civil excavation. Maintained a zero-incident record across all project phases.
                   </p>
                 </div>
               </motion.div>

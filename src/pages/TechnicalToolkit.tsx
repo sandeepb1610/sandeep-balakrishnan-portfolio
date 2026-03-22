@@ -62,7 +62,7 @@ const pillars: Pillar[] = [
     skills: [
       { name: "WA White Card" },
       { name: "AS 4024", level: "Machine Safety" },
-      { name: "SWMS Authoring" },
+      { name: "Pre Start Authoring" },
       { name: "ISO 45001 Compliance" },
     ],
   },
