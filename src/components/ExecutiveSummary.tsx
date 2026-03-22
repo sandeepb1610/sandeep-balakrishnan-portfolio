@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroImage from "@/assets/hero-action-shot.jpg";
+import heroImage from "@/assets/onsite-leadership.jpg";
 
 const ExecutiveSummary = () => {
   return (
@@ -62,13 +62,13 @@ const ExecutiveSummary = () => {
             className="relative"
           >
             <div
-              className="rounded-[12px] overflow-hidden"
+              className="rounded-[12px] overflow-hidden h-full"
               style={{ boxShadow: "var(--shadow-card)" }}
             >
               <img
                 src={heroImage}
-                alt="Sandeep Balakrishnan on-site in high-visibility PPE"
-                className="w-full h-auto"
+                alt="Sandeep Balakrishnan on-site conducting maintenance work"
+                className="w-full h-full object-cover"
                 loading="lazy"
               />
             </div>
