@@ -29,6 +29,7 @@ const App = () => (
           <Route path="/projects/nbn-fttp-mandurah" element={<NbnDeepDive />} />
           <Route path="/projects/navis-autonomous" element={<NavisDeepDive />} />
           <Route path="/projects/quadruped-robot" element={<QuadrupedDeepDive />} />
+          <Route path="/projects/other" element={<OtherProjects />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
