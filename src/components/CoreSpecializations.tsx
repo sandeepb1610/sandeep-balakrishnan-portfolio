@@ -5,7 +5,7 @@ const specializations = [
   {
     icon: Cog,
     title: "Mechanical Innovation",
-    description: "Advanced design, prototyping, and manufacturing process optimization.",
+    description: "Advanced design, prototyping, and manufacturing process optimisation.",
   },
   {
     icon: ShieldCheck,
