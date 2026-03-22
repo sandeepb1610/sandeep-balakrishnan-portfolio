@@ -58,32 +58,6 @@ const projects: StarProject[] = [
       { type: "image", src: waterproofExploded, caption: "Waterproofing Assembly — Exploded View" },
     ],
   },
-  {
-    title: "Structural Load Analysis for Modular Housing",
-    category: "Civil & Structural Engineering",
-    situation:
-      "A modular housing developer needed to validate that their prefabricated steel-frame modules could withstand regional wind and seismic loading conditions before commencing production.",
-    task:
-      "Perform comprehensive structural analysis on the modular frame design and provide engineering sign-off documentation compliant with AS/NZS 1170 loading standards.",
-    action:
-      "Created detailed FEA models of the modular frame system, simulating wind, dead, live, and seismic load combinations. Identified two critical connection points requiring reinforcement and proposed redesigned brackets. Prepared a formal engineering assessment report for regulatory submission.",
-    result:
-      "All modules passed structural compliance review on first submission. Reinforced connections reduced peak stress by 34%. Design approved for production of 150+ units.",
-    techStack: ["FEA / FEM", "SolidWorks Simulation", "AS/NZS 1170", "Steel Design"],
-  },
-  {
-    title: "Supply Chain Optimisation Tool",
-    category: "Operations & Logistics",
-    situation:
-      "A mid-size distributor faced frequent stockouts and overstock situations due to fragmented demand forecasting across 8 regional warehouses, resulting in $2.1M in annual carrying costs.",
-    task:
-      "Develop an inventory optimisation model that balances service levels against holding costs and integrates with the existing ERP system.",
-    action:
-      "Built a demand forecasting model using historical sales data and seasonal decomposition. Implemented a safety-stock calculator with configurable service-level targets. Delivered a prototype dashboard for warehouse managers to visualise stock health and reorder recommendations.",
-    result:
-      "Reduced carrying costs by 22% ($462K annually) while maintaining a 97.5% service level. Stockout incidents decreased by 60% in the first quarter after deployment.",
-    techStack: ["Python", "Forecasting Models", "ERP Integration", "Data Analysis"],
-  },
 ];
 
 const starIcons = {
