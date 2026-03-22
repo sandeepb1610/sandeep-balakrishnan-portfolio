@@ -181,7 +181,7 @@ const NbnDeepDive = () => {
 
               {/* Technical Specs Sidebar */}
               <div className="lg:col-span-4">
-                <TechSpecsSidebar specs={nbnSpecs} cadCaption="Placeholder — Site Layout Drawing" />
+                <TechSpecsSidebar specs={nbnSpecs} cadImage={nbnFieldCadImg} cadImageAlt="Field Engineering — NBN FTTP Mandurah" cadCaption="Field Engineering — NBN FTTP Mandurah" />
               </div>
             </div>
           </div>
