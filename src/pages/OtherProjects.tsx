@@ -22,6 +22,7 @@ interface StarProject {
   action: string;
   result: string;
   techStack: string[];
+  note?: string;
   media?: { type: "image" | "video"; src: string; caption: string }[];
 }
 
