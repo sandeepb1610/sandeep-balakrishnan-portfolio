@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
 import { ArrowLeft, Target, Wrench, Zap, CheckCircle, ImageIcon, Play } from "lucide-react";
+import waterproofAssembly1 from "@/assets/waterproof-assembly-1.png";
+import waterproofAssembly2 from "@/assets/waterproof-assembly-2.png";
+import waterproofExploded from "@/assets/waterproof-exploded-view.png";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
