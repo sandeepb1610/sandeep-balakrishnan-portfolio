@@ -3,6 +3,9 @@ import { ArrowLeft, Target, Wrench, Zap, CheckCircle, ImageIcon, Play } from "lu
 import waterproofAssembly1 from "@/assets/waterproof-assembly-1.png";
 import waterproofAssembly2 from "@/assets/waterproof-assembly-2.png";
 import waterproofExploded from "@/assets/waterproof-exploded-view.png";
+import lteGatewayExploded from "@/assets/lte-gateway-exploded.png";
+import lteGatewayPcb from "@/assets/lte-gateway-pcb.png";
+import lteGatewayShell from "@/assets/lte-gateway-shell.png";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
