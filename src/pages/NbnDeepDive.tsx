@@ -161,7 +161,7 @@ const NbnDeepDive = () => {
                     transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
                   >
                     <div className="rounded-[12px] overflow-hidden" style={{ boxShadow: "var(--shadow-card)" }}>
-                      <img src={siteMapImg} alt="Optimized FTTP routing layout map" className="w-full h-auto object-cover aspect-video" loading="lazy" />
+                      <img src={siteMapImg} alt="Optimized FTTP routing layout map" className="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
                       Placeholder — Optimized FTTP Site Layout
