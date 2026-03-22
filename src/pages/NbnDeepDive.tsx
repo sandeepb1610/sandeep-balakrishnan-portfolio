@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowLeft, TrendingUp, Clock, DollarSign } from "lucide-react";
 import otdrTestImg from "@/assets/nbn-otdr-test.jpg";
+import trafficPermitImg from "@/assets/nbn-traffic-permit.jpg";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -241,15 +242,8 @@ const NbnDeepDive = () => {
                 className="bg-card rounded-[12px] overflow-hidden flex flex-col"
                 style={{ boxShadow: "var(--shadow-card)" }}
               >
-                <div className="aspect-[16/10] bg-secondary flex items-center justify-center">
-                  <div className="text-center px-4">
-                    <svg className="w-10 h-10 text-muted-foreground/30 mx-auto mb-2" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 00-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0z" />
-                    </svg>
-                    <p className="font-mono text-[10px] text-muted-foreground/50 uppercase tracking-wider">
-                      CAD Traffic Layout
-                    </p>
-                  </div>
+                <div className="aspect-[16/10] overflow-hidden">
+                  <img src={trafficPermitImg} alt="Penetration Permit — Traffic Management" className="w-full h-full object-cover object-top" loading="lazy" />
                 </div>
                 <div className="p-5 flex-1 flex flex-col">
                   <p className="font-mono text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
@@ -259,7 +253,7 @@ const NbnDeepDive = () => {
                     Urban Infrastructure Access
                   </p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Authored and coordinated Traffic Guidance Schemes (TGS) in compliance with WA Main Roads standards. Managed local council permits for high-traffic urban work zones.
+                    Authored and coordinated Traffic Guidance Schemes (TGS) in compliance with WA Main Roads standards. Managed permits for high-traffic urban work zones.
                   </p>
                 </div>
               </motion.div>
