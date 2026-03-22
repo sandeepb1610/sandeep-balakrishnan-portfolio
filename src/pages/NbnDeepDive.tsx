@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ArrowLeft, TrendingUp, Clock, DollarSign } from "lucide-react";
 import otdrTestImg from "@/assets/nbn-otdr-test.jpg";
+import trafficPermitImg from "@/assets/nbn-traffic-permit.jpg";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
