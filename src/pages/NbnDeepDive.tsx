@@ -39,7 +39,7 @@ const starSections = [
     letter: "T",
     title: "Task",
     content:
-      "Coordinate multi-crew field deployment across concurrent work fronts while optimizing spatial layouts to minimize civil disruption. Responsible for end-to-end delivery including site surveys, layout design, Pre Start authoring, and quality assurance sign-off.",
+      "Coordinate multi-crew field deployment across concurrent work fronts while optimising spatial layouts to minimise civil disruption. Responsible for end-to-end delivery including site surveys, layout design, Pre Start authoring, and quality assurance sign-off.",
   },
   {
     letter: "A",
