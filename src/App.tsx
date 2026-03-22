@@ -10,6 +10,7 @@ import Leadership from "./pages/Leadership.tsx";
 import NbnDeepDive from "./pages/NbnDeepDive.tsx";
 import NavisDeepDive from "./pages/NavisDeepDive.tsx";
 import QuadrupedDeepDive from "./pages/QuadrupedDeepDive.tsx";
+import OtherProjects from "./pages/OtherProjects.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
