@@ -189,10 +189,10 @@ const NavisDeepDive = () => {
                     transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
                   >
                     <div className="rounded-[12px] overflow-hidden" style={{ boxShadow: "var(--shadow-card)" }}>
-                      <img src={propulsionImg} alt="NAVIS propulsion system — motor, gearbox, steering mechanism and propeller" className="w-full h-auto object-contain" loading="lazy" />
+                      <img src={propulsionImg} alt="Cross-sectional view of the NAVIS propulsion system in SolidWorks" className="w-full h-auto object-contain" loading="lazy" />
                     </div>
                     <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                      Propulsion System
+                      Cross-Sectional View — Propulsion System
                     </p>
                   </motion.div>
                   <motion.div
