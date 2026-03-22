@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowLeft, Target, Wrench, Zap, CheckCircle, ImageIcon, Play } from "lucide-react";
+import { ArrowLeft, Target, Wrench, Zap, CheckCircle, ImageIcon, Play, Info } from "lucide-react";
 import waterproofAssembly1 from "@/assets/waterproof-assembly-1.png";
 import waterproofAssembly2 from "@/assets/waterproof-assembly-2.png";
 import waterproofExploded from "@/assets/waterproof-exploded-view.png";
