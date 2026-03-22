@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import heroImage from "@/assets/hero-action-shot.jpg";
+import heroImage from "@/assets/onsite-leadership.jpg";
 
 const ExecutiveSummary = () => {
   return (
