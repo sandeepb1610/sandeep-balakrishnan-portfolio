@@ -7,6 +7,7 @@ import TechSpecsSidebar from "@/components/TechSpecsSidebar";
 import TechDocGrid from "@/components/TechDocGrid";
 import siteMapImg from "@/assets/nbn-site-map.jpg";
 import fieldTeamImg from "@/assets/nbn-field-team.jpg";
+import nbnFieldCadImg from "@/assets/nbn-field-cad.jpg";
 
 const nbnSpecs = [
   {
@@ -180,7 +181,7 @@ const NbnDeepDive = () => {
 
               {/* Technical Specs Sidebar */}
               <div className="lg:col-span-4">
-                <TechSpecsSidebar specs={nbnSpecs} cadCaption="Placeholder — Site Layout Drawing" />
+                <TechSpecsSidebar specs={nbnSpecs} cadImage={nbnFieldCadImg} cadImageAlt="Field Engineering — NBN FTTP Mandurah" cadCaption="Field Engineering — NBN FTTP Mandurah" />
               </div>
             </div>
           </div>
