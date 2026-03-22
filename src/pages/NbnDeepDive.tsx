@@ -21,7 +21,7 @@ const nbnSpecs = [
   },
   {
     label: "Project Tools",
-    items: ["MS Project (Scheduling)", "GIS Mapping", "SWMS Authoring", "Stakeholder Reporting"],
+    items: ["MS Project (Scheduling)", "GIS Mapping", "Pre Start Authoring", "Stakeholder Reporting"],
   },
 ];
 
@@ -36,7 +36,7 @@ const starSections = [
     letter: "T",
     title: "Task",
     content:
-      "Coordinate multi-crew field deployment across concurrent work fronts while optimizing spatial layouts to minimize civil disruption. Responsible for end-to-end delivery including site surveys, layout design, SWMS authoring, and quality assurance sign-off.",
+      "Coordinate multi-crew field deployment across concurrent work fronts while optimizing spatial layouts to minimize civil disruption. Responsible for end-to-end delivery including site surveys, layout design, Pre Start authoring, and quality assurance sign-off.",
   },
   {
     letter: "A",
@@ -285,7 +285,7 @@ const NbnDeepDive = () => {
                 </div>
                 <div className="p-5 flex-1 flex flex-col">
                   <p className="font-mono text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
-                    Safety Systems & SWMS Authoring
+                    Safety Systems & Pre Start Authoring
                   </p>
                   <p className="text-foreground font-semibold text-sm mb-3">
                     High-Risk Safety Governance
