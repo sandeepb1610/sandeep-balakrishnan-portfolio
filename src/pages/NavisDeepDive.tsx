@@ -296,18 +296,19 @@ const NavisDeepDive = () => {
                 transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
               >
                 <div
-                  className="rounded-[12px] overflow-hidden"
+                  className="rounded-[12px] overflow-hidden bg-secondary aspect-video"
                   style={{ boxShadow: "var(--shadow-card)" }}
                 >
-                  <img
-                    src={cfdImg}
-                    alt="Real-world testing of NAVIS in aquaculture pond environment"
-                    className="w-full h-auto object-cover aspect-video"
-                    loading="lazy"
+                  <video
+                    src="/videos/navis-propulsion-test.mp4"
+                    controls
+                    playsInline
+                    preload="metadata"
+                    className="w-full h-full object-cover"
                   />
                 </div>
                 <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                  Placeholder — Real-World Testing Photo
+                  NAVIS Prototype 1 — Propulsion and Path Planning Test
                 </p>
               </motion.div>
             </div>
