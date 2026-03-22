@@ -167,19 +167,16 @@ const Leadership = () => {
                 transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
               >
                 <div
-                  className="rounded-[12px] overflow-hidden"
+                  className="rounded-[12px] bg-card flex items-center justify-center p-12 aspect-square"
                   style={{ boxShadow: "var(--shadow-card)" }}
                 >
                   <img
-                    src={nasaAdsImg}
-                    alt="NASA ADS citation footer showing SAO Astrophysics Data System, Smithsonian Institution, Center for Astrophysics, and NASA Partner logos"
-                    className="w-full h-auto object-contain"
+                    src={nasaAdsEmblem}
+                    alt="NASA Astrophysics Data System emblem"
+                    className="w-3/4 h-auto object-contain"
                     loading="lazy"
                   />
                 </div>
-                <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                  NASA ADS — Smithsonian Astrophysical Observatory Citation Index
-                </p>
               </motion.div>
 
               <motion.div
