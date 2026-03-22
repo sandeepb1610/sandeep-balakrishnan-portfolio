@@ -58,7 +58,7 @@ const starSections = [
 const results = [
   { icon: Clock, value: "23%", label: "Job Duration Reduction" },
   { icon: DollarSign, value: "15%", label: "Profit Increase" },
-  { icon: TrendingUp, value: "FTTP", label: "Layout Optimization" },
+  { icon: TrendingUp, value: "FTTP", label: "Layout Optimisation" },
 ];
 
 const NbnDeepDive = () => {

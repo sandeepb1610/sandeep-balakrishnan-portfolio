@@ -29,7 +29,7 @@ const CoreSpecializations = () => {
           viewport={{ once: true }}
           className="heading-l2 mb-10 text-center"
         >
-          Core Specializations
+          Core Specialisations
         </motion.p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

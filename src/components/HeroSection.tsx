@@ -42,7 +42,7 @@ const HeroSection = () => {
               transition={{ duration: 0.5, delay: 0.08, ease: [0.2, 0, 0, 1] }}
               className="text-lg text-muted-foreground mt-6 max-w-xl leading-relaxed"
             >
-              Specializing in the Design-Build-Test cycle for high-stakes
+              Specialising in the Design-Build-Test cycle for high-stakes
               industrial hardware in Western Australia.
             </motion.p>
 

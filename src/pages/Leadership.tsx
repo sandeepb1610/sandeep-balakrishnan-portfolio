@@ -225,7 +225,7 @@ const Leadership = () => {
               className="text-2xl md:text-3xl font-bold text-primary-foreground tracking-tight max-w-3xl mx-auto mb-8"
             >
               Ready to discuss how my technical design and project governance skills
-              can optimize your next project?
+              can optimise your next project?
             </motion.h2>
             <motion.div
               initial={{ opacity: 0, y: 12 }}
