@@ -1,4 +1,5 @@
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import ExecutiveSummary from "@/components/ExecutiveSummary";
 import CoreSpecializations from "@/components/CoreSpecializations";
@@ -12,6 +13,7 @@ const Index = () => {
       <ExecutiveSummary />
       <CoreSpecializations />
       <TrustedBy />
+      <Footer />
     </div>
   );
 };

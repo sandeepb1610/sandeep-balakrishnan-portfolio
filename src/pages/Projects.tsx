@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import ProjectCard, { type ProjectData } from "@/components/ProjectCard";
 import nbnImage from "@/assets/project-nbn-mandurah.jpg";
 import navisImage from "@/assets/project-navis.jpg";
@@ -84,6 +85,7 @@ const Projects = () => {
           </motion.div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };
