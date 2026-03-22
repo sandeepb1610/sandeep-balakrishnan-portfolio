@@ -248,24 +248,19 @@ const NavisDeepDive = () => {
               className="mb-10"
             >
               <div
-                className="relative aspect-video bg-secondary rounded-[12px] overflow-hidden flex items-center justify-center"
+                className="relative aspect-video bg-secondary rounded-[12px] overflow-hidden"
                 style={{ boxShadow: "var(--shadow-card)" }}
               >
-                {/* Replace with <video> when asset is available */}
-                <div className="text-center px-6">
-                  <div className="w-16 h-16 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-4">
-                    <svg className="w-7 h-7 text-primary ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
-                  </div>
-                  <p className="font-mono text-sm text-muted-foreground uppercase tracking-wider">
-                    Full-System Demo Video
-                  </p>
-                  <p className="font-mono text-[11px] text-muted-foreground/60 mt-1">
-                    Placeholder
-                  </p>
-                </div>
+                <video
+                  src="/videos/navis-product-testing.mp4"
+                  controls
+                  playsInline
+                  preload="metadata"
+                  className="w-full h-full object-cover"
+                />
               </div>
-              <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center">
-                Validation Testing: Achieving 14m dispensing range in high-salinity environments.
+              <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
+                Product Performance Testing
               </p>
             </motion.div>
 
