@@ -126,6 +126,34 @@ const NavisDeepDive = () => {
               ))}
             </motion.div>
 
+            {/* Product Specs */}
+            <motion.div
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: 0.15, ease: [0.2, 0, 0, 1] }}
+              className="bg-card rounded-[12px] p-6 mb-16"
+              style={{ boxShadow: "var(--shadow-card)" }}
+            >
+              <h3 className="heading-l2 mb-4">Product Specifications</h3>
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+                {[
+                  { icon: Package, label: "Feed Payload", value: "100 kg" },
+                  { icon: Anchor, label: "Charging", value: "Autonomous recharging from dock" },
+                  { icon: Battery, label: "Battery Capacity", value: "36,000 mAh (36 Ah) Lead-Acid" },
+                ].map((spec) => (
+                  <div key={spec.label} className="flex items-start gap-3">
+                    <div className="w-9 h-9 rounded-md bg-secondary flex items-center justify-center shrink-0 mt-0.5">
+                      <spec.icon className="w-4 h-4 text-foreground" />
+                    </div>
+                    <div>
+                      <p className="text-xs font-mono uppercase tracking-widest text-muted-foreground mb-1">{spec.label}</p>
+                      <p className="text-sm font-semibold text-foreground">{spec.value}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+
             {/* Content + Sidebar Grid */}
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
               {/* Main Content */}
