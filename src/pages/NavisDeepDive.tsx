@@ -12,7 +12,7 @@ import TechDocGrid from "@/components/TechDocGrid";
 import propulsionImg from "@/assets/navis-propulsion-cross-section.png";
 import cfdImg from "@/assets/navis-cfd-simulation.jpg";
 import explodedViewImg from "@/assets/navis-exploded-view.png";
-import augerImg from "@/assets/navis-auger-cross-section.png";
+import augerImg from "@/assets/navis-dispensing-cross-section.png";
 
 const navisSpecs = [
   {
