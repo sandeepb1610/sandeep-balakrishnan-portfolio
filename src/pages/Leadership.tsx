@@ -158,15 +158,12 @@ const Leadership = () => {
                 transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
               >
                 <div
-                  className="rounded-[12px] bg-card flex items-center justify-center p-12 aspect-square"
+                  className="rounded-[12px] bg-card flex items-center justify-center aspect-square"
                   style={{ boxShadow: "var(--shadow-card)" }}
                 >
-                  <img
-                    src={nasaAdsEmblem}
-                    alt="NASA Astrophysics Data System emblem"
-                    className="w-3/4 h-auto object-contain"
-                    loading="lazy"
-                  />
+                  <div className="w-28 h-28 rounded-full bg-secondary flex items-center justify-center">
+                    <Atom className="w-14 h-14 text-foreground" strokeWidth={1.2} />
+                  </div>
                 </div>
               </motion.div>
 
