@@ -85,6 +85,7 @@ const Projects = () => {
           </motion.div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };
