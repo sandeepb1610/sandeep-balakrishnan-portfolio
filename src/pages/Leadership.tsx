@@ -66,7 +66,7 @@ const Leadership = () => {
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-6">
                   Responsibilities include strategic planning for young professional development
-                  programs, organizing industry workshops, and representing Australian engineering
+                  programs, organising industry workshops, and representing Australian engineering
                   talent on the global IPMA stage.
                 </p>
 
