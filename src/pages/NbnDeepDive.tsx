@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowLeft, TrendingUp, Clock, DollarSign } from "lucide-react";
+import otdrTestImg from "@/assets/nbn-otdr-test.jpg";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -358,15 +359,11 @@ const NbnDeepDive = () => {
                       ))}
                     </div>
                   </div>
-                  <div className="w-full md:w-64 aspect-[4/3] bg-secondary rounded-[8px] flex items-center justify-center shrink-0">
-                    <div className="text-center px-4">
-                      <svg className="w-10 h-10 text-muted-foreground/30 mx-auto mb-2" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5" />
-                      </svg>
-                      <p className="font-mono text-[10px] text-muted-foreground/50 uppercase tracking-wider">
-                        OTDR Trace / PON Test
-                      </p>
-                    </div>
+                  <div className="w-full md:w-64 rounded-[8px] overflow-hidden shrink-0">
+                    <img src={otdrTestImg} alt="OTDR trace analysis on fiber distribution frame" className="w-full h-auto object-cover object-[center_25%] aspect-[4/3]" loading="lazy" />
+                    <p className="font-mono text-[10px] text-muted-foreground mt-2 tracking-wider text-center uppercase">
+                      OTDR Trace — Fiber Distribution Frame
+                    </p>
                   </div>
                 </div>
               </motion.div>
