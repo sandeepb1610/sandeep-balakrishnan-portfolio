@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Award, BookOpen, ExternalLink, Users, Download, Calendar, Globe, Wrench, Atom } from "lucide-react";
+import { Award, BookOpen, ExternalLink, Users, Download, Globe, Wrench, Atom } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
