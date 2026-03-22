@@ -23,17 +23,22 @@ interface StarProject {
 
 const projects: StarProject[] = [
   {
-    title: "Automated Quality Inspection System",
-    category: "Industrial Automation",
+    title: "Waterproof LTE Gateway with Integrated Display",
+    category: "Product Design & RF Engineering",
     situation:
-      "A manufacturing facility experienced a 12% defect rate on its production line due to inconsistent manual inspection processes, leading to significant material waste and rework costs.",
+      "Field-deployed IoT and telemetry systems required reliable LTE connectivity in remote or exposed environments. Conventional gateway enclosures relied on external antenna mounts to achieve adequate signal range, introducing additional failure points, increasing installation complexity, and compromising the IP rating of the enclosure at cable penetration interfaces.",
     task:
-      "Design and implement an automated inspection system capable of detecting surface-level defects in real time, reducing the defect pass-through rate to below 2%.",
+      "Design a self-contained, IP-rated LTE gateway enclosure with an integrated display that eliminates the need for external antennas while maintaining or exceeding the signal range of legacy antenna-based configurations. The solution must be manufacturable via injection moulding, field-serviceable, and accommodate a Raspberry Pi compute module with LTE modem and circular PCB antenna arrays.",
     action:
-      "Developed a vision-based inspection station using industrial cameras and custom image-processing algorithms. Integrated the system into the existing conveyor infrastructure with minimal downtime. Conducted iterative calibration and validation testing across 5,000+ sample units.",
+      "Performed RF propagation analysis to determine that a curved, dome-profile enclosure geometry could function as a passive signal reflector, concentrating radiated energy in the desired coverage pattern without external antenna elements. Designed the two-part clamshell enclosure in SolidWorks with integrated PCB mounting bosses, display window cutout, and cable gland provisions. Specified RF-transparent ASA plastic for the upper shell to minimise signal attenuation. Validated mechanical integrity under IEC 60529 ingress protection testing and conducted comparative field range testing against the legacy external-antenna configuration.",
     result:
-      "Reduced defect pass-through rate to 1.4%, saving an estimated $180K annually in rework and scrap costs. System processed 120 units/hour with 98.6% accuracy.",
-    techStack: ["Machine Vision", "PLC Integration", "Python", "OpenCV"],
+      "Achieved equivalent LTE signal range to the previous external-antenna design while eliminating all external antenna hardware. Reduced bill-of-materials cost by 30% and installation time by 45%. The sealed dome profile achieved IP66 compliance with zero ingress across accelerated weathering and spray tests. Design approved for volume production across the full gateway product line.",
+    techStack: ["SolidWorks", "RF Analysis", "Injection Moulding", "IP66 Design", "ASA Plastic", "Raspberry Pi"],
+    media: [
+      { type: "image", src: lteGatewayExploded, caption: "LTE Gateway — Exploded Assembly View" },
+      { type: "image", src: lteGatewayPcb, caption: "LTE Gateway — PCB & Internal Component Layout" },
+      { type: "image", src: lteGatewayShell, caption: "LTE Gateway — Enclosure Shell Profile" },
+    ],
   },
   {
     title: "Waterproof Enclosure for Subsea Motor Assembly",
@@ -78,24 +83,6 @@ const projects: StarProject[] = [
     result:
       "Reduced carrying costs by 22% ($462K annually) while maintaining a 97.5% service level. Stockout incidents decreased by 60% in the first quarter after deployment.",
     techStack: ["Python", "Forecasting Models", "ERP Integration", "Data Analysis"],
-  },
-  {
-    title: "Waterproof LTE Gateway with Integrated Display",
-    category: "Product Design & RF Engineering",
-    situation:
-      "Field-deployed IoT and telemetry systems required reliable LTE connectivity in remote or exposed environments. Conventional gateway enclosures relied on external antenna mounts to achieve adequate signal range, introducing additional failure points, increasing installation complexity, and compromising the IP rating of the enclosure at cable penetration interfaces.",
-    task:
-      "Design a self-contained, IP-rated LTE gateway enclosure with an integrated display that eliminates the need for external antennas while maintaining or exceeding the signal range of legacy antenna-based configurations. The solution must be manufacturable via injection moulding, field-serviceable, and accommodate a Raspberry Pi compute module with LTE modem and circular PCB antenna arrays.",
-    action:
-      "Performed RF propagation analysis to determine that a curved, dome-profile enclosure geometry could function as a passive signal reflector, concentrating radiated energy in the desired coverage pattern without external antenna elements. Designed the two-part clamshell enclosure in SolidWorks with integrated PCB mounting bosses, display window cutout, and cable gland provisions. Specified RF-transparent ASA plastic for the upper shell to minimise signal attenuation. Validated mechanical integrity under IEC 60529 ingress protection testing and conducted comparative field range testing against the legacy external-antenna configuration.",
-    result:
-      "Achieved equivalent LTE signal range to the previous external-antenna design while eliminating all external antenna hardware. Reduced bill-of-materials cost by 30% and installation time by 45%. The sealed dome profile achieved IP66 compliance with zero ingress across accelerated weathering and spray tests. Design approved for volume production across the full gateway product line.",
-    techStack: ["SolidWorks", "RF Analysis", "Injection Moulding", "IP66 Design", "ASA Plastic", "Raspberry Pi"],
-    media: [
-      { type: "image", src: lteGatewayExploded, caption: "LTE Gateway — Exploded Assembly View" },
-      { type: "image", src: lteGatewayPcb, caption: "LTE Gateway — PCB & Internal Component Layout" },
-      { type: "image", src: lteGatewayShell, caption: "LTE Gateway — Enclosure Shell Profile" },
-    ],
   },
 ];
 
