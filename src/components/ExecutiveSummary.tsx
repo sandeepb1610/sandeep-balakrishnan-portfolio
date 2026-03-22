@@ -26,28 +26,37 @@ const ExecutiveSummary = () => {
               Design — Build — Test
             </h2>
             <p className="text-muted-foreground leading-relaxed text-base mb-4">
-              With a foundation built on the complete Design-Build-Test lifecycle,
-              I bring disciplined engineering methodology to every project phase — 
-              from feasibility studies and concept design through to fabrication
-              oversight, commissioning, and handover.
+              A uniquely dual-qualified engineer combining deep technical expertise with
+              executive-level commercial acumen. With a foundation built on the complete
+              Design-Build-Test lifecycle, I deliver disciplined engineering methodology
+              across every project phase — from feasibility studies and concept design
+              through fabrication oversight, commissioning, and operational handover.
             </p>
             <p className="text-muted-foreground leading-relaxed text-base mb-4">
-              My approach integrates rigorous risk assessment with lean project
-              delivery, ensuring capital projects meet both technical
-              specifications and commercial KPIs. I specialize in translating
-              complex stakeholder requirements into executable engineering
-              scopes.
+              My approach integrates rigorous risk assessment with lean project delivery,
+              ensuring capital projects consistently meet technical specifications,
+              safety mandates, and commercial KPIs. I specialize in translating complex
+              stakeholder requirements into executable engineering scopes that drive
+              measurable outcomes.
+            </p>
+            <p className="text-muted-foreground leading-relaxed text-base mb-4">
+              Holding a <span className="font-semibold text-foreground">Master of Project Management</span> from{" "}
+              <span className="font-semibold text-foreground">Curtin University</span> and an{" "}
+              <span className="font-semibold text-foreground">Executive MBA</span> from the{" "}
+              <span className="font-semibold text-foreground">Swiss School of Business and Management</span>,
+              I bring a rare convergence of mechanical engineering depth, governance
+              expertise, and strategic business thinking — enabling me to bridge the gap
+              between workshop floor execution and boardroom decision-making.
             </p>
             <p className="text-muted-foreground leading-relaxed text-base mb-6">
-              I hold a <span className="font-semibold text-foreground">Master of Project Management</span> from{" "}
-              <span className="font-semibold text-foreground">Curtin University</span>, complementing
-              my mechanical engineering background with advanced competencies in
-              governance, procurement strategy, and schedule optimization.
+              This combination of technical, project management, and business leadership
+              competencies ensures I don't just deliver projects — I deliver them on time,
+              within budget, and aligned to broader organisational strategy.
             </p>
             <div className="flex items-center gap-3 mt-8">
               <div className="h-px flex-1 bg-border" />
               <span className="font-mono text-xs text-muted-foreground tracking-widest uppercase">
-                MPM — Curtin University, Perth WA
+                B.Tech · MPM (Curtin) · EMBA (SSBM Geneva)
               </span>
               <div className="h-px flex-1 bg-border" />
             </div>
