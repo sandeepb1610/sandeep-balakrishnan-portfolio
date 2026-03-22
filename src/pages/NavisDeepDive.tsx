@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowLeft, Globe, TrendingUp, Wrench, DollarSign } from "lucide-react";
+import { ArrowLeft, Globe, TrendingUp, Wrench, DollarSign, Battery, Anchor, Package } from "lucide-react";
 import bomImg from "@/assets/navis-bom.png";
 import wireHarnessImg from "@/assets/navis-wire-harness.png";
 import kaizenImg from "@/assets/navis-kaizen.png";
