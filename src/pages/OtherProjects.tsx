@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowLeft, Target, Wrench, Zap, CheckCircle, ImageIcon, Play } from "lucide-react";
+import { ArrowLeft, Target, Wrench, Zap, CheckCircle, ImageIcon, Play, Info } from "lucide-react";
 import waterproofAssembly1 from "@/assets/waterproof-assembly-1.png";
 import waterproofAssembly2 from "@/assets/waterproof-assembly-2.png";
 import waterproofExploded from "@/assets/waterproof-exploded-view.png";
@@ -22,6 +22,7 @@ interface StarProject {
   action: string;
   result: string;
   techStack: string[];
+  note?: string;
   media?: { type: "image" | "video"; src: string; caption: string }[];
 }
 
@@ -71,8 +72,10 @@ const projects: StarProject[] = [
       "Validate the structural integrity of the base frame, connecting frame, support rod, and top metalstrip assemblies under simulated operational loads. Confirm that peak von Mises stress remained well below the AISI 304 yield strength (2.068 × 10⁸ N/m²) and that total displacement stayed within tolerances to prevent sensor misalignment or mechanical interference.",
     action:
       "Modelled all frame assemblies in SolidWorks, assigning AISI 304 Stainless Steel properties for corrosion resistance and structural stiffness. Applied distributed mass loads and gravity (9.81 m/s²) to simulate tray weight and internal components, with fixed geometry constraints at mounting points. Conducted Static Linear Analysis across four sub-assemblies — base frame, connecting frame, support rod, and top metalstrip — evaluating von Mises stress distribution, equivalent strain (ESTRN), and resultant displacement (URES). Used exaggerated deformation scales (up to 520×) as a visualisation tool to identify potential failure modes and buckling-prone regions.",
+    note:
+      "Interpreting FEA Visualisation: The Deformation Scale in these analyses is set to approximately 520×. This is a standard visualisation technique used to exaggerate the shape and direction of displacement to identify potential failure modes. While the visuals suggest significant bending, the actual physical displacement is less than 1 mm — confirming the assembly remains rigid and structurally sound for its intended application.",
     result:
-      "Peak von Mises stress (1.472 × 10⁷ N/m² on the base frame) confirmed a safety factor exceeding 14× against yield. Maximum displacement remained under 1 mm across all assemblies (0.16 mm base frame, 0.87 mm connecting frame), verifying zero impact on sensor accuracy. Analysis validated the design for prototyping, significantly reducing the risk of structural failure in the field. Note: deformation visuals are exaggerated for diagnostic purposes — actual physical displacement is sub-millimetre.",
+      "Peak von Mises stress (1.472 × 10⁷ N/m² on the base frame) confirmed a safety factor exceeding 14× against yield. Maximum displacement remained under 1 mm across all assemblies (0.16 mm base frame, 0.87 mm connecting frame), verifying zero impact on sensor accuracy. Analysis validated the design for prototyping, significantly reducing the risk of structural failure in the field.",
     techStack: ["SolidWorks Simulation", "Static FEA", "AISI 304 Stainless Steel", "Von Mises Analysis", "URES Displacement", "Strain Mapping"],
     media: [
       { type: "image", src: feaBaseFrame, caption: "FEA — Base Frame Static Deformation" },
@@ -193,6 +196,25 @@ const OtherProjects = () => {
                       );
                     })}
                   </div>
+
+                  {/* Technical Note */}
+                  {project.note && (
+                    <div className="px-6 md:px-8 py-5 border-t border-border bg-accent/30">
+                      <div className="flex gap-3">
+                        <div className="w-8 h-8 rounded-md bg-accent flex items-center justify-center shrink-0 mt-0.5">
+                          <Info className="w-4 h-4 text-accent-foreground" />
+                        </div>
+                        <div>
+                          <span className="font-mono text-xs font-bold uppercase tracking-widest text-accent-foreground block mb-1">
+                            Technical Note
+                          </span>
+                          <p className="text-sm text-muted-foreground leading-relaxed">
+                            {project.note}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  )}
 
                   {/* Media Gallery */}
                   <div className="p-6 md:p-8 border-t border-border">
