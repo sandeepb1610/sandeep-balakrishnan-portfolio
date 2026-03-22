@@ -16,7 +16,7 @@ import nbnFieldCadImg from "@/assets/nbn-field-cad.jpg";
 const nbnSpecs = [
   {
     label: "Site Safety & Compliance",
-    items: ["DBYD (Dial Before You Dig)", "Stay Safe", "Sight Safe", "Traffic Management Plans"],
+    items: ["DBYD (Dial Before You Dig)", "Stay Safe", "Site Safe", "Traffic Management Plans"],
   },
   {
     label: "Standards",
