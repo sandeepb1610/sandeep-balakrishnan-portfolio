@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Award, BookOpen, ExternalLink, Users, Download, Calendar } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import leadershipImg from "@/assets/leadership-presenting.jpg";
-import nasaAdsImg from "@/assets/nasa-ads-citation.png";
-import eventImg from "@/assets/leadership-event.jpg";
+import ipmaEmblem from "@/assets/emblem-ipma.png";
+import waEngEmblem from "@/assets/emblem-wa-engineering.png";
+import nasaAdsEmblem from "@/assets/emblem-nasa-ads.png";
 
 const Leadership = () => {
   return (
