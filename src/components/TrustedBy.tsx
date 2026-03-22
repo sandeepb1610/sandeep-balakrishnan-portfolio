@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const logos = [
   { name: "Sigma Tech Services" },
   { name: "Eruvaka Technologies" },
-  { name: "DRDO" },
+  { name: "DRDO, Government of India" },
 ];
 
 const TrustedBy = () => {
