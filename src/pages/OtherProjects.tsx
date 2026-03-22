@@ -197,6 +197,25 @@ const OtherProjects = () => {
                     })}
                   </div>
 
+                  {/* Technical Note */}
+                  {project.note && (
+                    <div className="px-6 md:px-8 py-5 border-t border-border bg-accent/30">
+                      <div className="flex gap-3">
+                        <div className="w-8 h-8 rounded-md bg-accent flex items-center justify-center shrink-0 mt-0.5">
+                          <Info className="w-4 h-4 text-accent-foreground" />
+                        </div>
+                        <div>
+                          <span className="font-mono text-xs font-bold uppercase tracking-widest text-accent-foreground block mb-1">
+                            Technical Note
+                          </span>
+                          <p className="text-sm text-muted-foreground leading-relaxed">
+                            {project.note}
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  )}
+
                   {/* Media Gallery */}
                   <div className="p-6 md:p-8 border-t border-border">
                     <span className="font-mono text-xs font-bold uppercase tracking-widest text-muted-foreground mb-4 block">
