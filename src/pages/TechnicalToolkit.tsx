@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { Cpu, ClipboardList, HardHat } from "lucide-react";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import feaImg from "@/assets/toolkit-fea-stress.jpg";
 import ganttImg from "@/assets/toolkit-gantt.jpg";
 import whitecardImg from "@/assets/toolkit-whitecard.jpg";

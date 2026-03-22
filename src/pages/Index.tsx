@@ -13,6 +13,7 @@ const Index = () => {
       <ExecutiveSummary />
       <CoreSpecializations />
       <TrustedBy />
+      <Footer />
     </div>
   );
 };
