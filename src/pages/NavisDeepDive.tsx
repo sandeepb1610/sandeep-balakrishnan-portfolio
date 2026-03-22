@@ -260,7 +260,7 @@ const NavisDeepDive = () => {
                 />
               </div>
               <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                Product Performance Testing
+                Full System Demo
               </p>
             </motion.div>
 
