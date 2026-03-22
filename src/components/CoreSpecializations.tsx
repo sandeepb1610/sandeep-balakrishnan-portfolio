@@ -15,7 +15,7 @@ const specializations = [
   {
     icon: MapPin,
     title: "WA Site Readiness",
-    description: "Mobilization planning, FIFO logistics, and commissioning in remote WA sites.",
+    description: "Mobilisation planning, FIFO logistics, and commissioning in remote WA sites.",
   },
 ];
 
