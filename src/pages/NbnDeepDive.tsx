@@ -51,7 +51,7 @@ const starSections = [
     letter: "R",
     title: "Result",
     content:
-      "Delivered a 23% reduction in average job duration through optimized routing and crew sequencing. The layout efficiencies translated directly into a 15% increase in project profit margin — validating the on-site redesign approach as a replicable methodology for future NBN rollouts.",
+      "Delivered a 23% reduction in average job duration through optimised routing and crew sequencing. The layout efficiencies translated directly into a 15% increase in project profit margin — validating the on-site redesign approach as a replicable methodology for future NBN rollouts.",
   },
 ];
 
