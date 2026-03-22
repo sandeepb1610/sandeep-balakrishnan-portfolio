@@ -36,7 +36,7 @@ const Leadership = () => {
                 transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
               >
                 <div
-                  className="rounded-[12px] bg-card flex items-center justify-center aspect-square"
+                  className="rounded-[12px] bg-card flex items-center justify-center aspect-video"
                   style={{ boxShadow: "var(--shadow-card)" }}
                 >
                   <div className="w-28 h-28 rounded-full bg-secondary flex items-center justify-center">
