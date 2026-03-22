@@ -33,17 +33,22 @@ const projects: StarProject[] = [
     techStack: ["Machine Vision", "PLC Integration", "Python", "OpenCV"],
   },
   {
-    title: "Renewable Energy Monitoring Dashboard",
-    category: "Energy & Sustainability",
+    title: "Waterproof Enclosure for Subsea Motor Assembly",
+    category: "Marine & Product Engineering",
     situation:
-      "A solar farm operator lacked centralised visibility into the performance of 2,400+ panels across three sites, making it difficult to identify underperforming units and schedule maintenance efficiently.",
+      "An underwater motor assembly required a robust waterproofing solution to prevent ingress at depths of up to 5 metres. The existing sealing approach relied on O-rings and adhesive bonding, which degraded under prolonged submersion, leading to motor failures and costly field replacements.",
     task:
-      "Build a real-time monitoring platform that aggregates panel-level data, flags anomalies, and provides actionable maintenance insights to the operations team.",
+      "Design and validate a screw-thread-based injection-moulded plastic enclosure capable of achieving IP68-rated waterproofing, while maintaining ease of field assembly, manufacturability, and compatibility with the existing motor form factor.",
     action:
-      "Architected a cloud-based data pipeline ingesting telemetry from IoT sensors at 5-second intervals. Designed a dashboard with heatmaps, trend analysis, and automated alert thresholds. Collaborated with the field team to define SLA-driven maintenance workflows.",
+      "Conducted a first-principles analysis of thread engagement length, pitch geometry, and sealing interface pressure to define the enclosure's critical dimensions. Designed the two-part threaded assembly in SolidWorks, incorporating an integrated compression seal groove to eliminate reliance on external adhesives. Specified glass-filled nylon (PA66-GF30) for injection moulding to balance chemical resistance, dimensional stability, and cost. Performed FEA on thread root stress under hydrostatic loading and validated the design through iterative prototyping and submersion testing at 1.5× rated depth.",
     result:
-      "Increased overall energy yield by 8% through early fault detection. Reduced average maintenance response time from 72 hours to 6 hours. Dashboard adopted across all three sites within 3 months.",
-    techStack: ["IoT Sensors", "Cloud Architecture", "Data Visualisation", "React"],
+      "Achieved IP68 compliance with zero ingress across 72-hour continuous submersion tests. Reduced field failure rate by over 85% compared to the legacy bonded design. The injection-moulded enclosure reduced per-unit sealing cost by 40% and assembly time by 60%, enabling scalable deployment across the full motor product line.",
+    techStack: ["SolidWorks", "FEA", "Injection Moulding", "IP68 Design", "PA66-GF30"],
+    media: [
+      { type: "image", src: waterproofAssembly1, caption: "Waterproofing Assembly — Overview" },
+      { type: "image", src: waterproofAssembly2, caption: "Waterproofing Assembly — Cross-Sectional View" },
+      { type: "image", src: waterproofExploded, caption: "Waterproofing Assembly — Exploded View" },
+    ],
   },
   {
     title: "Structural Load Analysis for Modular Housing",
