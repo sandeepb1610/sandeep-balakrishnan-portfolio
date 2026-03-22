@@ -250,10 +250,10 @@ const NbnDeepDive = () => {
                     Traffic Management & Permitting (TGS)
                   </p>
                   <p className="text-foreground font-semibold text-sm mb-3">
-                    Urban Infrastructure Access
+                    Coordinated Traffic
                   </p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
-                    Authored and coordinated Traffic Guidance Schemes (TGS) in compliance with WA Main Roads standards. Managed permits for high-traffic urban work zones.
+                    Coordinated Traffic Guidance Schemes (TGS) in compliance with WA Main Roads standards. Managed permits for high-traffic urban work zones.
                   </p>
                 </div>
               </motion.div>
