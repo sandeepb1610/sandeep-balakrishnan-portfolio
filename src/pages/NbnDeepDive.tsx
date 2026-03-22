@@ -285,7 +285,7 @@ const NbnDeepDive = () => {
                 </div>
                 <div className="p-5 flex-1 flex flex-col">
                   <p className="font-mono text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
-                    Safety Systems & SWMS Authoring
+                    Safety Systems & Pre Start Authoring
                   </p>
                   <p className="text-foreground font-semibold text-sm mb-3">
                     High-Risk Safety Governance
