@@ -20,22 +20,23 @@ const Footer = () => {
           </div>
 
           {/* Contact Buttons */}
-          <div className="flex flex-col gap-3">
+          <div className="flex flex-col sm:flex-row md:flex-col lg:flex-row gap-3 md:justify-center">
             <a
               href="https://www.linkedin.com/in/sandeep-b16/"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground font-medium text-sm px-5 py-2.5 rounded-md transition-all duration-200 hover:bg-primary-foreground/20 w-fit"
+              className="inline-flex items-center justify-center gap-2.5 bg-primary-foreground text-primary font-semibold text-sm px-6 py-3 rounded-md transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98] min-w-[200px]"
+              style={{ boxShadow: "var(--shadow-btn)" }}
             >
               <Linkedin className="w-4 h-4" />
               Connect on LinkedIn
             </a>
             <a
               href="mailto:sandeepbalan16@gmail.com"
-              className="inline-flex items-center gap-2 bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground font-medium text-sm px-5 py-2.5 rounded-md transition-all duration-200 hover:bg-primary-foreground/20 w-fit"
+              className="inline-flex items-center justify-center gap-2.5 bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground font-semibold text-sm px-6 py-3 rounded-md transition-all duration-200 hover:bg-primary-foreground/20 hover:-translate-y-0.5 active:scale-[0.98] min-w-[200px]"
             >
               <Mail className="w-4 h-4" />
-              Send an Inquiry
+              Send an Enquiry
             </a>
           </div>
 
