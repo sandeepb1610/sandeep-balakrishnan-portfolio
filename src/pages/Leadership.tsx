@@ -39,13 +39,13 @@ const Leadership = () => {
                 transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
               >
                 <div
-                  className="rounded-[12px] overflow-hidden"
+                  className="rounded-[12px] bg-card flex items-center justify-center p-12 aspect-square"
                   style={{ boxShadow: "var(--shadow-card)" }}
                 >
                   <img
-                    src={leadershipImg}
-                    alt="Sandeep Balakrishnan presenting at a professional event"
-                    className="w-full h-auto object-cover aspect-video"
+                    src={ipmaEmblem}
+                    alt="IPMA International Project Management Association emblem"
+                    className="w-3/4 h-auto object-contain"
                     loading="lazy"
                   />
                 </div>
