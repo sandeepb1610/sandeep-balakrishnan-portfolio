@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import { ArrowRight } from "lucide-react";
+import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import ProjectCard, { type ProjectData } from "@/components/ProjectCard";
 import nbnImage from "@/assets/project-nbn-mandurah.jpg";
@@ -62,6 +64,24 @@ const Projects = () => {
               <ProjectCard key={project.title} project={project} index={i} />
             ))}
           </div>
+
+          {/* Other Projects Link */}
+          <motion.div
+            initial={{ opacity: 0, y: 12 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.5, delay: 0.2, ease: [0.2, 0, 0, 1] }}
+            className="mt-16 text-center"
+          >
+            <Link
+              to="/projects/other"
+              className="inline-flex items-center gap-2 bg-primary text-primary-foreground font-medium text-sm px-6 py-3 rounded-md transition-all duration-200 hover:-translate-y-0.5 active:scale-[0.98]"
+              style={{ boxShadow: "var(--shadow-btn)" }}
+            >
+              View Other Projects
+              <ArrowRight className="w-4 h-4" />
+            </Link>
+          </motion.div>
         </div>
       </section>
     </div>
