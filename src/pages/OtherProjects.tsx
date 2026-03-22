@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowLeft, Target, Wrench, Zap, CheckCircle } from "lucide-react";
+import { ArrowLeft, Target, Wrench, Zap, CheckCircle, ImageIcon, Play } from "lucide-react";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
