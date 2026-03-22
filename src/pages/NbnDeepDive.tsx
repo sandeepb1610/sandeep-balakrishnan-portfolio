@@ -160,7 +160,7 @@ const NbnDeepDive = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
                   >
-                    <div className="rounded-[12px] overflow-hidden" style={{ boxShadow: "var(--shadow-card)" }}>
+                    <div className="rounded-[12px] overflow-hidden aspect-[4/3]" style={{ boxShadow: "var(--shadow-card)" }}>
                       <img src={siteMapImg} alt="Optimized FTTP routing layout map" className="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
@@ -173,8 +173,8 @@ const NbnDeepDive = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
                   >
-                    <div className="rounded-[12px] overflow-hidden" style={{ boxShadow: "var(--shadow-card)" }}>
-                      <img src={fieldTeamImg} alt="Field team coordinating on site" className="w-full h-auto" loading="lazy" />
+                    <div className="rounded-[12px] overflow-hidden aspect-[4/3]" style={{ boxShadow: "var(--shadow-card)" }}>
+                      <img src={fieldTeamImg} alt="Field team coordinating on site" className="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
                       Field Team Coordination — Mandurah
