@@ -3,6 +3,7 @@ import { ArrowLeft, TrendingUp, Clock, DollarSign } from "lucide-react";
 import otdrTestImg from "@/assets/nbn-otdr-test.jpg";
 import trafficPermitImg from "@/assets/nbn-traffic-permit.jpg";
 import safetySiteImg from "@/assets/nbn-safety-site.jpg";
+import siteComplianceImg from "@/assets/nbn-site-compliance.jpg";
 import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -293,15 +294,8 @@ const NbnDeepDive = () => {
                 className="bg-card rounded-[12px] overflow-hidden flex flex-col"
                 style={{ boxShadow: "var(--shadow-card)" }}
               >
-                <div className="aspect-[16/10] bg-secondary flex items-center justify-center">
-                  <div className="text-center px-4">
-                    <svg className="w-10 h-10 text-muted-foreground/30 mx-auto mb-2" fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M10.125 2.25h-4.5c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125v-9M10.125 2.25h.375a9 9 0 019 9v.375M10.125 2.25A3.375 3.375 0 0113.5 5.625v1.5c0 .621.504 1.125 1.125 1.125h1.5a3.375 3.375 0 013.375 3.375M9 15l2.25 2.25L15 12" />
-                    </svg>
-                    <p className="font-mono text-[10px] text-muted-foreground/50 uppercase tracking-wider">
-                      Site Pre-Start Checklist
-                    </p>
-                  </div>
+                <div className="aspect-[16/10] overflow-hidden">
+                  <img src={siteComplianceImg} alt="Site compliance setup — NBN FTTP Mandurah" className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <div className="p-5 flex-1 flex flex-col">
                   <p className="font-mono text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
