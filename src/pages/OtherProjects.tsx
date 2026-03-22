@@ -190,34 +190,52 @@ const OtherProjects = () => {
                     })}
                   </div>
 
-                  {/* Media Gallery — up to 3 placeholders */}
+                  {/* Media Gallery */}
                   <div className="p-6 md:p-8 border-t border-border">
                     <span className="font-mono text-xs font-bold uppercase tracking-widest text-muted-foreground mb-4 block">
                       Project Media
                     </span>
                     <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                      {[0, 1, 2].map((slot) => (
-                        <div
-                          key={slot}
-                          className="aspect-video bg-secondary rounded-md flex flex-col items-center justify-center gap-2 border border-dashed border-border"
-                        >
-                          {slot === 0 ? (
-                            <>
-                              <Play className="w-6 h-6 text-muted-foreground" />
-                              <span className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-                                Video Coming Soon
-                              </span>
-                            </>
-                          ) : (
-                            <>
-                              <ImageIcon className="w-6 h-6 text-muted-foreground" />
-                              <span className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
-                                Image Coming Soon
-                              </span>
-                            </>
-                          )}
-                        </div>
-                      ))}
+                      {project.media ? (
+                        project.media.map((item, slot) => (
+                          <div key={slot} className="flex flex-col gap-2">
+                            <div className="aspect-video bg-secondary rounded-md overflow-hidden border border-border">
+                              <img
+                                src={item.src}
+                                alt={item.caption}
+                                className="w-full h-full object-cover"
+                                loading="lazy"
+                              />
+                            </div>
+                            <span className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground text-center">
+                              {item.caption}
+                            </span>
+                          </div>
+                        ))
+                      ) : (
+                        [0, 1, 2].map((slot) => (
+                          <div
+                            key={slot}
+                            className="aspect-video bg-secondary rounded-md flex flex-col items-center justify-center gap-2 border border-dashed border-border"
+                          >
+                            {slot === 0 ? (
+                              <>
+                                <Play className="w-6 h-6 text-muted-foreground" />
+                                <span className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
+                                  Video Coming Soon
+                                </span>
+                              </>
+                            ) : (
+                              <>
+                                <ImageIcon className="w-6 h-6 text-muted-foreground" />
+                                <span className="font-mono text-[10px] uppercase tracking-widest text-muted-foreground">
+                                  Image Coming Soon
+                                </span>
+                              </>
+                            )}
+                          </div>
+                        ))
+                      )}
                     </div>
                   </div>
                 </motion.div>
