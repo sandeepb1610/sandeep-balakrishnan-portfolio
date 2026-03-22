@@ -243,11 +243,12 @@ const Leadership = () => {
                 Schedule a Briefing
               </a>
               <a
-                href="#"
+                href="/Sandeep_resume.docx"
+                download
                 className="inline-flex items-center gap-2 bg-primary-foreground/10 border border-primary-foreground/20 text-primary-foreground font-medium text-sm px-6 py-3 rounded-md transition-all duration-200 hover:bg-primary-foreground/20"
               >
                 <Download className="w-4 h-4" />
-                Download CV
+                Download Resume
               </a>
             </motion.div>
           </div>
