@@ -159,6 +159,7 @@ const TechnicalToolkit = () => {
           </div>
         </div>
       </section>
+      <Footer />
     </div>
   );
 };
