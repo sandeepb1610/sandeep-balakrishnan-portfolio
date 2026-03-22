@@ -141,19 +141,16 @@ const Leadership = () => {
                 transition={{ duration: 0.5, delay: 0.1, ease: [0.2, 0, 0, 1] }}
               >
                 <div
-                  className="rounded-[12px] overflow-hidden"
+                  className="rounded-[12px] bg-background flex items-center justify-center p-12 aspect-square"
                   style={{ boxShadow: "var(--shadow-card)" }}
                 >
                   <img
-                    src={eventImg}
-                    alt="Professional engineering networking event"
-                    className="w-full h-auto object-cover aspect-video"
+                    src={waEngEmblem}
+                    alt="Western Australia Engineering Community emblem"
+                    className="w-3/4 h-auto object-contain"
                     loading="lazy"
                   />
                 </div>
-                <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                  Placeholder — Leadership Event Photo
-                </p>
               </motion.div>
             </div>
           </div>
