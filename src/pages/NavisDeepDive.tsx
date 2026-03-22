@@ -9,7 +9,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import TechSpecsSidebar from "@/components/TechSpecsSidebar";
 import TechDocGrid from "@/components/TechDocGrid";
-import propulsionImg from "@/assets/navis-propulsion.jpg";
+import propulsionImg from "@/assets/navis-propulsion-cross-section.png";
 import cfdImg from "@/assets/navis-cfd-simulation.jpg";
 import explodedViewImg from "@/assets/navis-exploded-view.png";
 import augerImg from "@/assets/navis-auger-cross-section.png";
