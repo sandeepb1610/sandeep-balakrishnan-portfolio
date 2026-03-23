@@ -78,9 +78,9 @@ const projects: StarProject[] = [
       "Peak von Mises stress (1.472 × 10⁷ N/m² on the base frame) confirmed a safety factor exceeding 14× against yield. Maximum displacement remained under 1 mm across all assemblies (0.16 mm base frame, 0.87 mm connecting frame), verifying zero impact on sensor accuracy. Analysis validated the design for prototyping, significantly reducing the risk of structural failure in the field.",
     techStack: ["SolidWorks Simulation", "Static FEA", "AISI 304 Stainless Steel", "Von Mises Analysis", "URES Displacement", "Strain Mapping"],
     media: [
-      { type: "image", src: feaBaseFrame, caption: "FEA — Base Frame Static Deformation" },
-      { type: "image", src: feaFloatBase, caption: "FEA — Connecting Frame Analysis" },
-      { type: "image", src: feaTopFrame, caption: "FEA — Top Metalstrip Displacement" },
+      { type: "image", src: feaBaseFrame, caption: "FEA: Base Frame Static Deformation" },
+      { type: "image", src: feaFloatBase, caption: "FEA: Connecting Frame Analysis" },
+      { type: "image", src: feaTopFrame, caption: "FEA: Top Metalstrip Displacement" },
     ],
   },
 ];
