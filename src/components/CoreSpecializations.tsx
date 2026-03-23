@@ -21,8 +21,8 @@ const specializations = [
 
 const CoreSpecializations = () => {
   return (
-    <section className="py-20 bg-background">
-      <div className="container mx-auto px-6">
+    <section className="py-14 md:py-20 bg-background">
+      <div className="container mx-auto px-5 md:px-6">
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
