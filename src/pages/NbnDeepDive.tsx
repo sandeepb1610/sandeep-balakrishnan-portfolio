@@ -84,7 +84,7 @@ const NbnDeepDive = () => {
               animate={{ opacity: 1 }}
               className="heading-l2 mb-4"
             >
-              Case Study — Deep Dive
+              Case Study: Deep Dive
             </motion.p>
             <motion.h1
               initial={{ opacity: 0, y: 12 }}
