@@ -23,7 +23,7 @@ const ExecutiveSummary = () => {
             transition={{ duration: 0.5, ease: [0.2, 0, 0, 1] }}
           >
             <h2 className="text-2xl md:text-3xl font-bold text-foreground leading-tight tracking-tight mb-6">
-              Design — Build — Test
+              Design · Build · Test
             </h2>
             <p className="text-muted-foreground leading-relaxed text-base mb-4">
               A uniquely dual-qualified engineer combining deep technical expertise with
