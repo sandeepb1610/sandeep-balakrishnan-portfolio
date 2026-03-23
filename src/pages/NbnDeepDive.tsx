@@ -285,7 +285,7 @@ const NbnDeepDive = () => {
                 </div>
               </motion.div>
 
-              {/* Tile 3 — Quality & Network Compliance */}
+              {/* Tile 3: Quality & Network Compliance */}
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 whileInView={{ opacity: 1, y: 0 }}
