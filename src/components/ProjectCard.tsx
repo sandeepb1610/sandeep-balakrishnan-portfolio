@@ -126,7 +126,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
           {project.result}
         </p>
 
-        {/* Bottom — Tech Specs */}
+        {/* Bottom: Tech Specs */}
         <div className="mt-auto">
           <p className="heading-l2 mb-3">Technical Specs</p>
           <div className="flex flex-wrap gap-2 mb-5">
