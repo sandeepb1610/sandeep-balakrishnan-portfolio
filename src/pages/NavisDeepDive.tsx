@@ -392,7 +392,7 @@ const NavisDeepDive = () => {
                 style={{ boxShadow: "var(--shadow-card)" }}
               >
                 <div className="aspect-[16/10] bg-secondary flex items-center justify-center overflow-hidden">
-                  <img src={wireHarnessImg} alt="Wire harness design — IP67/IP68 rated connector technical drawing" className="w-full h-full object-cover" loading="lazy" />
+                  <img src={wireHarnessImg} alt="Wire harness design: IP67/IP68 rated connector technical drawing" className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <div className="p-5">
                   <p className="font-mono text-xs font-semibold text-foreground uppercase tracking-wider mb-2">
