@@ -79,7 +79,7 @@ const Navbar = () => {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -8 }}
             transition={{ duration: 0.2, ease: [0.2, 0, 0, 1] }}
-            className="md:hidden fixed inset-0 top-16 z-40 bg-white/60 backdrop-blur-lg border-t border-border"
+            className="md:hidden fixed inset-0 top-16 z-40 bg-white/80 backdrop-blur-lg border-t border-border"
           >
             <nav className="flex flex-col px-6 pt-8 gap-2">
               {navLinks.map((link, i) => (
@@ -93,8 +93,8 @@ const Navbar = () => {
                     to={link.href}
                     className={`block py-3 px-4 rounded-md text-lg font-semibold tracking-tight transition-colors duration-200 ${
                       location.pathname === link.href
-                        ? "bg-secondary text-foreground"
-                        : "text-muted-foreground hover:text-foreground hover:bg-secondary/50"
+                        ? "bg-black/10 text-foreground"
+                        : "text-muted-foreground hover:text-foreground hover:bg-black/5"
                     }`}
                   >
                     {link.label}
