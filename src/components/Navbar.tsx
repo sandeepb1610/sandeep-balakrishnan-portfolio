@@ -93,8 +93,8 @@ const Navbar = () => {
                     to={link.href}
                     className={`block py-3 px-4 rounded-md text-lg font-semibold tracking-tight transition-colors duration-200 ${
                       location.pathname === link.href
-                        ? "bg-secondary text-foreground"
-                        : "text-muted-foreground hover:text-foreground hover:bg-secondary/50"
+                        ? "bg-black/10 text-foreground"
+                        : "text-muted-foreground hover:text-foreground hover:bg-black/5"
                     }`}
                   >
                     {link.label}
