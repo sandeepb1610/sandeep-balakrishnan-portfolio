@@ -235,7 +235,7 @@ const NbnDeepDive = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {/* Tile 1 — Traffic Management & Permitting */}
+              {/* Tile 1: Traffic Management & Permitting */}
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 whileInView={{ opacity: 1, y: 0 }}
