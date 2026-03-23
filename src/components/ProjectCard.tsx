@@ -47,7 +47,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
       className="bg-card rounded-[12px] overflow-hidden flex flex-col transition-shadow duration-300 hover:shadow-[var(--shadow-card-hover)]"
       style={{ boxShadow: "var(--shadow-card)" }}
     >
-      {/* Top — Hero Media */}
+      {/* Top: Hero Media */}
       <div
         className="relative aspect-video overflow-hidden bg-secondary"
         onMouseEnter={handleMouseEnter}
