@@ -16,7 +16,7 @@ const HeroSection = () => {
     <section id="home" className="pt-24 md:pt-32 pb-16 md:pb-28">
       <div className="container mx-auto px-5 md:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
-          {/* Left — Narrative + KPIs */}
+          {/* Left: Narrative + KPIs */}
           <div className="lg:col-span-7 order-2 lg:order-1">
             <motion.p
               initial={{ opacity: 0 }}
