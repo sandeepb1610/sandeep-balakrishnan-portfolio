@@ -414,7 +414,7 @@ const NavisDeepDive = () => {
                 style={{ boxShadow: "var(--shadow-card)" }}
               >
                 <div className="aspect-[16/10] bg-secondary flex items-center justify-center overflow-hidden">
-                  <img src={bomImg} alt="BOM and Material Selection — NAVIS part list with material types and dimensions" className="w-full h-full object-cover" loading="lazy" />
+                  <img src={bomImg} alt="BOM and Material Selection: NAVIS part list with material types and dimensions" className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <div className="p-5">
                   <p className="font-mono text-xs font-semibold text-foreground uppercase tracking-wider mb-2">

@@ -41,7 +41,7 @@ const QuadrupedDeepDive = () => {
               animate={{ opacity: 1 }}
               className="heading-l2 mb-4"
             >
-              Case Study — Restricted Access
+              Case Study: Restricted Access
             </motion.p>
             <motion.h1
               initial={{ opacity: 0, y: 12 }}

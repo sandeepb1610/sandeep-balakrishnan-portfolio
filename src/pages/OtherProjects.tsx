@@ -58,9 +58,9 @@ const projects: StarProject[] = [
       "Achieved IP68 compliance with zero ingress across 72-hour continuous submersion tests. The silicone O-ring and 0.5 mm thread clearance combination delivered consistent sealing performance across 200+ assembly–disassembly cycles. PG gland integration eliminated all wiring-related ingress failures. Reduced field failure rate by over 85% compared to the legacy bonded design. The PP injection-moulded enclosure reduced per-unit sealing cost by 40% and assembly time by 60%, enabling scalable deployment across the full motor product line.",
     techStack: ["SolidWorks", "FEA", "Injection Moulding (PP)", "IP68 Design", "Silicone O-Ring", "PG Cable Gland"],
     media: [
-      { type: "image", src: waterproofAssembly1, caption: "Waterproofing Assembly — Overview" },
-      { type: "image", src: waterproofAssembly2, caption: "Waterproofing Assembly — Cross-Sectional View" },
-      { type: "image", src: waterproofExploded, caption: "Waterproofing Assembly — Exploded View" },
+      { type: "image", src: waterproofAssembly1, caption: "Waterproofing Assembly: Overview" },
+      { type: "image", src: waterproofAssembly2, caption: "Waterproofing Assembly: Cross-Sectional View" },
+      { type: "image", src: waterproofExploded, caption: "Waterproofing Assembly: Exploded View" },
     ],
   },
   {

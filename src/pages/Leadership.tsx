@@ -186,7 +186,7 @@ const Leadership = () => {
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-6">
                   Through IPMA and local engineering networks, I work to bridge the gap between
-                  academic preparation and industry expectations — ensuring the next generation
+                  academic preparation and industry expectations, ensuring the next generation
                   of WA engineers are project-ready, safety-conscious, and commercially aware
                   from day one.
                 </p>

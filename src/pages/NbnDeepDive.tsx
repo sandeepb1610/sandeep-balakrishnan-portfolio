@@ -344,7 +344,7 @@ const NbnDeepDive = () => {
                   <div className="w-full md:w-64 rounded-[8px] overflow-hidden shrink-0">
                     <img src={otdrTestImg} alt="OTDR trace analysis on fiber distribution frame" className="w-full h-auto object-cover object-[center_25%] aspect-[4/3]" loading="lazy" />
                     <p className="font-mono text-[10px] text-muted-foreground mt-2 tracking-wider text-center uppercase">
-                      OTDR Trace — Fiber Distribution Frame
+                      OTDR Trace: Fiber Distribution Frame
                     </p>
                   </div>
                 </div>

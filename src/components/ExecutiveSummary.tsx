@@ -15,7 +15,7 @@ const ExecutiveSummary = () => {
         </motion.p>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-          {/* Left — Bio */}
+          {/* Left: Bio */}
           <motion.div
             initial={{ opacity: 0, y: 12 }}
             whileInView={{ opacity: 1, y: 0 }}
