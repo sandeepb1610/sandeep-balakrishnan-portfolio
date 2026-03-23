@@ -102,7 +102,7 @@ const QuadrupedDeepDive = () => {
               ))}
             </motion.div>
 
-            {/* Technical Scope — What CAN Be Shared */}
+            {/* Technical Scope: What CAN Be Shared */}
             <motion.div
               initial={{ opacity: 0, y: 12 }}
               whileInView={{ opacity: 1, y: 0 }}

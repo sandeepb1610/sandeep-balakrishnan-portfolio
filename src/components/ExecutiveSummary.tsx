@@ -62,7 +62,7 @@ const ExecutiveSummary = () => {
             </div>
           </motion.div>
 
-          {/* Right — Hero Image */}
+          {/* Right: Hero Image */}
           <motion.div
             initial={{ opacity: 0, y: 12 }}
             whileInView={{ opacity: 1, y: 0 }}

@@ -76,7 +76,7 @@ const HeroSection = () => {
                 <>
                   <img
                     src={heroActionImg}
-                    alt="Sandeep Balakrishnan — Professional Portrait"
+                    alt="Sandeep Balakrishnan, Professional Portrait"
                     className="w-full h-auto object-cover aspect-[4/5]"
                   />
                 </>
