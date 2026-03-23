@@ -29,7 +29,7 @@ const ExecutiveSummary = () => {
               A uniquely dual-qualified engineer combining deep technical expertise with
               executive-level commercial acumen. With a foundation built on the complete
               Design-Build-Test lifecycle, I deliver disciplined engineering methodology
-              across every project phase — from feasibility studies and concept design
+              across every project phase, from feasibility studies and concept design
               through fabrication oversight, commissioning, and operational handover.
             </p>
             <p className="text-muted-foreground leading-relaxed text-base mb-4">
