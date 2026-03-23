@@ -54,7 +54,7 @@ const HeroSection = () => {
             </div>
           </div>
 
-          {/* Right — Background Video Loop Slot */}
+          {/* Right: Background Video Loop Slot */}
           <div className="lg:col-span-5 order-1 lg:order-2">
             <motion.div
               initial={{ opacity: 0, y: 12 }}
