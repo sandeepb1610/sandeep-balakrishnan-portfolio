@@ -382,7 +382,7 @@ const NavisDeepDive = () => {
                 </div>
               </motion.div>
 
-              {/* Tile 3 — Validation Testing */}
+              {/* Tile 3: Validation Testing */}
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 whileInView={{ opacity: 1, y: 0 }}
