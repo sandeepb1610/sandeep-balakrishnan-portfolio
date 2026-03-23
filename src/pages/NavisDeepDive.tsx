@@ -286,7 +286,7 @@ const NavisDeepDive = () => {
                   />
                 </div>
                 <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                  NAVIS Prototype 1 — Dispensing Test
+                  NAVIS Prototype 1: Dispensing Test
                 </p>
               </motion.div>
 
