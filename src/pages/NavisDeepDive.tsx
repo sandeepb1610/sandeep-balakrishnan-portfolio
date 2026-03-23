@@ -205,7 +205,7 @@ const NavisDeepDive = () => {
                       <img src={augerImg} alt="Cross-sectional view of the NAVIS dispensing system with variable pitch auger in SolidWorks" className="w-full h-auto object-cover aspect-video" loading="lazy" />
                     </div>
                     <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                      Cross-Sectional View — Dispensing System with Variable Pitch Auger
+                      Cross-Sectional View: Dispensing System with Variable Pitch Auger
                     </p>
                   </motion.div>
                 </div>
