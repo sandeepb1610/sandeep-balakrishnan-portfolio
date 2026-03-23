@@ -270,7 +270,7 @@ const NbnDeepDive = () => {
                 style={{ boxShadow: "var(--shadow-card)" }}
               >
                 <div className="aspect-[16/10] overflow-hidden">
-                  <img src={safetySiteImg} alt="Safety signage and site setup — NBN FTTP" className="w-full h-full object-cover object-[center_75%]" loading="lazy" />
+                  <img src={safetySiteImg} alt="Safety signage and site setup, NBN FTTP" className="w-full h-full object-cover object-[center_75%]" loading="lazy" />
                 </div>
                 <div className="p-5 flex-1 flex flex-col">
                   <p className="font-mono text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
