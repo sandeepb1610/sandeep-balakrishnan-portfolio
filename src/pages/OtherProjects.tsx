@@ -40,9 +40,9 @@ const projects: StarProject[] = [
       "Achieved equivalent LTE signal range to the previous external-antenna design while eliminating all external antenna hardware. Reduced bill-of-materials cost by 30% and installation time by 45%. The sealed dome profile achieved IP66 compliance with zero ingress across accelerated weathering and spray tests. Design approved for volume production across the full gateway product line.",
     techStack: ["SolidWorks", "RF Analysis", "Injection Moulding", "IP66 Design", "ASA Plastic", "Raspberry Pi"],
     media: [
-      { type: "image", src: lteGatewayExploded, caption: "LTE Gateway — Exploded Assembly View" },
-      { type: "image", src: lteGatewayPcb, caption: "LTE Gateway — PCB & Internal Component Layout" },
-      { type: "image", src: lteGatewayShell, caption: "LTE Gateway — Enclosure Shell Profile" },
+      { type: "image", src: lteGatewayExploded, caption: "LTE Gateway: Exploded Assembly View" },
+      { type: "image", src: lteGatewayPcb, caption: "LTE Gateway: PCB & Internal Component Layout" },
+      { type: "image", src: lteGatewayShell, caption: "LTE Gateway: Enclosure Shell Profile" },
     ],
   },
   {
