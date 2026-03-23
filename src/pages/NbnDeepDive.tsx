@@ -260,7 +260,7 @@ const NbnDeepDive = () => {
                 </div>
               </motion.div>
 
-              {/* Tile 2 — Safety Systems & SWMS */}
+              {/* Tile 2: Safety Systems & SWMS */}
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 whileInView={{ opacity: 1, y: 0 }}
