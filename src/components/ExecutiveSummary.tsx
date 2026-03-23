@@ -50,7 +50,7 @@ const ExecutiveSummary = () => {
             </p>
             <p className="text-muted-foreground leading-relaxed text-base mb-6">
               This combination of technical, project management, and business leadership
-              competencies ensures I don't just deliver projects — I deliver them on time,
+              competencies ensures I don't just deliver projects; I deliver them on time,
               within budget, and aligned to broader organisational strategy.
             </p>
             <div className="flex items-center gap-3 mt-8">
