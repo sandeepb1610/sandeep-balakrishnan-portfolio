@@ -360,7 +360,7 @@ const NavisDeepDive = () => {
                 </div>
               </motion.div>
 
-              {/* Tile 2 — Strategic Sourcing & BOM */}
+              {/* Tile 2: Strategic Sourcing & BOM */}
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 whileInView={{ opacity: 1, y: 0 }}
