@@ -177,7 +177,7 @@ const NbnDeepDive = () => {
                       <img src={fieldTeamImg} alt="Field team coordinating on site" className="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                      Field Team Coordination — Mandurah
+                      Field Team Coordination, Mandurah
                     </p>
                   </motion.div>
                 </div>
