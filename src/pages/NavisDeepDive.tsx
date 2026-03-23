@@ -374,7 +374,7 @@ const NavisDeepDive = () => {
                 </div>
                 <div className="p-5">
                   <p className="font-mono text-xs font-semibold text-foreground uppercase tracking-wider mb-2">
-                    Kaizen — Continuous Improvement
+                    Kaizen: Continuous Improvement
                   </p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Developed a Particle Range Calculator to eliminate trial-and-error in dispenser disk design and motor selection.
