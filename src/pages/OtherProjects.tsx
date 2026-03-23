@@ -64,7 +64,7 @@ const projects: StarProject[] = [
     ],
   },
   {
-    title: "Structural Integrity Analysis — Shrimp Health Monitoring System",
+    title: "Structural Integrity Analysis: Shrimp Health Monitoring System",
     category: "FEA & Structural Validation",
     situation:
       "An automated shrimp health monitoring system required a stainless steel support structure to submerge and retract a check tray for biological sample collection. The frame is subject to constant dynamic loading from water resistance and sample weight, making structural durability critical to prevent mechanical failure during underwater deployment.",
