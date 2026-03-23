@@ -34,7 +34,7 @@ const starSections = [
     letter: "S",
     title: "Situation",
     content:
-      "Eruvaka Technologies required a fully autonomous aquaculture feeding vessel — the NAVIS — to be designed from the ground up for large-scale commercial pond operations. The existing product line included only a static feeder with a dispensing range limited to 3 meters, insufficient for commercial viability. The company needed a complete vessel design encompassing hull, feed storage, delivery mechanisms, and propulsion, along with an upgraded dispensing system that could dramatically extend range while reducing per-unit cost.",
+      "Eruvaka Technologies required a fully autonomous aquaculture feeding vessel, the NAVIS, to be designed from the ground up for large-scale commercial pond operations. The existing product line included only a static feeder with a dispensing range limited to 3 meters, insufficient for commercial viability. The company needed a complete vessel design encompassing hull, feed storage, delivery mechanisms, and propulsion, along with an upgraded dispensing system that could dramatically extend range while reducing per-unit cost.",
   },
   {
     letter: "T",
