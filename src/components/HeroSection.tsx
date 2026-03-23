@@ -13,11 +13,11 @@ const HERO_VIDEO_URL = "";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="pt-32 pb-20 md:pb-28">
-      <div className="container mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+    <section id="home" className="pt-24 md:pt-32 pb-16 md:pb-28">
+      <div className="container mx-auto px-5 md:px-6">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
           {/* Left — Narrative + KPIs */}
-          <div className="lg:col-span-7">
+          <div className="lg:col-span-7 order-2 lg:order-1">
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -31,9 +31,9 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
-              className="heading-l1 max-w-2xl"
+              className="heading-l1 max-w-2xl text-[clamp(1.75rem,4vw,4rem)]"
             >
-              Sandeep Balakrishnan <span className="text-[0.75em]">| Mechanical Project Engineer (B.Tech, MPM, MBA)</span>
+              Sandeep Balakrishnan <span className="text-[0.65em] md:text-[0.75em]">| Mechanical Project Engineer (B.Tech, MPM, MBA)</span>
             </motion.h1>
 
             <motion.p
@@ -47,7 +47,7 @@ const HeroSection = () => {
             </motion.p>
 
             {/* KPI Stack */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-4 mt-8 md:mt-10">
               {kpis.map((kpi, i) => (
                 <KpiCard key={kpi.label} {...kpi} index={i} />
               ))}
@@ -55,7 +55,7 @@ const HeroSection = () => {
           </div>
 
           {/* Right — Background Video Loop Slot */}
-          <div className="lg:col-span-5">
+          <div className="lg:col-span-5 order-1 lg:order-2">
             <motion.div
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}

@@ -3,8 +3,8 @@ import heroImage from "@/assets/onsite-leadership.jpg";
 
 const ExecutiveSummary = () => {
   return (
-    <section className="py-20 bg-card">
-      <div className="container mx-auto px-6">
+    <section className="py-14 md:py-20 bg-card">
+      <div className="container mx-auto px-5 md:px-6">
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
@@ -14,7 +14,7 @@ const ExecutiveSummary = () => {
           Executive Summary
         </motion.p>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left — Bio */}
           <motion.div
             initial={{ opacity: 0, y: 12 }}

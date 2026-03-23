@@ -17,7 +17,7 @@ const KpiCard = ({ label, value, description, index }: KpiCardProps) => {
         delay: 0.3 + index * 0.05,
         ease: [0.2, 0, 0, 1],
       }}
-      className="bg-card p-8 rounded-[12px] transition-shadow duration-300 hover:shadow-[var(--shadow-card-hover)]"
+      className="bg-card p-5 md:p-8 rounded-[12px] transition-shadow duration-300 hover:shadow-[var(--shadow-card-hover)]"
       style={{ boxShadow: "var(--shadow-card)" }}
     >
       <span className="heading-l2 block mb-4">{label}</span>
