@@ -45,7 +45,7 @@ const ExecutiveSummary = () => {
               <span className="font-semibold text-foreground">Executive MBA</span> from the{" "}
               <span className="font-semibold text-foreground">Swiss School of Business and Management</span>,
               I bring a rare convergence of mechanical engineering depth, governance
-              expertise, and strategic business thinking — enabling me to bridge the gap
+              expertise, and strategic business thinking, enabling me to bridge the gap
               between workshop floor execution and boardroom decision-making.
             </p>
             <p className="text-muted-foreground leading-relaxed text-base mb-6">
