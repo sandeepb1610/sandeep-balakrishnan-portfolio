@@ -47,7 +47,7 @@ const HeroSection = () => {
             </motion.p>
 
             {/* KPI Stack */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-10">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-4 mt-8 md:mt-10">
               {kpis.map((kpi, i) => (
                 <KpiCard key={kpi.label} {...kpi} index={i} />
               ))}
