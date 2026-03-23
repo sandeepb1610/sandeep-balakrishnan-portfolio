@@ -166,7 +166,7 @@ const QuadrupedDeepDive = () => {
                       "Design and development of an autonomous quadruped robot"
                     </p>
                     <p className="text-sm text-muted-foreground">
-                      B. Sandeep, 2020 — Published in IOP Conference Series: Materials Science and Engineering, subsequently indexed and adopted by the NASA Astrophysics Data System (ADS) via the Harvard-Smithsonian Center for Astrophysics.
+                      B. Sandeep, 2020. Published in IOP Conference Series: Materials Science and Engineering, subsequently indexed and adopted by the NASA Astrophysics Data System (ADS) via the Harvard-Smithsonian Center for Astrophysics.
                     </p>
                   </div>
                   <a
