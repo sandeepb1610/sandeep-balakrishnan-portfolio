@@ -404,7 +404,7 @@ const NavisDeepDive = () => {
                 </div>
               </motion.div>
 
-              {/* Tile 4 — Compliance & Standards */}
+              {/* Tile 4: Compliance & Standards */}
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 whileInView={{ opacity: 1, y: 0 }}
