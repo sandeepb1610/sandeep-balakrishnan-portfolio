@@ -117,7 +117,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
         </span>
       </div>
 
-      {/* Middle — Title & Result */}
+      {/* Middle: Title & Result */}
       <div className="p-6 flex-1 flex flex-col">
         <h3 className="text-lg font-bold text-foreground leading-snug mb-1">
           {project.title}
