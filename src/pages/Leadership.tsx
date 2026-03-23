@@ -105,7 +105,7 @@ const Leadership = () => {
                 </h2>
                 <p className="text-muted-foreground leading-relaxed mb-4">
                   Published research indexed by the <span className="font-semibold text-foreground">Harvard-Smithsonian
-                  Center for Astrophysics</span> through the NASA Astrophysics Data System (ADS) — 
+                  Center for Astrophysics</span> through the NASA Astrophysics Data System (ADS), 
                   a recognition that places the work alongside contributions from leading
                   research institutions worldwide.
                 </p>
@@ -186,7 +186,7 @@ const Leadership = () => {
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-6">
                   Through IPMA and local engineering networks, I work to bridge the gap between
-                  academic preparation and industry expectations — ensuring the next generation
+                  academic preparation and industry expectations, ensuring the next generation
                   of WA engineers are project-ready, safety-conscious, and commercially aware
                   from day one.
                 </p>

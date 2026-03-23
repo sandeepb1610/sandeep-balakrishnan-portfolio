@@ -40,9 +40,9 @@ const projects: StarProject[] = [
       "Achieved equivalent LTE signal range to the previous external-antenna design while eliminating all external antenna hardware. Reduced bill-of-materials cost by 30% and installation time by 45%. The sealed dome profile achieved IP66 compliance with zero ingress across accelerated weathering and spray tests. Design approved for volume production across the full gateway product line.",
     techStack: ["SolidWorks", "RF Analysis", "Injection Moulding", "IP66 Design", "ASA Plastic", "Raspberry Pi"],
     media: [
-      { type: "image", src: lteGatewayExploded, caption: "LTE Gateway — Exploded Assembly View" },
-      { type: "image", src: lteGatewayPcb, caption: "LTE Gateway — PCB & Internal Component Layout" },
-      { type: "image", src: lteGatewayShell, caption: "LTE Gateway — Enclosure Shell Profile" },
+      { type: "image", src: lteGatewayExploded, caption: "LTE Gateway: Exploded Assembly View" },
+      { type: "image", src: lteGatewayPcb, caption: "LTE Gateway: PCB & Internal Component Layout" },
+      { type: "image", src: lteGatewayShell, caption: "LTE Gateway: Enclosure Shell Profile" },
     ],
   },
   {
@@ -51,36 +51,36 @@ const projects: StarProject[] = [
     situation:
       "An underwater motor assembly required a robust waterproofing solution to prevent ingress at depths of up to 5 metres. The existing sealing approach relied on adhesive bonding and generic gasket materials, which degraded under prolonged submersion and thermal cycling, leading to recurring motor failures and costly field replacements.",
     task:
-      "Design and validate a screw-thread-based injection-moulded polypropylene (PP) enclosure capable of achieving IP68-rated waterproofing, incorporating a silicone O-ring compression seal and PG cable gland for wiring harness ingress protection — while maintaining ease of field assembly, manufacturability, and compatibility with the existing motor form factor.",
+      "Design and validate a screw-thread-based injection-moulded polypropylene (PP) enclosure capable of achieving IP68-rated waterproofing, incorporating a silicone O-ring compression seal and PG cable gland for wiring harness ingress protection, while maintaining ease of field assembly, manufacturability, and compatibility with the existing motor form factor.",
     action:
       "Conducted a first-principles analysis of thread engagement length, pitch geometry, and sealing interface pressure to define the enclosure's critical dimensions. Designed the two-part threaded assembly in SolidWorks with a controlled 0.5 mm thread clearance to ensure consistent engagement torque and repeatable sealing compression. Specified polypropylene (PP) for injection moulding due to its superior chemical resistance to marine environments, low moisture absorption, and cost-effective mouldability. Integrated a precision-machined silicone O-ring groove at the thread–body interface to provide a reliable radial compression seal under hydrostatic loading. Routed the motor wiring harness through a PG-rated cable gland, ensuring IP68-compliant ingress protection at the cable penetration point without compromising the enclosure's structural integrity. Performed FEA on thread root stress under hydrostatic loading and validated the design through iterative prototyping and submersion testing at 1.5× rated depth.",
     result:
       "Achieved IP68 compliance with zero ingress across 72-hour continuous submersion tests. The silicone O-ring and 0.5 mm thread clearance combination delivered consistent sealing performance across 200+ assembly–disassembly cycles. PG gland integration eliminated all wiring-related ingress failures. Reduced field failure rate by over 85% compared to the legacy bonded design. The PP injection-moulded enclosure reduced per-unit sealing cost by 40% and assembly time by 60%, enabling scalable deployment across the full motor product line.",
     techStack: ["SolidWorks", "FEA", "Injection Moulding (PP)", "IP68 Design", "Silicone O-Ring", "PG Cable Gland"],
     media: [
-      { type: "image", src: waterproofAssembly1, caption: "Waterproofing Assembly — Overview" },
-      { type: "image", src: waterproofAssembly2, caption: "Waterproofing Assembly — Cross-Sectional View" },
-      { type: "image", src: waterproofExploded, caption: "Waterproofing Assembly — Exploded View" },
+      { type: "image", src: waterproofAssembly1, caption: "Waterproofing Assembly: Overview" },
+      { type: "image", src: waterproofAssembly2, caption: "Waterproofing Assembly: Cross-Sectional View" },
+      { type: "image", src: waterproofExploded, caption: "Waterproofing Assembly: Exploded View" },
     ],
   },
   {
-    title: "Structural Integrity Analysis — Shrimp Health Monitoring System",
+    title: "Structural Integrity Analysis: Shrimp Health Monitoring System",
     category: "FEA & Structural Validation",
     situation:
       "An automated shrimp health monitoring system required a stainless steel support structure to submerge and retract a check tray for biological sample collection. The frame is subject to constant dynamic loading from water resistance and sample weight, making structural durability critical to prevent mechanical failure during underwater deployment.",
     task:
       "Validate the structural integrity of the base frame, connecting frame, support rod, and top metalstrip assemblies under simulated operational loads. Confirm that peak von Mises stress remained well below the AISI 304 yield strength (2.068 × 10⁸ N/m²) and that total displacement stayed within tolerances to prevent sensor misalignment or mechanical interference.",
     action:
-      "Modelled all frame assemblies in SolidWorks, assigning AISI 304 Stainless Steel properties for corrosion resistance and structural stiffness. Applied distributed mass loads and gravity (9.81 m/s²) to simulate tray weight and internal components, with fixed geometry constraints at mounting points. Conducted Static Linear Analysis across four sub-assemblies — base frame, connecting frame, support rod, and top metalstrip — evaluating von Mises stress distribution, equivalent strain (ESTRN), and resultant displacement (URES). Used exaggerated deformation scales (up to 520×) as a visualisation tool to identify potential failure modes and buckling-prone regions.",
+      "Modelled all frame assemblies in SolidWorks, assigning AISI 304 Stainless Steel properties for corrosion resistance and structural stiffness. Applied distributed mass loads and gravity (9.81 m/s²) to simulate tray weight and internal components, with fixed geometry constraints at mounting points. Conducted Static Linear Analysis across four sub-assemblies (base frame, connecting frame, support rod, and top metalstrip), evaluating von Mises stress distribution, equivalent strain (ESTRN), and resultant displacement (URES). Used exaggerated deformation scales (up to 520×) as a visualisation tool to identify potential failure modes and buckling-prone regions.",
     note:
-      "Interpreting FEA Visualisation: The Deformation Scale in these analyses is set to approximately 520×. This is a standard visualisation technique used to exaggerate the shape and direction of displacement to identify potential failure modes. While the visuals suggest significant bending, the actual physical displacement is less than 1 mm — confirming the assembly remains rigid and structurally sound for its intended application.",
+      "Interpreting FEA Visualisation: The Deformation Scale in these analyses is set to approximately 520×. This is a standard visualisation technique used to exaggerate the shape and direction of displacement to identify potential failure modes. While the visuals suggest significant bending, the actual physical displacement is less than 1 mm, confirming the assembly remains rigid and structurally sound for its intended application.",
     result:
       "Peak von Mises stress (1.472 × 10⁷ N/m² on the base frame) confirmed a safety factor exceeding 14× against yield. Maximum displacement remained under 1 mm across all assemblies (0.16 mm base frame, 0.87 mm connecting frame), verifying zero impact on sensor accuracy. Analysis validated the design for prototyping, significantly reducing the risk of structural failure in the field.",
     techStack: ["SolidWorks Simulation", "Static FEA", "AISI 304 Stainless Steel", "Von Mises Analysis", "URES Displacement", "Strain Mapping"],
     media: [
-      { type: "image", src: feaBaseFrame, caption: "FEA — Base Frame Static Deformation" },
-      { type: "image", src: feaFloatBase, caption: "FEA — Connecting Frame Analysis" },
-      { type: "image", src: feaTopFrame, caption: "FEA — Top Metalstrip Displacement" },
+      { type: "image", src: feaBaseFrame, caption: "FEA: Base Frame Static Deformation" },
+      { type: "image", src: feaFloatBase, caption: "FEA: Connecting Frame Analysis" },
+      { type: "image", src: feaTopFrame, caption: "FEA: Top Metalstrip Displacement" },
     ],
   },
 ];
@@ -136,7 +136,7 @@ const OtherProjects = () => {
               transition={{ duration: 0.5, delay: 0.08, ease: [0.2, 0, 0, 1] }}
               className="text-muted-foreground text-base leading-relaxed max-w-2xl mb-16"
             >
-              A selection of independent and personal engineering projects undertaken outside of primary professional engagements — each driven by technical curiosity and a commitment to continuous development.
+              A selection of independent and personal engineering projects undertaken outside of primary professional engagements, each driven by technical curiosity and a commitment to continuous development.
             </motion.p>
 
             <div className="space-y-12">

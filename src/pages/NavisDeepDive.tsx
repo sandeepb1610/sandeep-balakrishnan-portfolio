@@ -34,19 +34,19 @@ const starSections = [
     letter: "S",
     title: "Situation",
     content:
-      "Eruvaka Technologies required a fully autonomous aquaculture feeding vessel — the NAVIS — to be designed from the ground up for large-scale commercial pond operations. The existing product line included only a static feeder with a dispensing range limited to 3 meters, insufficient for commercial viability. The company needed a complete vessel design encompassing hull, feed storage, delivery mechanisms, and propulsion, along with an upgraded dispensing system that could dramatically extend range while reducing per-unit cost.",
+      "Eruvaka Technologies required a fully autonomous aquaculture feeding vessel, the NAVIS, to be designed from the ground up for large-scale commercial pond operations. The existing product line included only a static feeder with a dispensing range limited to 3 meters, insufficient for commercial viability. The company needed a complete vessel design encompassing hull, feed storage, delivery mechanisms, and propulsion, along with an upgraded dispensing system that could dramatically extend range while reducing per-unit cost.",
   },
   {
     letter: "T",
     title: "Task",
     content:
-      "Lead the full mechanical design of the NAVIS autonomous feeder — including the ship hull, hopper, auger feed-delivery system, propulsion system, and dispensing mechanism. Additionally, upgrade the dispensing system from the existing static feeder platform to achieve a dramatically increased range while reducing manufacturing and maintenance costs.",
+      "Lead the full mechanical design of the NAVIS autonomous feeder, including the ship hull, hopper, auger feed-delivery system, propulsion system, and dispensing mechanism. Additionally, upgrade the dispensing system from the existing static feeder platform to achieve a dramatically increased range while reducing manufacturing and maintenance costs.",
   },
   {
     letter: "A",
     title: "Action",
     content:
-      "Designed the complete NAVIS vessel from first principles: engineered the ship hull for stability and hydrodynamic efficiency in pond environments; designed the hopper with optimised feed-flow geometry; developed a variable-pitch auger system that meters feed from the hopper with precision — eliminating the need for a separate dosing system entirely, thereby reducing mechanical complexity and overall cost. Engineered a single-motor outboard propulsion system for autonomous navigation. For the propulsion subsystem, upgraded the existing static feeder's mechanism by conducting first-principles calculations. A single motor propulsion system with an attached rudder system for direction change was used by conducting first-principles calculations for gearbox ratios to optimise torque delivery at higher rotational velocities. Replaced the original polymer feeder disk with a steel-reinforced polyurethane (PU) composite — increasing operational life by 120% while reducing unit cost. Validated the full system through iterative CFD analysis of feed-dispensing fluid dynamics and field trials across multiple pond geometries.",
+      "Designed the complete NAVIS vessel from first principles: engineered the ship hull for stability and hydrodynamic efficiency in pond environments; designed the hopper with optimised feed-flow geometry; developed a variable-pitch auger system that meters feed from the hopper with precision, eliminating the need for a separate dosing system entirely, thereby reducing mechanical complexity and overall cost. Engineered a single-motor outboard propulsion system for autonomous navigation. For the propulsion subsystem, upgraded the existing static feeder's mechanism by conducting first-principles calculations. A single motor propulsion system with an attached rudder system for direction change was used by conducting first-principles calculations for gearbox ratios to optimise torque delivery at higher rotational velocities. Replaced the original polymer feeder disk with a steel-reinforced polyurethane (PU) composite, increasing operational life by 120% while reducing unit cost. Validated the full system through iterative CFD analysis of feed-dispensing fluid dynamics and field trials across multiple pond geometries.",
   },
   {
     letter: "R",
@@ -84,7 +84,7 @@ const NavisDeepDive = () => {
               animate={{ opacity: 1 }}
               className="heading-l2 mb-4"
             >
-              Case Study — Deep Dive
+              Case Study: Deep Dive
             </motion.p>
             <motion.h1
               initial={{ opacity: 0, y: 12 }}
@@ -191,8 +191,8 @@ const NavisDeepDive = () => {
                     <div className="rounded-[12px] overflow-hidden" style={{ boxShadow: "var(--shadow-card)" }}>
                       <img src={propulsionImg} alt="Cross-sectional view of the NAVIS propulsion system in SolidWorks" className="w-full h-auto object-contain" loading="lazy" />
                     </div>
-                    <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                      Cross-Sectional View — Propulsion System
+                     <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
+                      Cross-Sectional View: Propulsion System
                     </p>
                   </motion.div>
                   <motion.div
@@ -205,7 +205,7 @@ const NavisDeepDive = () => {
                       <img src={augerImg} alt="Cross-sectional view of the NAVIS dispensing system with variable pitch auger in SolidWorks" className="w-full h-auto object-cover aspect-video" loading="lazy" />
                     </div>
                     <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                      Cross-Sectional View — Dispensing System with Variable Pitch Auger
+                      Cross-Sectional View: Dispensing System with Variable Pitch Auger
                     </p>
                   </motion.div>
                 </div>
@@ -286,7 +286,7 @@ const NavisDeepDive = () => {
                   />
                 </div>
                 <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                  NAVIS Prototype 1 — Dispensing Test
+                  NAVIS Prototype 1: Dispensing Test
                 </p>
               </motion.div>
 
@@ -309,7 +309,7 @@ const NavisDeepDive = () => {
                   />
                 </div>
                 <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                  NAVIS Prototype 1 — Propulsion and Path Planning Test
+                  NAVIS Prototype 1: Propulsion and Path Planning Test
                 </p>
               </motion.div>
             </div>
@@ -338,7 +338,7 @@ const NavisDeepDive = () => {
             </motion.h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              {/* Tile 1 — Root Cause Analysis */}
+              {/* Tile 1: Root Cause Analysis */}
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -348,7 +348,7 @@ const NavisDeepDive = () => {
                 style={{ boxShadow: "var(--shadow-card)" }}
               >
                 <div className="aspect-[16/10] bg-secondary flex items-center justify-center overflow-hidden">
-                  <img src={rcaImg} alt="Root Cause Analysis — Dispenser Breakage RPSO Report" className="w-full h-full object-cover" loading="lazy" />
+                  <img src={rcaImg} alt="Root Cause Analysis: Dispenser Breakage RPSO Report" className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <div className="p-5">
                   <p className="font-mono text-xs font-semibold text-foreground uppercase tracking-wider mb-2">
@@ -360,7 +360,7 @@ const NavisDeepDive = () => {
                 </div>
               </motion.div>
 
-              {/* Tile 2 — Strategic Sourcing & BOM */}
+              {/* Tile 2: Strategic Sourcing & BOM */}
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -370,11 +370,11 @@ const NavisDeepDive = () => {
                 style={{ boxShadow: "var(--shadow-card)" }}
               >
                 <div className="aspect-[16/10] bg-secondary flex items-center justify-center overflow-hidden">
-                  <img src={kaizenImg} alt="Kaizen Sheet — Particle Range and Motor Characteristic Calculator" className="w-full h-full object-cover" loading="lazy" />
+                  <img src={kaizenImg} alt="Kaizen Sheet: Particle Range and Motor Characteristic Calculator" className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <div className="p-5">
                   <p className="font-mono text-xs font-semibold text-foreground uppercase tracking-wider mb-2">
-                    Kaizen — Continuous Improvement
+                    Kaizen: Continuous Improvement
                   </p>
                   <p className="text-sm text-muted-foreground leading-relaxed">
                     Developed a Particle Range Calculator to eliminate trial-and-error in dispenser disk design and motor selection.
@@ -382,7 +382,7 @@ const NavisDeepDive = () => {
                 </div>
               </motion.div>
 
-              {/* Tile 3 — Validation Testing */}
+              {/* Tile 3: Validation Testing */}
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -392,7 +392,7 @@ const NavisDeepDive = () => {
                 style={{ boxShadow: "var(--shadow-card)" }}
               >
                 <div className="aspect-[16/10] bg-secondary flex items-center justify-center overflow-hidden">
-                  <img src={wireHarnessImg} alt="Wire harness design — IP67/IP68 rated connector technical drawing" className="w-full h-full object-cover" loading="lazy" />
+                  <img src={wireHarnessImg} alt="Wire harness design: IP67/IP68 rated connector technical drawing" className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <div className="p-5">
                   <p className="font-mono text-xs font-semibold text-foreground uppercase tracking-wider mb-2">
@@ -404,7 +404,7 @@ const NavisDeepDive = () => {
                 </div>
               </motion.div>
 
-              {/* Tile 4 — Compliance & Standards */}
+              {/* Tile 4: Compliance & Standards */}
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -414,7 +414,7 @@ const NavisDeepDive = () => {
                 style={{ boxShadow: "var(--shadow-card)" }}
               >
                 <div className="aspect-[16/10] bg-secondary flex items-center justify-center overflow-hidden">
-                  <img src={bomImg} alt="BOM and Material Selection — NAVIS part list with material types and dimensions" className="w-full h-full object-cover" loading="lazy" />
+                  <img src={bomImg} alt="BOM and Material Selection: NAVIS part list with material types and dimensions" className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <div className="p-5">
                   <p className="font-mono text-xs font-semibold text-foreground uppercase tracking-wider mb-2">

@@ -45,13 +45,13 @@ const starSections = [
     letter: "A",
     title: "Action",
     content:
-      "Redesigned the FTTP conduit layout on-site to mitigate constructability constraints identified during field validation — engineering an alternative ceiling-space routing where the original pathway was obstructed. Reconfigured the external SDS network by developing a revised fibre alignment due to capacity limitations at the existing breakout joint (zero available ports). Optimised network continuity and serviceability while maintaining compliance with NBN Co standards and adhering to strict delivery timelines.",
+      "Redesigned the FTTP conduit layout on-site to mitigate constructability constraints identified during field validation, engineering an alternative ceiling-space routing where the original pathway was obstructed. Reconfigured the external SDS network by developing a revised fibre alignment due to capacity limitations at the existing breakout joint (zero available ports). Optimised network continuity and serviceability while maintaining compliance with NBN Co standards and adhering to strict delivery timelines.",
   },
   {
     letter: "R",
     title: "Result",
     content:
-      "Delivered a 23% reduction in average job duration through optimised routing and crew sequencing. The layout efficiencies translated directly into a 15% increase in project profit margin — validating the on-site redesign approach as a replicable methodology for future NBN rollouts.",
+      "Delivered a 23% reduction in average job duration through optimised routing and crew sequencing. The layout efficiencies translated directly into a 15% increase in project profit margin, validating the on-site redesign approach as a replicable methodology for future NBN rollouts.",
   },
 ];
 
@@ -84,7 +84,7 @@ const NbnDeepDive = () => {
               animate={{ opacity: 1 }}
               className="heading-l2 mb-4"
             >
-              Case Study — Deep Dive
+              Case Study: Deep Dive
             </motion.p>
             <motion.h1
               initial={{ opacity: 0, y: 12 }}
@@ -177,7 +177,7 @@ const NbnDeepDive = () => {
                       <img src={fieldTeamImg} alt="Field team coordinating on site" className="w-full h-full object-cover" loading="lazy" />
                     </div>
                     <p className="font-mono text-[11px] text-muted-foreground mt-3 tracking-wider text-center uppercase">
-                      Field Team Coordination — Mandurah
+                      Field Team Coordination, Mandurah
                     </p>
                   </motion.div>
                 </div>
@@ -185,7 +185,7 @@ const NbnDeepDive = () => {
 
               {/* Technical Specs Sidebar */}
               <div className="lg:col-span-4">
-                <TechSpecsSidebar specs={nbnSpecs} cadImage={nbnFieldCadImg} cadImageAlt="Field Engineering — NBN FTTP Mandurah" cadCaption="Field Engineering — NBN FTTP Mandurah" />
+                <TechSpecsSidebar specs={nbnSpecs} cadImage={nbnFieldCadImg} cadImageAlt="Field Engineering: NBN FTTP Mandurah" cadCaption="Field Engineering: NBN FTTP Mandurah" />
               </div>
             </div>
           </div>
@@ -235,7 +235,7 @@ const NbnDeepDive = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {/* Tile 1 — Traffic Management & Permitting */}
+              {/* Tile 1: Traffic Management & Permitting */}
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -245,7 +245,7 @@ const NbnDeepDive = () => {
                 style={{ boxShadow: "var(--shadow-card)" }}
               >
                 <div className="aspect-[16/10] overflow-hidden">
-                  <img src={trafficPermitImg} alt="Penetration Permit — Traffic Management" className="w-full h-full object-cover object-top" loading="lazy" />
+                  <img src={trafficPermitImg} alt="Penetration Permit: Traffic Management" className="w-full h-full object-cover object-top" loading="lazy" />
                 </div>
                 <div className="p-5 flex-1 flex flex-col">
                   <p className="font-mono text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
@@ -260,7 +260,7 @@ const NbnDeepDive = () => {
                 </div>
               </motion.div>
 
-              {/* Tile 2 — Safety Systems & SWMS */}
+              {/* Tile 2: Safety Systems & SWMS */}
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -270,7 +270,7 @@ const NbnDeepDive = () => {
                 style={{ boxShadow: "var(--shadow-card)" }}
               >
                 <div className="aspect-[16/10] overflow-hidden">
-                  <img src={safetySiteImg} alt="Safety signage and site setup — NBN FTTP" className="w-full h-full object-cover object-[center_75%]" loading="lazy" />
+                  <img src={safetySiteImg} alt="Safety signage and site setup, NBN FTTP" className="w-full h-full object-cover object-[center_75%]" loading="lazy" />
                 </div>
                 <div className="p-5 flex-1 flex flex-col">
                   <p className="font-mono text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
@@ -285,7 +285,7 @@ const NbnDeepDive = () => {
                 </div>
               </motion.div>
 
-              {/* Tile 3 — Quality & Network Compliance */}
+              {/* Tile 3: Quality & Network Compliance */}
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -295,7 +295,7 @@ const NbnDeepDive = () => {
                 style={{ boxShadow: "var(--shadow-card)" }}
               >
                 <div className="aspect-[16/10] overflow-hidden">
-                  <img src={siteComplianceImg} alt="Site compliance setup — NBN FTTP Mandurah" className="w-full h-full object-cover" loading="lazy" />
+                  <img src={siteComplianceImg} alt="Site compliance setup, NBN FTTP Mandurah" className="w-full h-full object-cover" loading="lazy" />
                 </div>
                 <div className="p-5 flex-1 flex flex-col">
                   <p className="font-mono text-[11px] font-semibold text-muted-foreground uppercase tracking-wider mb-1">
@@ -310,7 +310,7 @@ const NbnDeepDive = () => {
                 </div>
               </motion.div>
 
-              {/* Tile 4 — Splicing, Testing & NBN Integration */}
+              {/* Tile 4: Splicing, Testing & NBN Integration */}
               <motion.div
                 initial={{ opacity: 0, y: 12 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -344,7 +344,7 @@ const NbnDeepDive = () => {
                   <div className="w-full md:w-64 rounded-[8px] overflow-hidden shrink-0">
                     <img src={otdrTestImg} alt="OTDR trace analysis on fiber distribution frame" className="w-full h-auto object-cover object-[center_25%] aspect-[4/3]" loading="lazy" />
                     <p className="font-mono text-[10px] text-muted-foreground mt-2 tracking-wider text-center uppercase">
-                      OTDR Trace — Fiber Distribution Frame
+                      OTDR Trace: Fiber Distribution Frame
                     </p>
                   </div>
                 </div>

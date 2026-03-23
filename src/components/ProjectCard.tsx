@@ -47,7 +47,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
       className="bg-card rounded-[12px] overflow-hidden flex flex-col transition-shadow duration-300 hover:shadow-[var(--shadow-card-hover)]"
       style={{ boxShadow: "var(--shadow-card)" }}
     >
-      {/* Top — Hero Media */}
+      {/* Top: Hero Media */}
       <div
         className="relative aspect-video overflow-hidden bg-secondary"
         onMouseEnter={handleMouseEnter}
@@ -117,7 +117,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
         </span>
       </div>
 
-      {/* Middle — Title & Result */}
+      {/* Middle: Title & Result */}
       <div className="p-6 flex-1 flex flex-col">
         <h3 className="text-lg font-bold text-foreground leading-snug mb-1">
           {project.title}
@@ -126,7 +126,7 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
           {project.result}
         </p>
 
-        {/* Bottom — Tech Specs */}
+        {/* Bottom: Tech Specs */}
         <div className="mt-auto">
           <p className="heading-l2 mb-3">Technical Specs</p>
           <div className="flex flex-wrap gap-2 mb-5">
