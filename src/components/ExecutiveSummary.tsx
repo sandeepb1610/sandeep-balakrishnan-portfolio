@@ -3,8 +3,8 @@ import heroImage from "@/assets/onsite-leadership.jpg";
 
 const ExecutiveSummary = () => {
   return (
-    <section className="py-20 bg-card">
-      <div className="container mx-auto px-6">
+    <section className="py-14 md:py-20 bg-card">
+      <div className="container mx-auto px-5 md:px-6">
         <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
