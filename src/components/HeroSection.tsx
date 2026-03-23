@@ -31,9 +31,9 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.05, ease: [0.2, 0, 0, 1] }}
-              className="heading-l1 max-w-2xl"
+              className="heading-l1 max-w-2xl text-[clamp(1.75rem,4vw,4rem)]"
             >
-              Sandeep Balakrishnan <span className="text-[0.75em]">| Mechanical Project Engineer (B.Tech, MPM, MBA)</span>
+              Sandeep Balakrishnan <span className="text-[0.65em] md:text-[0.75em]">| Mechanical Project Engineer (B.Tech, MPM, MBA)</span>
             </motion.h1>
 
             <motion.p
