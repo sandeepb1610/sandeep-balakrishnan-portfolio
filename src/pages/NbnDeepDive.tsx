@@ -45,7 +45,7 @@ const starSections = [
     letter: "A",
     title: "Action",
     content:
-      "Redesigned the FTTP conduit layout on-site to mitigate constructability constraints identified during field validation — engineering an alternative ceiling-space routing where the original pathway was obstructed. Reconfigured the external SDS network by developing a revised fibre alignment due to capacity limitations at the existing breakout joint (zero available ports). Optimised network continuity and serviceability while maintaining compliance with NBN Co standards and adhering to strict delivery timelines.",
+      "Redesigned the FTTP conduit layout on-site to mitigate constructability constraints identified during field validation, engineering an alternative ceiling-space routing where the original pathway was obstructed. Reconfigured the external SDS network by developing a revised fibre alignment due to capacity limitations at the existing breakout joint (zero available ports). Optimised network continuity and serviceability while maintaining compliance with NBN Co standards and adhering to strict delivery timelines.",
   },
   {
     letter: "R",
