@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ArrowLeft, Globe, TrendingUp, Wrench, DollarSign, Battery, Anchor, Package } from "lucide-react";
+import { ArrowLeft, TrendingUp, Wrench, DollarSign, Battery, Anchor, Package } from "lucide-react";
 import bomImg from "@/assets/navis-bom.png";
 import wireHarnessImg from "@/assets/navis-wire-harness.png";
 import kaizenImg from "@/assets/navis-kaizen.png";
@@ -59,7 +59,6 @@ const starSections = [
 const results = [
   { icon: TrendingUp, value: "367%", label: "Range Increase (3m → 14m)" },
   { icon: Wrench, value: "120%", label: "Component Life Increase" },
-  { icon: Globe, value: "12+", label: "Countries Deployed" },
   { icon: DollarSign, value: "$45M", label: "Annual Revenue Impact" },
 ];
 
