@@ -59,7 +59,6 @@ const starSections = [
 const results = [
   { icon: TrendingUp, value: "367%", label: "Range Increase (3m → 14m)" },
   { icon: Wrench, value: "120%", label: "Component Life Increase" },
-  { icon: Globe, value: "12+", label: "Countries Deployed" },
   { icon: DollarSign, value: "$45M", label: "Annual Revenue Impact" },
 ];
 
