@@ -1,12 +1,5 @@
 import { motion } from "framer-motion";
-import KpiCard from "./KpiCard";
 import heroActionImg from "@/assets/hero-action-ppe.jpg";
-
-const kpis = [
-  { label: "Layout Optimisation", value: "23%", description: "Efficiency Gain: NBN FTTP Layout Optimisation" },
-  { label: "Propulsion Redesign", value: "367%", description: "Range Increase: NAVIS Autonomous Propulsion Redesign" },
-  { label: "Professional Leadership", value: "Board Member", description: "IPMA Young Crew Australia" },
-];
 
 // Replace with your actual video URL/path when available
 const HERO_VIDEO_URL = "";
@@ -16,7 +9,7 @@ const HeroSection = () => {
     <section id="home" className="pt-24 md:pt-32 pb-16 md:pb-28">
       <div className="container mx-auto px-5 md:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-start">
-          {/* Left: Narrative + KPIs */}
+          {/* Left: Narrative */}
           <div className="lg:col-span-7 order-2 lg:order-1">
             <motion.p
               initial={{ opacity: 0 }}
@@ -45,13 +38,6 @@ const HeroSection = () => {
               Specialising in the Design-Build-Test cycle for high-stakes
               industrial hardware in Western Australia.
             </motion.p>
-
-            {/* KPI Stack */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-4 mt-8 md:mt-10">
-              {kpis.map((kpi, i) => (
-                <KpiCard key={kpi.label} {...kpi} index={i} />
-              ))}
-            </div>
           </div>
 
           {/* Right: Background Video Loop Slot */}
@@ -73,13 +59,11 @@ const HeroSection = () => {
                   className="w-full h-auto object-cover aspect-[4/5]"
                 />
               ) : (
-                <>
-                  <img
-                    src={heroActionImg}
-                    alt="Sandeep Balakrishnan, Professional Portrait"
-                    className="w-full h-auto object-cover aspect-[4/5]"
-                  />
-                </>
+                <img
+                  src={heroActionImg}
+                  alt="Sandeep Balakrishnan, Professional Portrait"
+                  className="w-full h-auto object-cover aspect-[4/5]"
+                />
               )}
             </motion.div>
           </div>
